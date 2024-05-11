@@ -1,0 +1,28 @@
+<?php
+
+return array (
+  'actividad_id' => 'Activity id',
+  'actividad_order_id' => 'Order number',
+  'actividad_usuario_id' => 'User ID',
+  'actividad_descripcion' => 'Description',
+  'actividad_comentario' => 'Comment',
+  'actividad_soporte_id' => 'Support Id',
+  'actividad_fecha_solicitud' => 'Application date',
+  'actividad_fecha_cierre' => 'Deadline',
+  'actividad_status' => 'Status',
+  'actividad_label_status' => 'Attended by: ',
+  'actividad_actividad_tipo_id' => 'Type of activity',
+  'user_name' => 'ID / Username',
+  'user_email' => 'Contact email',
+  'data_user_movil' => 'Mobile contact ',
+  'data_user_ext' => 'Ext.',
+  'data_user_telefono' => 'Telephone contact',
+  'actividad_lista' => 'Activity',
+  'editar_actividad' => 'Detail of  ":actividad"',
+  'actividad_actividad_id' => 'Activity',
+  'actividad_calendario' => 'Activities calendar',
+  'actividad_fecha_fin' => 'End date of the activity',
+  'actividad_fecha_inicio' => 'Start date of the activity',
+  'todas' => 'All',
+  'vendedor' => 'Seller',
+);

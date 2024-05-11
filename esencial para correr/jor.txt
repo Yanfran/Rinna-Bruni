@@ -1,0 +1,12 @@
+Comandos a ejecutar al desplegar el proyecto
+php artisan migrate
+php artisan db:seed --class=PermissionTableSeeder
+php artisan db:seed --class=CreateEmpresaSeeder
+php artisan db:seed --class=CreateAdminUserSeeder
+php artisan cache:clear //limpiar cache en caso necesario error al generar permisos
+archivos que se deben importar
+pais
+estados
+municipios
+localidades
+ 

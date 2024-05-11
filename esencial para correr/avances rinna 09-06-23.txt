@@ -1,0 +1,3100 @@
+06-06-2023
+1 Se corrigio errores ortograficos en la pantalla municipios. Los campos fueron municipios y país (30min). 2 Se valido input movil y telefono para que fuera de tipo numerico en pantallas usuarios y distribuidores para editar y crear (1 hora). 3 Se agrego el swicher de activar y desactivar en la pantalla de usuarios para editar y crear (1 hora). 4 Se valido input limite de credito en la pantalla distribuidores para crear y editar (30min). 5 Se agrego paginador y filtros para realizar busqueda en la pantalla distribuidores (1 hora). 6   Se revisó crud de funcionamiento de pantalla usuarios, validando la cantidad de campos y que ejecutara todo debidamente. (1 hora) 6 dayli con juan sobre rinna brunis, revisando fallos en bd con respecto a localidades y revisando tablas en los archivos de migraciones con el proposito de mejorar el proyecto y avanzar mas rapido. Tambien se estuvo atendiendo el merge de nuestro trabajo de dias atrás. (2 horas).
+
+****-***-*****
+1234-123-1234
+
+07-06-2023
+1 Se atendieron bugs pasados que no se estaban reflejando (1 hora). 2 Se añadió máscara de teléfono en campo, en módulo usuario. 3 Se realizo crud de pantalla roles (5 horas). 4 Dayli rinna brunis (1 hora).
+
+08-06-2023
+1 Se paso todo el dia corrigiendo pequeños bugs en el codigo y corrigiendo detalles en bd, esto ya que estabamos juan pablo navas y mi persona homologando todo nuestro proyecto de los dias anteriores trabajados. (6 horas). Daily con Rinna Brunis (1 hora)
+
+
+
+
+09-06-2023
+1) Se volvio agregra los campos miles en ver, crear, editar "Pantalla usuarios" (30min)
+2) Se volvio agregra los input tipo fecha para no mostrar fechas futuras crear, editar "Pantalla usuarios" (30min)
+3) Se volvio agregra los mask en los input movil y telefono ver, crear, editar "Pantalla usuarios" (30min)
+4) Se volvio agregra funcion para que no muestre datos guardados con anterioridad crear, editar "Pantalla usuarios" (30min)
+	NOTA:	ESTA GUARDANDO, EDITANDO Y VISUALIZANDO LOS DATOS PARA LA PANTALLA USUARIOS.
+
+
+5) Se agrego input tipo check bloquear pedidos para ver, crear, editar en la "Pantalla distribuidores" (30min) 
+6) Se agrego funcion de miles para input tipo credito ver, crear, editar "Pantalla distribuidores" (30min)
+7) Se agrego funcion para que no muestre datos guardados con anterioridad crear, editar "Pantalla distribuidores" (30min)
+8) Se volvio agregra los mask en los input movil y telefono "Pantalla distribuidores" (30min)
+	NOTA:	ESTA GUARDANDO, EDITANDO Y VISUALIZANDO LOS DATOS PARA LA PANTALLA USUARIOS.
+
+
+9) Se agrego funcion de miles para input tipo credito crear, editar "Pantalla vendedores" (30min)
+10) Se agrego funcion para que no muestre datos guardados con anterioridad en crear, editar "Pantalla vendedores" (30min)
+11) Se volvio agregra los mask en los input movil y telefono ver, crear, editar "Pantalla vendedores" (30min)
+12) Se agrego campo de fechas ya que no estaba (30min)
+	NOTA:	PREGUNTAR O CONFIRMAR SI EN LA PANTALLA VENDEDORES VA EL CAMPO ALIAS
+	NOTA: 	EN LA VENDEDORES NO ESTA GUARDANDO, AJUSTAR CONTROLADOR PARA HACER SU RESPECTIVO 		GUARDADO.
+
+13) Se agrelo ventana modal antes de eliminar en roles (30min)
+
+
+
+
+
+
+
+12-06-2023
+1) Se agrego campo Alias en la pantalla ver, crear, editar de distribuidores "Pantalla distribuidores" (30min)
+	NOTA: El campo Tienda a la que pertenece* : para el usuario DIST 2, se rompe	
+2) Se agrego campo AFILIACION en la tabla "Pantalla distribuidores" (30min)
+3) Se agrego en el registro del distribuidor, campo direccion principal en ver, crear y editar "Pantalla distribuidores" (45min)
+4) Se agrego en la pantalla usuario, distrubuidor y venderores la -La etiqueta de esta sección debe decir Dirección princial (30min)
+
+5) se agrego campo Domicilio en ver, editar y crear "Pantalla vendedores" (30min)
+6) Se agrego campo "Descuento ofrecido a clientes" en ver, crear, editar "Pantalla vendedores" (30min)
+7) Se agrego En el registro del vendedor, el campo Sucursal del distribuidor. (75min)
+
+
+8) Se agrego filtro por estatus de activo "Pantalla Usuarios" (1 hora)
+
+9) Se agrego funcionalidad para mostrar clave en usuarios, distribuidores y vendedores (1 hora)
+
+10) Se volvio agregar El id de usuario en la pantalla ver de usuarios, en distribuidores pantalla ver y editar y lo mismo para vendedores (30min)
+11) Se corrigio los botones se desalinean en usuarios (30min)
+
+
+
+
+
+13-06-2023
+
+1) Se agrego dos campos nuevos apellido paterno y apellido materno en ver, crear, editar "Pantalla usuarios" (1 hora)
+2) Se corrgigio bug del select tienda a la que pertenece "Pantalla usuarios" (30min)
+3) Se corrgigio bug del select tipo de usuario "Pantalla usuarios" (30min)
+4) Se corrgigio bug del select estado "Pantalla usuarios" (30min)
+5) Se mejoro la vista del campo tipo de usuario en ver "Pantalla usuarios" (30min)
+6) Se agrego validacion en cada campo (30min)
+
+
+
+
+
+
+
+14-06-2023
+
+1) Se volvio a agregar las validaciones en los inputs, vistas crear, editar "Pantalla distribuidores" (30min)
+2) Se agrego campo Número de afiliación  y campo días de devolución, vista crear, editar "Pantalla distribuidores" (20min)
+3) Se volvio a agregar las validaciones en los inputs, vistas crear, editar "Pantalla vendedores" (20min)
+4) Se crearon dos campos nuevos en la tabla direcciones, cp y colonia para solucionar problema con cp y colonia "Pantalla usuarios" (1 hora)
+5) Se agrego funcion para dejar el input Límite de crédito ($) como float para guarda y editar "Pantalla usuarios" (30min)
+6) Se corrigio bug en el switch al editar, ya que no cambiba el estatus a inactivo "Pantalla usuarios" (15min)
+7) Se cambio la funcion para que mostrara los id correpondientes del usuario "Pantalla usuarios" (15min)
+8) Se oculto el campo permisos del la tabla "Pantalla usuarios" (15min)
+9) Se dejo dinamico el campo usuario en la tabla "Pantalla usuarios" (15min)
+10) Se cambio el campo sucursales por tiendas y se realizo funcion para mostrar sus respectivas tiendas a la que pertenece el usuario 	"Pantalla usuarios" (30min)
+11) Se centro los campos correo, rol, tienda y accion "Pantalla usuarios" (15min)
+
+
+
+15-06-2023
+1) Se corrigio toggle de activar/inactivar en disable "Pantalla usuarios" (10min)
+2) Se corrigio error de select de direcciones "Pantalla usuarios" (30min)
+3) Se agrego columna de estatus "Pantalla usuarios" (15min)
+4) Se agrego una opcion más para filtrar todos los usuarios "Pantalla usuarios" (30min)
+5) Se agregaron variables 'estado_id', 'municipio_id', 'localidad_id', en el Models para que se pudiera editar "Pantalla estados" (15min)
+6) Se mejoro la pantalla ver, editar y crear "Pantalla estados"	(1 hora)
+7) Se agrego el id en ver y editar "Pantalla estados" (15min)	
+8) Se agrego el id correspondiente en la tabla principal "Pantalla estados" (15min)
+9) Se volvio agregar alerta antes de eliminar una tienda "Pantalla estados" (20min)
+10) se cambió en bd el nombre user de rinna brunni a rinna bruni (10min)
+
+19-06-2023
+1) Se agregó eventos en pantallas de editar vendedores, tanto en la simple como en la de distribuidores.
+Esto con la finalidad que puedan heredar las direcciones de los distribuidores, o bien crear nuevas direcciones (3 horas).
+2) Se corrigieron algunos datos que no se mostraban en pantalla de ver vendedores, especificamente de las direcciones (1 hora).
+3) Se agregaron las rutas de las pantallas ver y editar vendedores dentro del modulo de distribuidores (esta tarea quedó al 50%) (1 hora).
+4) Se subió al server, codigo fuente mas base de datos, se testearon los cambios realizados por mi y juan pablo (1 hora).
+5) Daily Rinna Bruni. (1 hora)
+
+20-06-2023
+1 Se creo un boton de acciones en la tabla de distribuidores, este despliega las opciones de ver, editar (20min)
+2 Se avanzó en pantalla de listar distribuidores (1 hora)
+3 Se avanzo en pantalla crear distribuidores (4 horas) (quedo al 100%)
+4 Correccion de bug al crear un distribuidores, se limpia el input de tipo moneda en el controlador para que no genere error. (30min)
+5 Daily rinna (1 hora)
+6 Se subio base de datos, codigo fuente y se testeo las tareas en el server. (20min)
+
+
+Pendiente
+* Al seleccionar una tienda buscar los distribuidores asociados
+
+
+
+22-06-2023
+1) Se termino de crear las pantallas editar, ver de pedidos "Pantalla pedidos" (2 horas)
+2) Se corrigio bug en la pantalla editar de distribuidores en el campo tienda a la que pertenece "Pantalla distribuidores" (30min)
+3) En el check de bloquear pedidos en distribuidor se agrego alerta desactivar y activar pedidos. "Pantalla distribuidores" (30min)
+4) Se centro el texto Accion en la tabla distribuidores "Pantalla distribuidores" (10min)
+5) Se definio variable N° "Pantalla distribuidores" (10min)
+6) Se agrego diseño nuevo para botones de accion en todas las vistas (1 hora)
+7) Daily rinna (30min)
+8) Se subieron los archivos y bd al server, se testearon los cambios realizados y se subio al repo (30min)
+
+
+9) Daily con Lisandro estimando requerimientos de acipack (30min)
+
+
+
+
+26-06-2023
+1) Se corrigio campos N° de afiliaciones y dias pantalla en la ver "Pantalla distribuidores" (20min)
+2) Se agrego toggle de bloquer pedido en ver, tambien se agrego funcion para desabilitarlos en embos toggles "Pantalla distribuidores", (30min)
+3) Se corrigio select Alias por  Dirección principal en ver, editar y crear "Pantalla distribuidores" (10min)
+4) Se corrigio logica al bloquear o activar pedido, mostraba la alerta a la inversa "Pantalla distribuidores" (15min)
+
+5) Se agrego ventana modal en crear y editar "Pantalla pedido" (2 horas) se tuvo que cambiar estilos en los archivos de bootrap
+
+6) Se agrego funcion para visualizar el campo limite de credito en tipo modena "Pantalla usuarios" (20min)
+7) Se elimino campo sucursal del distribuidor en "Pantalla vendedores" (10min)
+8) Se agrego funcion para visualizar el campo limite de credito en tipo modena crear,ver y editar "Pantalla vendedores" (20min)
+9) Se corrigio En el campo Observaciones el puntero se posiciona fuera del origen "Pantalla vendedores" (10min)
+10) Se cambio mensaje de alerta a español la alerta al actualizar y crear un vendedor "Pantalla vendedores" (10min)
+11) Se dejo funcional campos Días de credito, descuento ofrecido.., rfc, regimen fiscal "Pantalla vendedores" (30min)
+12) Se quito campo número de empleado en ver "Pantalla vendedores" (10min)
+13) Se agrego filtro "Pantalla vendedores" (45min)
+14) Se listaron vendedores con el id correspondiente "Pantalla vendedores" (10min)
+15) Se agrego campo Sucursal del distribuidor "Pantalla vendedores" (10min)
+16) Se agrego mascara en el index para el campo de la tabla credito "Pantalla distribuidores", (10min)
+
+17 Se realizo filtros "Pantalla distribuidores" (45min)
+
+18 Se centro todos los campos de las tablas (30min)
+
+7.35
+
+
+27-06-2023
+1) DESCARTADO Se elimino codigo de mas en la pantalla crear de pedido para que se visualizara bien "Pantalla pedido" (10min)	(QA- WEB-02 Catálogo de distribuidores)
+
+2) Se corrigion al crear un distribuidor, viene por default el toggle de bloquear pedidos en ON. "Pantalla distribuidor" (10min)	(QA- WEB-02 Catálogo de distribuidores)
+3) Se corrigio detalle ortográfico en la vista editar Número de afiliaciones creadas. "Pantalla distribuidor" (10min)	(QA- WEB-02 Catálogo de distribuidores)
+4) Se volvio a agregar funcion Al ver un distribuidor, falta agregar máscara al campo crédito "Pantalla distribuidor" (10min)	(QA- WEB-02 Catálogo de distribuidores)
+5) Se corrigio error ortografico "Activación" en la vista ver "Pantalla distribuidor" (10min)	(QA- WEB-02 Catálogo de distribuidores)
+
+
+
+en el vendedor bloquear el distrubuidor al editar y todas sus direcciones
+
+28-06-2023
+
+Se soluciono el dia 27-06-23 (campo limite de crédito esta mostrando un valor diferente al asignado ( al parecer es el de días de crédito))
+
+
+
+1) Se corrigio los mensajes al crear, editar y borrar "Pantalla tiendas"	(QA-WEB-04 Edición en catálogo de tiendas) (10min)
+2) Se corrigio el campo observaciones el texto se muestra  fuera del origen. "Pantalla vendedores"	(QA-WEB-07 - Vendedor - CRUD) (10min)
+3) Ajustes en front de pedidos, ya que se habia descuadrado tras el merge (1 hora) (Front Pedido)
+4) Filtrado de distribuidores por tienda en formulario registro vendedores (2 horas) (falta migrar a pantallas de editar y las similares) (Desarrollo)
+5) Ocultar select domicilio en caso de que no haya un distribuidor (20min) (falta migrar a pantallas de editar y las similares)
+
+6) A raiz de los cambios 4 y 5, en el momento de que intentes guardar y suceda un error, se muestran las validaciones. Alli se retorna la informacion que se encontraba anteriormente, sin embargo la info de domicilio debe ser cargada en el los selects y posteriormente seleccionada.
+Ese ajuste quedo en un 95% (2 horas). (revisar cuando no hay distribuidor asignado)
+
+7) Se bloquearon campos relacionados con la tienda, el distribuidor y el domicilio en "Pantalla editar vendedor" (15min) (QA-WEB-07 - Vendedor - CRUD)
+8) Se agrego la cantidad ingresada en Descuento ofrecido a clientes. editar y ver "Pantalla vendedores" (15min) (QA-WEB-07 - Vendedor - CRUD)
+9) Se agrego check activar/desactivar en editar y ver con funcionando "Pantalla vendedores" (30min) (QA-WEB-07 - Vendedor - CRUD)
+10) Se dejo editando campo descuento empleado, día credito, limite credito en editar "Pantalla vendedores" (15min) (QA-WEB-07 - Vendedor - CRUD)
+
+x) daily rinna (30min)7.25
+
+
+29-06-23
+Acipack (4) 3.20
+1) Se descargó el repo y se levanto el proyecto en visual studio (30min)
+2) Se realizó primera correccion que consistia en ocultar los productos relacionados en modulo ver productos (1 hora)
+3) Se cambió direccion en modulo footer del sitio, y en modulo contacto del sitio con algunos ajustes visuales (30min)
+4) Se colocó un botón adicional en modulo producto para redireccionar a vista de todos los productos, con ajustes visuales y media query para que funcionase segun el dispositivo que se este usando (30min)
+5) Se compiló, se publicó y se envio el proyecto mediante gmail a la cuenta de Lisandro. Tambien se subió al repositorio (30min)
+6) Meet con Lisandro para alinear especificamente las tareas (20min)
+
+Rinna Brunis (2)
+1) Daily rinna brunis (30min)
+2) Meet con Karla Chavez para validar un bug a corregir (15min)
+3) Se dejo guardando y editando los campos cp y colonia en Distribuidores. Ya que no reflejaban las direcciones asociadas al distribuidor en Venderores (30min)	(QA-WEB-07 - Vendedor - CRUD)
+4) Con el bug corregido anteriormente se pudo fijar que esta guardando la localidad incorrecta en modulo vendedor, se investigó durante 30min para validar, queda pendiente por solucionar (30min) (QA-WEB-07 - Vendedor - CRUD)
+5) Se subió codigo fuente al server y se validó correccion en el server (15min)
+
+
+30-06-23
+Rinna Brunis
+1) Daily Rinna brunis (30min)
+2) Corrección filtrado de distribuidores por tienda en pantalla crear vendedor (1 hora)
+3) Corrección falla al guardar y haber errores en el formulario no regresaba correctamente los campos de domicilio en pantalla crear vendedor (2 horas)
+4) Cargar datos de domicilio al seleccionar una tienda en pantalla crear vendedor (2 horas) (QA-WEB-07 - Vendedor - CRUD)
+5) Se colocó toggle y su funcionalidad en pantalla editar vendedor y ver vendedor (QA-WEB-07 - Vendedor - CRUD) (1 hora)
+6)Se removio el campo Direccion Principal. crear, editar y ver "Pantalla distribuidores" (QA- WEB-02 Catálogo de distribuidores) (15min)
+7) Se realizó merge en git, se subió base de datos y codigo al server (20min)
+
+Acipack
+1) Validacion de un producto en especial que tiene cargada una imagen con dimensiones incorrectas en front (30min)
+
+
+
+
+03-07-23
+1) Daily Rinna (15min)
+2) Se corrigio campos apellido paterno/materno y correo electrónico. ver, create y editar "Pantalla sucursal" (QA-WEB-06 Catálogo de direcciones (Sucursales)) (1hora30min)
+3) Se corrigio bug al crear y editar direcciones, ya que no se guardaba el cp y la ciudad, eso hacia que no se mostrara el cp y la ciudad en vendedores "Pantalla sucursal" (1hora 30min)
+4) Se agrego máscara a los campos telefónicos ver, editar y create "Pantalla sucursal" (QA-WEB-06 Catálogo de direcciones (Sucursales)) (15min)
+5) Se corrigio error ortográfico en la palabra “Activación” "Pantalla sucursal" (QA-WEB-06 Catálogo de direcciones (Sucursales)) (10min)
+6) Se mostro la sucursal asignada "Pantalla vendedores" (30min)
+7) Se ajusto la tabla de sucursales ya que no estaban centrados las columnas "Pantalla sucursal (15min)
+8) Se agrego un solo diseño para los botones en todas las pantallas (QA-WEB-04 Edición en catálogo de tiendas) (1 hora)
+9) Se oculto funcion de eliminar "Pantalla Tienda" (QA-WEB-04 Edición en catálogo de tiendas) (10min)
+10) Se oculto el campo colonia en las pantallas de editar, crear y ver para distribuidores y vendedores (30min)
+11) Se agrego operador ternario en la pantalla de ver en usuarios porque explotaba ya que no hay direcciones (30min)
+12) Daily con compañera Karla (15min)
+13) Subir bd al server y qa, codigo al server, merge git, test de los cambios en la nube. (1hora)
+7 horas 30min
+
+superadmin@rinnabruni.com 1230
+
+
+
+
+04-07-23	
+1) Daily Rinna (15min)
+2) Se subió proyecto a QA (15min)
+3) Se corrigio bug de tiendas en la pantalla vendedores, ya que la tienda agregada no correspondía en el editar (QA-WEB-07 - Vendedor - CRUD) (30min)
+4) Se corrigio error en usuarios, en el select tipo de usuarios, ya que en la pantalla ver mostraba otro rol aparte del rol principal (QA-WEB-01 Campos en registro de usuarios de sistema) (30min)
+5) Se realizo fitro en la pantalla estados (30min)
+
+
+Falta enviar
+(RINNA)
+05-07-23	
+1) Se corrigio error en el check de activar vendedores, la cual decia ditribuidores y es vendedor, se hizo para ver, editar y crear (
+QA-WEB-07 - Vendedor - CRUD) (30min)
+2) Se adelanto la columna sucursal distribuidor (QA-WEB-05 - Vendedor - Frontend:) 30MIN 50%
+
+
+(YESSPALLET)
+05-07-23	
+1) Se corrigio tabla de pedidos recientes, se quito el paginador... vista usuarios YP-BUG40 (30min)
+2) Se corrigio estado declined por rechazado en la vista de usuarios (YP-BUG41) (10min)
+3) Se corrigio error al eliminar un producto en la vista vendedor (YP-BUG43) (30min)
+
+
+
+06-07-2023
+Rinna Brunis
+1) Se subio al server de rinna, se corrieron migraciones, se subio la base de datos, se instalaron dependencias del composer, se subieron los archivos al server en conjunto con la carpeta vendor, se configuro el archivo .env y se dio test a las notificaciones. (1 hora 30min)
+2) Se corrigio bug en la columna sucursal, ya muestra el nombre de la sucursal asociada "Pantalla vendedores" (QA-WEB-05 - Vendedor - Frontend (30min)
+3) Se ajusto diseño del catalogo existencia en la pantalla crear (1 hora)
+4) Se creo el mudulo restablecer clave y se realizo el flujo para actualizar la clave con sus respectivas validaciones (3 horas)
+5) Daily rinna (30min)
+6) Daily Juan Pablo Navas para conversar de ajustes subida al server y otras tareas (30min)
+
+
+
+clave 1230: $2y$10$Rmm04MrMmYqZo88YneAjH.GNUZ4OT6NuK6ZJsJmI.F5PzcsrpTuvm 
+
+
+07-07-13
+1) Se corrigio al editar un vendedor para añadir un campo faltante en condiciones de crédito aparece el mensaje que estado, municipio y localidad es requerdido "Pantalla vendedores" (QA-WEB-07 - Vendedor - CRUD) (30min)
+2) Se corrigio el placeholder de colonia dice Seleccione una localidad en crear, editar y ver "Pantalla vendedores" (QA-WEB-07 - Vendedor - CRUD) (20min)	
+3) Se corrigio la vista del vendedor asociado muestra campos vacíos y/o diferentes a los que se muestran en la vista de catálogo de vendedores. (QA-WEB-13 Distribuidor - vendedor) (30min)
+
+4) Se corrigio al asociar un vendedor al distribuidor, se debería contabilizar en la columna Afiliaciones creadas y restar en Afiliaciones faltantes (QA-WEB-13 Distribuidores - Número de afiliaciones) (30min)
+
+5) Se ajusto diseño del catalogo existencia en la pantalla editar y ver (1 hora)
+6) Se realizo diseño pantalla de editar perfil (1 hora 30)
+
+7) Se corrigio el Número de afiliación modulo: ver. "Pantalla distribuidores" (QA-WEB-13 Distribuidores - Número de afiliaciones) (1 hora)
+8) Daily Rinna (30min)
+9) Subir al server (15min)
+
+QA-WEB-07 (50min)
+QA-WEB-13 (2 horas)
+
+
+
+10-07-23
+1) Se realizo diseño de pantalla perfil, con  su funcionalidad "Pantalla perfil" (3 horas)
+2) Se corrigio bug en productos al guardar y editar "Pantalla productos" (30 min)
+3) Se corrigio al crear un vendedor asociado desde un distribuidor , se seteo la tienda a que pertenece "Pantalla vendedores asociados" (QA-WEB-13 Distribuidor - vendedor) (30 min)
+4) Se bloquearon los select tambien para el edit "Pantalla vendedores asociados" (QA-WEB-13 Distribuidor - vendedor) (30 min)
+6) Daily rinna (45min)
+7) Subir al server (15min)
+8) Se agrego check en la vista ver de distribuidores asociados "Pantalla vendedores asociados" (30 min)
+9) Se dejo funcionando el check en ver "Pantalla vendedores asociados" (30 min)
+
+6 horas 30
+
+
+11-07-23
+1) Daily Rinna Brunis (15min)
+2) Se dejo editando "Pantalla vendedores asociados" la que se encuentra dentro de distribuidores (1 hora)
+3) intalación, configuración y uso de libreria laravel-snappy (5 horas)
+
+
+
+
+12-07-23
+Rinna
+1) Daily Rinna Brunis (30min)
+2) Se realizo reporte en pdf con estilos (2 hora )
+3) Se corrigio al ver/editar un rol, el botón de regresar se deberia mostrar en azul. Retirar el + "Pantalla roles"(QA-WEB-16 Catálogo de roles y permisos) (30min)
+4) Se corrigio al ver/editar un usuario no se muestra el botón Regresar "Pantalla roles"(QA-WEB-16 Catálogo de roles y permisos) (30min)
+5) Se corrigio boton crear usuario, ya que no se mostraba por temas de permisos "Pantalla roles"(QA-WEB-16 Catálogo de roles y permisos) (30min)
+6) Se corrigio en la tabla de estado no se mostraba las acciones de catalogo Estados "Pantalla roles"(QA-WEB-16 Catálogo de roles y permisos) (30min)
+7) Se remplazo campo Localidad por Colonia y se elimino el campo colonia que ya estaba en el modulo "USERS", "SUCURSALES", "VendedoresAsociados", "Tiendas" (QA-WEB-17 Catálogos de ciudades (localidades)) (2 horas)
+8) Se solucione bug al intentar crear un cupón "Pantalla cupones" (QA-WEB-15 Cupones) (20min)
+7 horas
+
+QA-WEB-16 (2 horas) 4 tareas
+QA-WEB-15 (20min)
+QA-WEB-17 (2 horas)
+
+Acipack
+1) Subir un producto al server y validar tema de imagenes de ese producto (50min)
+2) Se elimino otro producto que no se mostraba correctamente (10min)
+1 hora
+
+
+13-07-23
+Rinna Brunis
+1) Daily Rinna (15min)
+2) Correccion en el server, error con dos plugin que no funcionaban arriba (1 hora)
+3) Se corrigio al crear un vendedor asociado no se logra crear, ya que indica que el campo Tienda id es obligatorio (QA-WEB-13 Distribuidor - vendedor) (30min)
+4) Se agrego funcion de permisologia en todos los botones de crear, editar, ver y eliminar (QA-WEB-16 Catálogo de roles y permisos) (4 hora)
+5) Tambien se corrigio configuración. Siempre se muestra sin tener los permisos habilitados (ya reportado previamente) (QA-WEB-16 Catálogo de roles y permisos) (30min)
+6) Se subieron cambios al server (15min)
+6 horas 30
+
+Acipack
+1) Reunion con Eduardo Moreno cliente de Acipack
+
+
+14-07-23
+1) Daily Rinna (20min)
+2) Se corrigio el campo No. de afiliaciones en el registro del distribuidor, ya no se actualiza el campo No. de afiliaciones (QA-WEB-12 Distribuidores - Número de afiliaciones) (30min)
+3) Se corrigio en el menu sidebar, se cambio localidades a colonias (QA-WEB-17 Catálogos de ciudades (localidades)) (15min)
+4) Se corrigio el botón de crear por nueva colonia (QA-WEB-17 Catálogos de ciudades (localidades)) (15min)
+5) Se corrigio el campo nombre y tambien en el place holder por colonia (QA-WEB-17 Catálogos de ciudades (localidades)) 10min
+6) Se corrigio en el campo Ordenar por colonia (QA-WEB-17 Catálogos de ciudades (localidades)) (15min)
+7) Se corrigio En la columna  localidades por colonia (QA-WEB-17 Catálogos de ciudades (localidades)) (15min)
+8) Se removio el acento de la palabra Municipio (QA-WEB-17 Catálogos de ciudades (localidades)) (10min)
+9) Se corrigio al crear un usuarios y editar, el placeholder de colonia por colonia (QA-WEB-17 Catálogos de ciudades (localidades)) (15min)
+10) Se corrigio al crear una sucursal y editar, el placeholder de colonia por colonia (QA-WEB-17 Catálogos de ciudades (localidades)) (15min)
+11) Se corrigio al crear un distribuidor y editar. el placeholder de colonia por colonia (QA-WEB-17 Catálogos de ciudades (localidades)) (15min)
+12) Se corrigio mensaje de alerta "El campo localidad id es obligatorio" por colonia en 14 archivos se agrego condicion para que mostrara colonia (QA-WEB-17 Catálogos de ciudades (localidades)) (2 horas)
+13) Se subió al server (15min)
+
+QA-WEB-12 (30min)
+QA-WEB-17 (4 horas 30)
+5horas16
+
+
+17-07-23
+1) Daily Rinna (15min)
+2) QA-WEB-16 Catálogo de roles y permisos (5 horas)
+
+
+18-07-23
+1) daily rinna (15min)
+2) Se corrigio en el catálogo de colonia, en el place holcer se requiere agregar un espacio en las palabras "de la" (QA-WEB-17 Catálogos de ciudades (localidades)) (15min)
+3) Se corrigió permisos de configuraciones (QA-WEB-16) (20min)
+4) Se subio al server (30min)
+5) Se corrigio en el registro de un vendedor , vendedor asociado y un distribuidor,  el campo debe decir Descuento distribuidor en vez de Descuento empleado (QA-WEB-13 Distribuidor - vendedor) (1 hora)
+6) Se corrigio al crear un vendedor asociado, el campo Límite de crédito se borra cuando se ingresan 4 dígitos (QA-WEB-13 Distribuidor - vendedor) (1 hora)
+7) Se corrigio en la pantalla de Distribuidores, la columna de afiliaciones faltantes debe de calcularse de la siguiente forma:
+Afiliaciones creadas +Afiliaciones faltantes = No. de afiliaciones. (QA-WEB-12 Distribuidores - Número de afiliaciones) (1 hora)
+8) Se realizo ajustes al mostrar todas las sucursales del distribuidor, sin embargo solo se debe de mostrar la unica a la que esta asociado el vendedor. (QA-WEB-05 - Vendedor - Frontend) (1 hora)
+9) Se corrigio en el campo de Ordenar por, anteriormente se mostraba la colonia y ya no aparece. (QA-WEB-17 Catálogos de ciudades (localidades)) (30min)
+10) Se corrigio en el sidebar, ya se mostraba como catálogo de colonias, y volvió aparecer Localidades. (QA-WEB-17 Catálogos de ciudades (localidades)) (30min)
+11) Meet con Juan y Karla para aclarar unos bugs (1 hora)
+12) Se subio al server (30min)
+13) Revision bug cupon en el server (QA-WEB-15) (1 hora)
+
+(QA-WEB-17) 1hora 15min
+(QA-WEB-16) 20min
+(QA-WEB-15) 1hora
+(QA-WEB-13) 2hora
+(QA-WEB-12) 1hora
+(QA-WEB-05) 1hora
+
+19-07-23
+1) daily rinna (15min)
+2) Configuracion y funcionamiento de la libreria laravel-snappy en el server (2 horas)
+3) Funcionalidad de reporte de pedido (2 horas)
+4) Diseño y funcionamiento de pantalla mis cupones (2 horas)
+
+20-07-23
+1) daily rinna (15min)
+2) subir al server (15min)
+3) Ajustes en pantalla mis cupones (1 hora)
+4) Vista y funcionalidad de pantalla mis vales (2 horas)
+5) Al crear una nueva sucursal no guardaba QA-WEB-05 (45min)
+6) En cupones se cambio el color del status QA-WEB-15 (15min)
+
+
+
+21-07-23
+1) Al editar una nueva sucursal no guardaba (QA-WEB-06 Catálogo de direcciones (Sucursales)) (45min)
+2) Se corrigio al ingresar con un distribuidor, no se estan filtrando sus vendedores asignados, se visualizan todos los creados. (QA-WEB-13 Distribuidor - vendedor) (1 hora)
+3) Ya se estan mostrando la sucursal asociado al vendedor. ya que solo mostraba Dirección principal.(QA-WEB-05 - Vendedor - Frontend:) (2 hora)
+4) Se corrigio controlador y html al crear un vendedor ya que se guardaba el id, más no el nombre en la tabla direciones (QA-WEB-06) (45min) 
+5) Se subio al servidor (15min)
+6) Daily rinna (15min)
+7) Se soluciono bug al crear un distribuidor sin asignarle numero de afiliaciones, luego se creo su vendedor, y me salió alerta "El distribuidor asociado ya ha alcanzado el limite maximo de afiliaciones pongase en contacto con un administrador para subir la cuota de afiliaciones" Problema: se esta contabilizando en el distribuidor. (1hora)
+
+
+24-07-23
+1) Se corrigio error al crear un vendedor asociado a una sucursal (QA-WEB-13 Distribuidor - vendedor) (1 hora 30)
+2) (QA-WEB-07 vendedor crud) (1 hora) 50% (no culminado)
+3) (QA-WEB-14 catalogo producto) (2 horas)
+4) (QA-WEB-12 Correccion numero afiliaciones) (1 hora)
+5) daily rinna (20min)
+6) subir al server (15min)
+7) Meet con Juan Pablo (15min)
+
+
+revisar qaweb07
+consultar pantalla catalogo producto boton subir archivo
+pantalla catalogo producto funcionalidad
+reporte pedido
+
+25-07-23
+1) Se corrigio bug al crear un vendedor (QA-WEB-07- Vendedor -CRUD) (1 hora)
+2) (QA-WEB-14 catalogo producto) (4 horas)
+3) Daily rinna 45min
+4) Daily Juan Pablo 30min
+5) Daily Raul Alvarado y Cynthia Arellano 15min
+
+26-07-23
+1) Daily rinna 40min
+2) Rinna QA (7 horas)
+
+catalogo de productos precio requerido y diferente de 0
+
+27-07-23
+1) Se agrego campo calle y numero en el modulo crear, editar y ver (QA-WEB-04 Edición en catálogo de tiendas) (1 hora)
+2) Se corrigio bug teniendo la funcion de ver, se muestra el boton de Editar (QA-WEB-16 Catálogo de roles y permisos) (1 hora)
+3) Se corrigio bug al intentar crear una existencia de un producto al dejar el select tienda y cantidad vacios (Productos - Catálogo existencias) (2 hora)
+4) Se corrigio bug se crearon dos vendedores, uno con una direccion principal (direccion del distribuidor) y otro con la direccion de la sucursal, sin embargo a ambos les indica que pertenecen a la misma sucursal (QA-WEB-05 - Vendedor - Frontend) (2 hora)
+5) Se corrigio bug al editar un vendedor (cualquier campo) deja de mostrara la sucursal asignada (QA-WEB-05 - Vendedor - Frontend) (30 min)
+6) Se estuvo trabajando en el carousel de productos (QA-WEB-14 Catálogos de productos) (1 hora)
+7) daily rinna (30min)
+
+
+
+28-07-23
+1) Se corrigio al ver una existencia, dice 'Agregar..' 	(Productos - Catálogo existencias) (10 min)
+2) Se corrigio al editar una existencia, dice Agregar y no se muestra el botón Agregar (Productos - Catálogo existencias) (1 hora)
+3) Se corrigio al crear existencias permite agregar una tienda en multiples ocasiones. Nota: se realizo en crear y editar (Productos - Catálogo existencias) (2 hora)
+4) Se corrigio al crear un vendedor, cuando se selecciona una tienda, no se esta muestra la info de campo calle. También deberia mostrarse bloqueado el campo. (QA-WEB-07 - Vendedor - CRUD) (1 hora)
+5) Se corrigio bug al crear y editar un usuario, vendedor y distribuidor ya que el campo nombre pa... y nombre ma no se estaban llenando QA-WEB-03  Catálogo de usuarios del sistema (30 min)
+6) Daily rinna (1 hora 15min)
+
+Productos - Catálogo existencias (3 horas 10min) (100%)
+QA-WEB-07 (1 hora) (100%)
+QA-WEB-03 (30 min) (100%)
+
+
+
+31-07-23
+1) Daily rinna (30min)
+2) Se corrigio bug en la api de register y login ya que estaba presenetando errores (2 horas)
+3) Se trabajo en la galeria de imagenes de productos (4 horas)
+
+
+
+01-08-2023
+1) daily rinna (30min)
+2) Se corrigio al editar un vendedor, el selector de tienda y distribuidor permanece bloqueado (QA-WEB-07 - Vendedor - CRUD) (35min)
+3) dudas y aclaraciones (1hora)
+4) Se corrigio bug en los modulo user, distribuidor, vendedor el campo codigo postal, ahora solo se el limite max es de 5 (QA-WEB-03 Catálogo de usuarios del sistema)(45min)
+5) Se corrigio ha un usuario superadmin no deberia permitirle desactivarle ni modificar su información (QA-WEB-03 Catálogo de usuarios del sistema) (1 hora)
+6) Se corrigio al editar un usuario, el campo correo debe mostrase bloqueado, asi como tambien se debe validar que cumplan un formato valido. (QA-WEB-03 Catálogo de usuarios del sistema) (30min)
+7) Se corrigio los errors de requeridos entres otros, con forme al orden en el que estan los campos en editar y crear (QA-WEB-03 Catálogo de usuarios del sistema) (1 hora 30)
+8) Se corrigio que el mensaje de los input sea exactamente como se llama el campo, ejemplo contraseña, deberia decir clave de acceso (QA-WEB-03 Catálogo de usuarios del sistema) (40 min)
+6.30
+
+QA-WEB-07 (35min)
+QA-WEB-03 (4 horas 25min)
+
+
+NOTAAAAAAA: Chequear porque tiene el flujo solicitado. "Al editar un usuario, no deberia solicitar ingresar la contraseña. Esta debe mantenerse siempre. 	El ojito debe removerse para evitar que se otros usuarios conozcan las contraseñas" (QA-WEB-03 Catálogo de usuarios del sistema)
+NOTAA: Faltaba subir lo mas reciente al serve. "Los campos de numero telefónico deben de validar capturar 10 digitos" (QA-WEB-03 Catálogo de usuarios del sistema)
+
+
+02-08-2023
+1) Se corrigio al crear y editar un usuario, no permitir ingresar numeros , asi como un mínimo de dos caracteres (QA-WEB-03 Catálogo de usuarios del sistema) (1 hora)
+2) Se corrigio al editar un usuario al que  se desea cambiar la tienda asignada, se  selecciona la tienda deseada, sin embargo los campos de Direccion permanecen estaticos con la informacion de la tienda anterior, es decir, no se actualizan. (QA-WEB-03 Catálogo de usuarios del sistema) (1 hora)
+3) Se corrigio al realizar la edicion y  faltando algun campo obligatorio por capturar, la informacion (marcada en azul) se reescribe con la que se tenia anteriormente. (QA-WEB-03 Catálogo de usuarios del sistema) (1 hora)
+4) Se corrigio los campos de numero telefónico deben de validar capturar 10 digitos (QA-WEB-03 Catálogo de usuarios del sistema) (30 min)
+5) Se corrigio al tener un correo muy largo, la pantalla se corta, teniendo que scrollear, por lo que se sugiere ajustar la columna a un ancho que no permita que la tabla se extienda. Se aplico una clase para todas las tablas (QA- WEB-02 Catálogo de distribuidores) (1 hora)
+
+
+resumen
+QA-WEB-03 (3 horas 30min)
+QA- WEB-02 (1 hora)
+
+
+
+
+
+03-08-2023
+1) Se valido que los numeros de afilaicion sean únicos en el modulo de distribuidor, vendedores y vendedores asociados (QA- WEB-02 Catálogo de distribuidores) (1 hora)
+2) Se corrigio el botón Cancelar no esta cumpliendo su función, ya que al al dar clic en él, de igual manera aplica la acción (activar/desactivar). (QA- WEB-02 Catálogo de distribuidores) (45 min)
+3) Se soluciono bug  al crear y editar un distribuidor, usuario, vendedor y vendedores asociacos tampoco se guardan apellidos paternos y maternos. (QA- WEB-02 Catálogo de distribuidores)(1 hora)
+4) Se desbloquearon los input descuento de ofertas y outlet y tambien de edito el campo descuento del distribuidor por descuento de Línea, (QA- WEB-02 Catálogo de distribuidores)(30 min)
+5) Se corrigio ortografia al momento de guardar un vendedor y ya paso la cuota, muestra la alerta. Hay que revisar la “ortografía” (QA-WEB-13 Distribuidor - vendedor)(10 min)
+6) Se habilitó El campo de Régimen fiscal, ya que no poseía opciones (QA- WEB-02 Catálogo de distribuidores)(30 min)
+7) Se corrigio bug. El check para desactivar sucursales no funciona. Al momento de guardar vuelve a activarse (QA-WEB-06 Catálogo de direcciones (Sucursales))(30 min)
+8) Se corrigio bug, Al estar inactivo, la sucursal no debería de poderse seleccionar al crear un vendedor las opciones de la sucursal (QA-WEB-04 Edición en catálogo de tiendas)(1 hora) 
+9) Se corrigieron mensajes de alertas tienda id, estado id etc... en user, distibuidores, vendedores y vendedores asociados (QA-WEB-13 Distribuidor - vendedor)(2 horas)
+10) Daily rinna(30 min)
+
+QA-WEB-04 (1 hora)
+QA-WEB-13 (2 horas 10min)
+QA-WEB-02 (3 hora 45min)
+QA-WEB-06 (30 min)
+
+
+
+04-08-2023
+1) Se corrigio bug. Permite modificar el correo electrónico. (tanto en la edición y como en el perfil) (QA-WEB-03 Catálogo de usuarios del sistema)(20min)
+2) Se corrigio bug. El campo verificar clave no se marca en rojo y la alerta indica “confirm-password” (Doc)(30 hora)
+3) Se agrego campos para poder editar la contraseña en el perfil de usuarios (Doc)(1 hora). (revisar)
+4) Se corrigio bug. Modulo usuario,distribuidores, vendedores, perfil y tiendas Checar el nombre de las alertas en general. (QA-WEB-03 Catálogo de usuarios del sistema)(2 hora)
+5) Se corrigio bug, Al desactivar una tienda, sigue apareciendo en el campo de selección de tiendas de distribuidores y vendedores. (QA-WEB-04 Edición en catálogo de tiendas)(45 min)
+6) Se elimino campo Marca se indica 2 veces en producto. (QA-WEB-14 Catálogos de productos)(10 min)
+7) Ya no se muestra el boton eliminar en tiendas (Doc)(10 min)
+8) Se agrego funcion para evitar escribir numero en el campo usuario (QA-WEB-03 Catálogo de usuarios del sistema)(45 min)
+9) Se corrigio al tener un correo muy largo, la pantalla se corta (QA- WEB-02 Catálogo de distribuidores)(45 min)
+10) Daily rinna (30min)
+11) Bajar cambios y subir al server (30min)
+12) Se corrigio en el index de las tiendas si se muestra inactiva la tienda, pero al edirarla se muestra con estatus activo (QA-WEB-04 Edición en catálogo de tiendas) (30 min)
+13) Se corrigio al editar un CP de una sucursal no se guarda el cambio (QA-WEB-06 Catálogo de direcciones (Sucursales)) (30 min)
+
+
+QA-WEB-03  (3 horas 5 minutos)
+QA-WEB-04  (1 horas 25 minutos )
+QA-WEB-14  (10 minutos)
+QA-WEB-02 (45 minutos)
+QA-WEB-06  (30 minutos) 
+Daily rinna (30min)
+Bajar cambios y subir al server (30min) 
+otros (1 hora 40 minutos)
+8 horas 25 minutos
+
+
+
+
+07-08-2023
+1) Listo la tarjeta de catalogo direcciones sucursales, conversar con karla sobre tema de passoword (estuve revisando) (30min)
+2) Se corrigio textos en las alerta de errores para que coincida con el que se muestra visible (QA-WEB-21 - Productos - Catálogo existencias)(30 min)
+3) Se corrigio al crear un vendedor asociado, se deberian ocultar las sucursales inactivas. (QA-WEB-13 Distribuidor - vendedor)(30 min)
+4) Se corrigio al crear un vendedor asociado no se muestra el tipo de regimen. Se deben habilitar los campos bloqueados (QA-WEB-13 Distribuidor - vendedor)(45 min)
+5) Se corrigio bug. Se esta permitiendo crear sucursales y vendedores de un distribuidor desactivado. (QA-WEB-13 Distribuidor - vendedor)(30 min)
+6) Se corrigio bug. Al crear/editar un usuario se siguen mostrando las tiendas inactivas. (QA-WEB-04 Edición en catálogo de tiendas) (30 minutos)
+7) Se corrigio bug. Un administrador deberia poder cambiar de distribuidor a un vendedor. pero adicional a eso se estaba trabajando para que el proceso quedara completo al seleccionar una tienda y cargara la direcciones correspondientes igual al seleccionar un distribuidor y un domicilio (QA-WEB-13 Distribuidor - vendedor) (3 horas) (50%)
+8) daily rinna (30min)
+
+
+QA-WEB-21 (30 min)
+QA-WEB-13 (4 hora 45 min) 
+QA-WEB-04 (30 min)
+
+
+08-08-23
+1) Se agrego una columna con el estatus de la sucursal (activa/inactiva). (QA-WEB-06 Catálogo de direcciones (Sucursales)) (30 min)
+2) Se corrigio bug.  Renombrar a "Recoger en tienda" (QA-WEB-11 Selector de direcciones) (15 min)
+3) Se renombro los campos Apellido Paterno/Materno por Primer/Segundo apellido respectivamente y únicamente el primer apeliido deberá ser obligatorio. (QA-WEB-03 Catálogo de usuarios del sistema) (15 min)
+4) subir al server (15min)
+5) Daily Karla Chávez (10min)
+6) Al crear un distribuidor y un usuario faltando algun campo obligarotio por capturar, los campos de clave de acceso se limpian teniendo que volver a capturarlas (QA- WEB-02 Catálogo de distribuidores) (30 min)
+7) Se corrigio bug. Al crear un distribuidor y faltando algun campo obligarotio por capturar, los campos de clave de acceso se limpian teniendo que volver a capturarlas.- Se realizo para usuarios, distribuidores y vendedores(QA- WEB-02 Catálogo de distribuidores) (1 hora)
+8) Se corrigio bug. Los campos Estado, Municipio y Colonia se indican como obligatorios pero no se marcan en rojo: Se corrigio en usuarios, distribuidores, vendedores, venderoresAsociados tanto al crear y editar (QA- WEB-02 Catálogo de distribuidores) (3 horas)
+
+QA-WEB-06 (30min)
+QA-WEB-11 (15min)
+QA-WEB-03 (15min)
+QA- WEB-02 (4hora 30min)
+subir al server (30min)
+Daily Karla Chávez (10min)
+
+09-08-23 (por entregar)
+1) Se corrigio bug.  Al Ver una existencia no se muestra el nombre del producto (QA-WEB-21 - Productos - Catálogo existencias) (20 min)
+2) Se corrigio el nombre de los campos en el texto de la alerta al crear y editar (QA-WEB-21 - Productos - Catálogo existencias) (30 min)
+3) Se corrigio bug.Al editar, no esta funcionando el boton de eliminar (QA-WEB-21 - Productos - Catálogo existencias) (2 hora)
+4) Se dejo funcionado el agregar nuevas existencias en editar, se tuvo que reajustar el codigo, ya que el que estaba no tenia el flujo (QA-WEB-21 - Productos - Catálogo existencias) (2 hora)
+5) Se corrigio. Al editar una existencia se muestran cantidades negativas, y tampoco  permite guardar algun cambio por dicha validación. (QA-WEB-21 - Productos - Catálogo existencias) (30 min)
+6) Daily (15min)
+7) Subir al server (30min)
+8) Daily Karla Chávez y Raul Alvarado (1 hora)
+
+
+QA-WEB-21 (5horas 20)
+Daily Rinna (15min)
+Subir al server (30min)
+Daily Karla Chávez y Raul Alvarado (1 hora)
+
+
+
+
+
+
+10-08-23
+1) Daily Rinna (1hora)
+2) Se corrigio bug. Al crear un vendedor, no se muestra la sucursal asignada en el index (QA-WEB-13 Distribuidor - vendedor) (1 hora)
+3) No está guardando las selección de sucursal mientras completas el formulario (QA-WEB-13 Distribuidor - vendedor) (1 hora)
+4) Un administrador deberia poder cambiar de distribuidor a un vendedor y agrego la edicion la sucursal (select domicilio) (QA-WEB-13 Distribuidor - vendedor) (2 hora)
+5) Para las vistas de Ver y Editar se debe permitir ver la sucursal que se tiene asignada. (QA-WEB-13 Distribuidor - vendedor) (30 min)
+6) Se bloqueo botón crear vendedor al alcanzar límite de afiliación (1hora)
+7) El campo Tipo de usuario no se marca en rojo y la alerta indica “roles” (20min)
+8) Existencias boton eliminar 30min
+9) Se realizó merge y se subió al server (30min)
+
+
+
+11-08-23
+1) Se corrigio bug. Al intentar crear un rol se muestra la siguiente pantalla (QA-WEB-16 Catálogo de roles y permisos) (30min)
+2) Se oculto la accion de eliminar (QA-WEB-16 Catálogo de roles y permisos) (20min)
+3) Se corrigio texto. Al ver un distribuidor, el campo debe decir Descuento de línea. (QA- WEB-02 Catálogo de distribuidores) (20min)
+4) Se agrego condicion para desabilitar - Días de crédito - Límite de crédito - Cuentas restantes - Días de devolución -Descuento distribuidor. Si usuario logueado es un distribuidor (QA- WEB-02  Catálogo de distribuidores) (30min)
+5) Se agrego una "s" a la palabra Cuentas restantes/creadas (QA- WEB-02  Catálogo de distribuidores) (10min)
+6) Se corrigio.  El campo Nombre dde la empresa es obligatorio, pero no se marca en rojo (QA- WEB-02 Catálogo de distribuidores)(15min)
+7) Se corrigio. El campo Número de afiliacion aparentemente es obligatorio, pero permite guardar dejándolo vacío. (QA- WEB-02 Catálogo de distribuidores)(30min)
+8) Se corrigio. En el registro de distribuidores -Condiciones de crédito se debe de :
+	a) En el campo de descuento outlet agregar validacion para solo permitir caracteres numericos y que sea 100 el máximo valor.
+	b) Descuento Outlet y Ofertas se debe cambiar de orden (se adjunta mockup), asi como agregarles antes de los dos puntos (:) el simbolo de %
+	c) El campo de límite de crédito debe de mostrarse con separador de miles (coma). Nota: se realizoron cambios en la pantalla ver, editar y crear	(QA- WEB-02 Catálogo de distribuidores) (1hora)
+
+9) Se corrigo bug, al crear vendedores asociados no se guardaba la sucursal (1 hora) (karla por privado)
+10) En el modulo editar vendedores asociados se habilito select domicilio y se trabajo (2 horas)
+11) daily rinna (30min)
+12) daily Raul Alvarado y Karla Chavez (20min)
+13) subida al server (30min)
+
+QA-WEB-16 (50min)
+QA-WEB-02 (2 horas 45min)
+
+
+14-08-23
+1) Se revisó funcionalidad de registro y login (1 hora)
+2) Se revisó error en parametros de api "api/pedido/agregar/producto" (1 hora)
+3) Se corrigió bug en "api/pedido/agregar/producto" (3 horas)
+4) Se subió proyecto a nuevo repositorio de gitlab (30 min) 
+5) Dayli rinna (1 hora)
+6) Se subió al servidor (20 min)
+7) Dayli con leonardo (30 min)
+
+(error insertando notificaciones en varios tipos de usuarios) punto 3
+
+ocultar
+productos negados 
+productos gestionables
+
+
+15-08-23
+1) Dayli rinna (30min)
+2) Se realizo api de productos (2 horas 30 min)
+3) Se corrigio bug al editar un vendedor asociado, ya se puede editar inclusive se puede cambiar la sucursal (QA-WEB-13 Distribuidor - vendedor) (2 horas 30 min)
+4) Se corrigio bug, Al Ver/Editar un vendedor asociado se debe agregar un campo que despliegue las sucursales del distribuidor a las que se puede asignar el vendedor (QA-WEB-13 Distribuidor - vendedor) (30 min)
+
+
+
+16-08-23
+1) QA-WEB-37 General - limpiar campo contraseña (1 hora con 30 min)
+2) QA-WEB-47 General - Apellido materno opcional (1 hora con 30 min)
+3) QA-WEB-30	Ocultar campos Precios y Descuentos excepciones (20 min)
+4) QA-WEB-35	Campo descuento no está configurado, te muestra NaN% (25min)
+5) Dayli con raul (30 min)
+6) Dayli con rinna (30 min)
+7) QA-WEB-32 Al buscar un artículo, se permite hacer la búsqueda por el número de estilo, sin embargo, el número de estilo no se indica en 	los resultados de la búsqueda. en el ejemplo el estilo es EFGH456 (1 hora)
+8) QA-WEB-33 Las etiquetas de estilo están mal mapeadas respecto a productos. Parece que en la tabla donde se carga el pedido, el código del 	producto corresponde al estilo y el campo de estilo no está mapeado. (1 hora 30 min)
+
+punto4 -> descuentoCell.innerHTML = descuento_usuario ? parseInt(descuento_usuario) + "%" : '0';
+
+
+
+
+17-08-2023
+1) QA-WEB-33 Las etiquetas de estilo están mal mapeadas respecto a productos. Parece que en la tabla donde se carga el pedido, el código del 	producto corresponde al estilo y el campo de estilo no está mapeado. (30 min)
+2) Daily rinna (30min)
+3) QA-WEB-29 "guardar imágenes de producto y corregir etiqueta “imagem” (3 horas)
+4) QA-WEB-39	Distribuidor y vendedor - Afiliaciones número de afiliaciones se realizo en distibuides, vendedores y vendedores asociados 
+	(1 hora)
+5) QA-WEB-47	General - Apellido materno opcional, nota faltaba en sucursales (30min)
+6) QA-WEB-36	General - Campo CP (45min)
+7) QA-WEB-40	Distribuidor - límite de afiliaciones (30min)
+8) Subida al server (30min)
+
+
+
+
+QA-WEB-29 "LISTO"
+QA-WEB-39 "LISTO"
+QA-WEB-40 "LISTO
+
+
+
+
+
+
+
+
+
+Medio	QA-WEB-36	General - Campo CP					?
+Medio	QA-WEB-37	General - limpiar campo contraseña			"LISTO"
+Bajo	QA-WEB-38	Distribuidor - pantalla 1366 x 786 			"LISTO"
+Alto	QA-WEB-39	Distribuidor y vendedor - Afiliaciones			?
+Alto	QA-WEB-40	Distribuidor - límite de afiliaciones 			"LISTO"
+Medio	QA-WEB-41	Vendedor - Sucursales 					"LISTO"
+Bajo	QA-WEB-42	Vendedor - Sucursal index 				"LISTO"
+Medio	QA-WEB-43	Sucursales - activación / desactivar 			"LISTO"
+Alto	QA-WEB-44	Pedido - Cantidad solicitada				?
+Bajo	QA-WEB-45	Pedido - links						?
+Medio	QA-WEB-46	Usuarios - Roles y permisos desactivación de cuenta 	(Aclarado con Raul creo)
+Medio	QA-WEB-47	General - Apellido materno opcional			"LISTO
+Medio	QA-WEB-48	General- Cambiar etiquetas apellidos			?
+Alto	QA-WEB-49	Pedido - Piezas solicitadas "1"				?
+
+
+
+18-08-23
+1)  QA-WEB-47 General - Apellido materno opcional, faltaba quitar el requerimiento minimo 2 caracteres (1 hora)
+2)  QA-WEB-48 General- Cambiar etiquetas apellidos.  por "1er apellido" y "2do apellido".  (1 hora 30 min)
+3)  QA-WEB-46 En la edición de un usuario de sistema. Al modificar su rol el usuario se inactiva. Si se lo activas y guardas, ya no se lo puedes desactivar hasta cambiar o agregar un rol. (2 horas 30 min)
+4) QA-WEB-28 No pude actualizar uno de los banners, me apareció este mensaje. Tampoco puedo crear nuevos. perminsos en el serve "dev" (30 min)
+5) Se corrigio bug.  Al crear un usuario el campo limite de credito no muestra el separador de miles (QA-WEB-03 Catálogo de usuarios del 	sistema) (30 min)
+6) Se corrigio bug. La máscara del campo Movil no es la correcta, Telefono si lo es. (QA-WEB-03 Catálogo de usuarios del sistema) (20 min)
+
+3
+(NOTA: SI EL ROL QUE SE AGREGA ES DE ADMIN, NO SE PODRA DESACTIVAR LA CUANTA, PORQUE LOS 							ADMIN NO PUEDEN DESACTIVAR CUANTAS DE ADMINISTRADORES)
+
+Parece que cada vez que se inactiva la cuenta, se borran las contraseñas. 
+NOTA: SE REALIZO EN LA PANTALLA DISTRIBUIDOR, VENDEDOR Y VENDEDORES ASOCIOADOS
+
+
+
+
+
+
+21-08-23
+1) Se corrigio bug. La seccion Condiciones de crédito solo sería editable para el Superadmin, Distribuidores y vendedores lo verán bloqueado. Asi quedaría:
+	Los campos marcados en rojo se ocultan y los azules se bloquean.
+	En la etiqueta del primer campo, renombrarla a " Descuento distribuidor/vendedor (%) ". (QA-WEB-07 - Vendedor - CRUD) (1 hora)
+	'NOTAAAAAA: VIDEO'
+
+
+2) Se corrigio bug. Al logearse con un distribuidor aparece la siguiente pantalla: NEGRA (QA-WEB-13 Distribuidor - vendedor) (30 min)
+3) Se corrigio bug. Al editar un distribuidor solicita confirmar la clave. Despues de que se muestra esta alerta se revierten los cambios que se habian 		realizado. (QA-WEB-13 Distribuidor - vendedor) (30 min)
+
+4) Se corrigio bug. Solicita ingresar la clave de confirmación (QA- WEB-02 Catálogo de distribuidores) (30 min)
+5) Se corrigio bug. Se envia una alerta sobre el campo Numero de afiliacion. (QA- WEB-02 Catálogo de distribuidores) (30 min) 'NOTAAAAAA: VIDEO'
+6) Se corrigio bug. Los campos del perfil deberian mostrarse de acuerdo al tipo de perfil en cuestión. Ejemplo: Distribuidor no tiene numero de empleado ni 		tipo de usuario. (QA-WEB-22- Perfil de usuario) (1 hora) 'NOTAAAAAA: VIDEO'
+
+7) Se corrigio bug.  Al editar un rol el campo de nombre se muestra bloqueado (QA-WEB-16 Catálogo de roles y permisos) (30 min)
+8) Se corrigio bug. En la alerta renombrar los textos celular a móvil y telefono fijo a teléfono se realizo al crear yeditar en usuario, 	distribuidores, vendedores y vendedores asociados (QA-WEB-03 Catálogo de usuarios del sistema) (1 hora)
+9) Se corrigio bug. Cuando una tienda se encuentre inactiva, los usuarios asignados a ella no deberian poder realizar movimientos. 
+			En este caso se inactivo la Tienda Leon, y este ditribuidor asignado a ella puede crear sucursales y vendedores. (QA-WEB-04 Edición 			en catálogo de tiendas) (1 hora)
+10) Se corrigio bug. Se esta permitiendo la creación de un vendedor asociado, cuando la tienda de su distribuidor esta inactiva. (QA-WEB-04 Edición en 		catálogo de tiendas) (1 hora)
+11) Dayli rinna (30min)
+
+
+
+22-08-23
+1) Api con leonardo registro(1 hora)
+2) Al crear un pedido donde no existen existencias de un producto en X tienda, esas se crean con cero exostencia en el index  de existenicas (anteriormente 	se creaban en negativo).  (QA-WEB-21 - Productos - Catálogo existencias) (1 hora)
+3) Al crear un producto debe mostrarse por default en status activo. (QA-WEB-14 Catálogos de productos) (30 min)
+4) El campo talla mayor se muestra vacio tanto en ver como en Editar. (QA-WEB-14 Catálogos de productos) (30 min)
+5) El campo Marca se muestra duplicado en Ver. (QA-WEB-14 Catálogos de productos) (30 min)
+6) En editar, el campo Precio se debe ocultar. (QA-WEB-14 Catálogos de productos) (30 min)
+7) El campo Planilla deberia decir "Plantilla" tanto en Ver como en Editar. (QA-WEB-14 Catálogos de productos) (20 min)
+8) Subiendo al servidor (30 min)
+9) Revisando nuevamente los bug que estan en el exel (2 hora)
+10) daily (30 min)
+
+
+23-08-23
+1) daily rinna (1hora)
+2) QA-WEB-29 - Corregir etiqueta "imagen" (10 min)
+3) Se aplico funcionalida para eliminar imagenes del producto (1 hora 30 min)
+4) Se puede visualizar imagenes del producto en la pantalla ver (QA-WEB-14 Catálogos de productos) (1 hora)
+5) Se oculto. En el index de productos, ocultar la funcion de eliminar (QA-WEB-14 Catálogos de productos) (10 min)
+6) api https://rinnabruni.engranedigital.com/api/pedido/agregar/producto (2 horas)
+7) revision video de los siguientes puntos en qa y dev (1 hora)
+
+VIDEO: 
+QA-WEB-25 "LISTO"
+QA-WEB-29 "LISTO"
+QA-WEB-31 "LISTO"
+QA-WEB-33 "LISTO"
+QA-WEB-35 "LISTO"
+QA-WEB-39 "90%"
+QA-WEB-48 "LISTO"
+
+1) daily acipack (1hora)
+
+24-08-2023
+1) daily rinna (30min)
+2) Se corrgio bug. Al editar el status de un producto a inactivo, al verlo/editarlo se vuelve el mostrar activo, se creo campo estatus.. 
+	(QA-WEB-14 Catálogos de productos) (1 hora 30 min)
+3) Se corrgio bug. Al Ver y editar un vendedor se deben ocultar los campos descuento Oulet y Ofertas y bloquear Descuento, Dias y Limite de crédito. 
+	(QA-WEB-07 - Vendedor - CRUD) (30 min)
+4) Se corrgio bug. Al editar un vendedor, incluso sin realizar ningun cambio, al dar clic en guardar se muestra la alerta "SELECCIONE UNA TIENDA" 
+	(QA-WEB-07 - Vendedor - CRUD) (30 min)
+5) Se corrigio bug. Al crear y editar un vendedor,  no se despliegan opciones en régimen fiscal (QA-WEB-07 - Vendedor - CRUD) (30 min)
+6) Se corrigio.  Bloquear los campos al editar para el usuario vendedor (QA-WEB-25 - Bloquear campos en la edición) (30 min)
+7) Se corrigo bug. Continuan sin coincidir los campos del producto con los encabezados de la tabla de pedidos. 
+	(QA-WEB-33 - Pedido - mapeo numero estilo y código)(1 hora 30 min)
+8) Se centraron la datos de la tabla pedido y se trabajo en el responsive de dicha tabla (45 min)
+9) Subiendo al servidor (30 min)
+10) Al modificar el rol de un usuario este se inactiva, (QA-WEB-03 Catálogo de usuarios del sistema) (1 hora) 50%
+
+
+
+
+25-08-23
+1) daily rinna (30min)
+2) Al modificar el rol de un usuario este se inactiva, (QA-WEB-03 Catálogo de usuarios del sistema) (1 hora) 100%
+3) Se reviso QA-WEB-39 (30 min) 100%
+4) Para el registro de vendedores, se deben ocultar los campos marcados en rojo. Incluir la secccion Descuento ofrecido a clientes.
+	Considerar todas las vistas (Crear, Ver y Editar) del distribuidor y admin. (QA-WEB-54-Ocultar/bloquear campos Vendedor) (30 min) 100%
+5) Se corrigio bug. En la tabla del pedido, el campo de la talla se muestra invertida la información, es decir, primero aparece la mayor y luego la menor.
+	(QA-WEB-33 - Pedido - mapeo numero estilo y código) (30 min) 100%
+6) Se corrgio bug. Al dar clic en el icono de sucursales, se muestra un error (QA-WEB-13 Distribuidor - vendedor) (1 hora) 100%
+7) Se corrigio bug. Renombrar a "Recoger en tienda" (QA-WEB-11 Selector de direcciones) (20 min) 100%
+8) Se agrego en el catálogo de vendedores del distribuidor se acordó agregar una columna "Sucursal" para identificar la sucursal a la que pertenece (QA-WEB-58 - Columna sucursal) (1 hora y falta agregar el filtro) 50%
+9) Se corrigio bug. Cambiar el nombre de afiliaciones faltantes a “afiliaciones disponibles” Se acordó ajustar en el Catálogo de Distribuidores, cambiar la 	palabra afiliaciones faltantes por afiliaciones disponibles (QA-WEB-57-Afiliaciones disponibles) (30 min) 100%
+10) Se subio al server qa y dev (30 min)
+
+
+6.20
+
+
+NOTAAAAAAA PARA YAN REVISAR VENDEDORES DIRECCIONES SELECT, NO ESTA FUNCIONANDO
+
+
+28-08-2023
+1) daily rinna (50min)
+2) api actualizacion referencia de pago a un pedido (1 hora 30)
+3) api actualizacion cantidad de producto a un pedido activo (2 horas)
+4) subir al server (30min)
+
+4.50 horas
+
+
+
+29-08-23
+1) QA-WEB-57 Se corrigio bug. Cambiar el nombre de afiliaciones faltantes a “afiliaciones disponibles” Se acordó ajustar en el Catálogo de Distribuidores, 	cambiar la 	palabra afiliaciones faltantes por afiliaciones disponibles (QA-WEB-57-Afiliaciones disponibles) (30 min) 
+2) QA-WEB-56 Se corrigio bugg.contraseña debe ser mayor a 5 digitos y de tipo alfanúmerico (1 hora con 30 min)
+3) QA-WEB-58 Se agrego en el catálogo de vendedores del distribuidor se acordó agregar una columna "Sucursal" para identificar la sucursal a la que pertenece (QA-WEB-58 - Columna sucursal) (1 hora 30 min)
+4) Se desabilito en el registro de usuario el apellido paterno de la api (LEONARDO) (30 min) 
+5) QA-WEB-52 Se aplico funcion en js para ordenar colonias alfabeticamente (1 hora 30 min)
+6) QA-WEB-53 Se corrigio bug en el editar de vendedores asociados mostraba una alerta "selecciones una tienda" (30 min)
+7) QA-WEB-53 Se corrigio error ortografico en Actuializar por Actualizar (10 min)
+8) Subir al serve (30 min)
+9) CC-WEB-46	Descuento del Distribuidor (30 min) (50%)
+
+
+7.10
+
+DUDAS: 
+CC-WEB-42	Número de afiliación	"El equipo de RB nos indica que el campo número de afiliación para distribuidores y vendedores deberá ser asignado 		por el sistema, deberá ser un número consecutivo, no repetitivo y con una nomenclatura definida por RB. 
+		Se acordó revisar con desarrollo lo que implica realizar este cambio, actualmente el campo lo debe registrar un administrado (CONVERSAR)
+
+
+CC-WEB-43	Número de empleado	"El equipo de RB nos indica que el número de empleado (usuarios de RB), deberá ser un número consecutivo, no 		repetitivo y con una nomenclatura definida por ellos.
+		Se acordó revisar con desarrollo lo que implica realizar este cambio, actualmente el campo lo debe registrar un administrador. (CONVERSAR)
+	
+
+CC-WEB-45	Cambio de tienda	"RB indica que sería factible que los distribuidores y vendedores independientes se les pueda cambiar la tienda a 			la que se están asociados. 
+		Este punto se va analizar ya que es necesario validar que este movimiento no afecte pedidos levantados, solicitados o en curso. 				Actualmente un usuario no puede cambiar de tienda. o Implica cerrar sesión en la app (CONVERSAR)
+
+
+CC-WEB-46	Descuento del Distribuidor	"En el formulario de Distribuidores se quitarán los campos correspondientes a descuentos de línea, 				temporada y outlet.	Se acordó mantener un campo para registrar el descuento general de los distribuidores con el objetivo de hacer 				pruebas. El descuento de distribuidores será controlado desde el módulo ""Descuentos basados en los volúmenes de venta"" en el ERP, para 			cada uno de los tipos de usuarios y temporadas. (50%) (CONVERSAR POR EL MÓDULO DESCUENTO BASADOS)
+
+
+CC-WEB-49	Controlar vigencia de afiliaciones	"RB indica que sería importante controlar la vigencia y renovación de las afiliaciones de los 				distribuidores. 
+		En la estimación inicial no se había considerado esta actividad, sin embargo, se ofreció como valor agregado poder controlar dichas 				afiliaciones de manera simple. Se analiza la extensión de este nuevo requerimiento  
+		Un cron
+		Una columna fecha de vigencia que la puedan modificar. (CONVERSAR)
+
+
+CC-WEB-40	Imagen inicio	"Se requiere mostrar una imagen de bienvenida al ingresar al sistema CMS, actualmente muestra una página en blanco, 
+		Se acordó realizar este ajuste, el equipo de RB enviará la imagen para adaptarla (FALTA IMAGEN)
+
+
+
+30-08-23
+1) daily rinna (50min)
+2) Api para leonardo (2 horas) 
+3) Se realizo funcion para no dejar iniciar sesion a los vendedores, cuando el distribuidor principal este inactivo (1 hora 30 min)
+4) Se oculto campo descuento ofreciodo al cliente, se quito al crea y editar, tambien en vendedores asiciados (CC-WEB-47) (30min)
+5) Revision error de leonardo del api api/pedido/editar/producto_pedido (30min) (50%) 
+
+
+1) daily yesspallet (30min)
+
+
+
+31-08-23
+YESSPALLET
+1) Levantando proyecto (1 hora)
+2) Se corrigio bug: Al abrir el editor de una categoria y dar clic en guardar indica que no se ha subido un icono, sin embargo no se realizo movimiento 			alguno sobre él.	(YP-BUG56 -Error al editar categoria)(30 min)	
+3) Se corrigio bug: Al intentar eliminar una categoria, y dar clic en eliminar se muestra un error 500. (YP-BUG55 - Error al eliminar categoria) (30 min)
+4) Se corrigio bug: El boton de crear (Guardar) no hace su función, al crear no guarda y al editar tampoco actualiza datos
+	https://yesspallet.engranedigital.com/admin/oficinapais (YP-BUG53 - Bug al crear impuesto Oficina pais) (1 hora 30 min) 5 25
+5) Se corrigio bug: En productos, ocultar del formulario el chech de Permitir condición del producto ya que no será utilizado. 
+	(YP-BUG51 - En productos, remover el campo de "Permitir condición del ) (45 min)
+
+4) Se corrigio error ortografico: Desde el menu del admin, en órdenes corregir la ortografía del texto para que se indique: Procesadas (YP-BUG50 - Corrección ortografia en ordenes: Procesadas) (30 min buscando el archivo de a modificar)
+5) Se corrigio: Desde el admin, al ver el detalle de la orden se debe renombrar el termino "factura" a "recibo", y en general si aparece en algún lado 		adicional. (YP-BUG49 - Renombrar la factura a Recibo) (20 min)
+6) Se corrigio bug: En el login del comprador/vendedor, añador acento en la "í" de la palbra: Regístrate (YP-BUG54 - Agregar acento en la "i") (10 min)
+7) Se corrigio bug: Al ver el detalle de producto, agregar una etiqueta que indique "Direccion de entrega" para que el usuario tenga un mejor entendimiento 			del campo. (YP-BUG48 - Poner etiqueta de dirección de entrega) (30 min)
+
+
+
+5.45
+Punto 2: "ESTO ES PARA JORGE, SUBIR JS, HTML Y CONTROLADOR... EN LOCAL FUNCIONA Y EN LA NUBE TAMBIEN"
+
+
+
+01-09-2023
+Yesspallet
+1) Se corrigio bug: Al realizar un registro de un vendedor, cambiar el texto para que se mencione: " Cuál es tu experiencia y mercado de exportación " 	(YP-BUG47 - Registro de Vendedores - Mercados de exportación) (30 min)
+2) YP-BUG52 - Permitir cargar 3 imagenes por producto + un video (30 min)
+3) subir al servidor de yesspallet(2 horas)
+
+RINNA
+1) QA-WEB-22- Perfil de usuario (33% falta vendedores y usuarios) (2 hora)
+	NOTA: Se realizo formulario para rol distribuidores pero cuando se intentaba realizar para vendedores, salio un bug en las sucursales.
+	Primero se debe solucionar como administrador para que funcionen bien las sucursales en vendedores.
+
+
+04-09-2023
+1) daily Rinna (30min)
+2) Se realizo bug: CC-WEB-42 Número de afiliación (3 horas) (75%)
+3 horas 30min
+
+YESSPALLET
+1) Se corrigio bug: YP-BUG58 - Ortografia en detalle de orden (30 min)
+2) Se corrigio bug: YP-BUG51 - En productos, remover el campo de "Permitir condición del... (30 min)
+3) YP-BUG-57 - Dimensiones imagen (Certificados vendedor)) (1 hora)
+4) Daily Yesspallet (30min)
+5) YP-BUG52 - Permitir cargar 3 imagenes por producto + un video (1 hora)
+6) YP-BUG59 -Estatus pedidos - Vendedor (1 hora)
+7) YP-BUG55 - Error al eliminar categoria (1 hora)
+8) Subir al server (40min)
+
+6 horas 10min
+
+
+05-09-2023
+1) daily Rinna (30min)
+2) ajustes endpoint get http://localhost:8000/api/buscador/producto/POLO/usuario/12 (3 horas)
+3) ajustes endpoint post http://localhost:8000/api/products (1 hora)
+4) Aclarando dudas a leonardo con respecto a ubicar las imagenes en el servidor (30 min)
+5) Subir al server (30min)
+6) CC-WEB-40 Imagen inicio (1 hora)
+
+
+
+06-09-2023
+Rinna
+1) CC-WEB-42 Número de afiliación (2 hora)
+2) CC-WEB-45 Cambio de tienda (solo analisis) (1 hora) 
+3) Correccion login, al colocar credenciales incorrectas arrojaba un error, se origino cuando se añadió la validacion del distribuidor (1 hora)
+
+Acipack
+1) revision alcance cotizacion (1 hora)
+
+07-09-2023
+Acipack
+1) Se realizaron cambios en el home page ingles, se cambio footer, y seccion products (2 horas)
+2) Se realizaron cambios en pantalla detalle producto español, correccion ortografia (20min)
+3) Se realizaron cambios en pantalla detalle producto ingles, galeria de imagenes, boton me interesa, se oculto flechas de adelante y atras, tambien se ocultó opcion de productos relacionados (3 horas)
+4) Desde details products se agrego funcionalidad del boton me interesa, se aplico accion hacia pantalla contacto que rellena formulario contacto (1 hora)
+5) Se corrigieron varios cambios de contacto en ingles, como la direccion y otras palabras faltantes (30min)
+
+
+
+
+Puntos a tratar 
+- QA-WEB- 22 PERFIL DE USUARIOS
+- QA-WEB- 35
+- QA-WEB- 11
+
+
+
+
+11-09-2023
+1) Daily Rinna (45min)
+2) QA-WEB- 71 BOTON REGRESAR 30min *
+3) CC-WEB-42 Número de afiliación (1 hora)
+4) QA-WEB- 55 - Crear vendedor de distribuidor (3 horas) *
+5) Api con leonardo (1 hora) (50%)
+6) Subir al serve (30 min)
+
+
+12-09-2023
+1) Daily Rinna (30min)
+2) Api con leonardo - actualizacion de cantidades en pedidos (1 hora) (100%)
+3) QA-WEB-22- Perfil de usuario (4 horas) (90%) 
+
+
+13-09-2023
+1) Daily Rinna (30min)
+2) Subir al server en conjunto con Francisco Rolón García (1 hora)
+3) Se corrigio bug al crear un vendedores, no se estaban cargando la informacion de los select distribuidor (1 hora)
+4) Se corrigio bug en el perfil de vendedores ya que no se visualizava su informacion (QA-WEB-22- Perfil de usuario) (1 hora) Ocasionado por el merge
+5) Revision de Codigo de empleados (30 min) 
+6) API con leonardo de eliminar producto pedido (2 hora)
+
+
+14-09-2023
+1) Daily Rinna (45min)
+2) QA-WEB-75 Número de empleados se oculto al crear y en el editar se dejo desabilitado (30 min)
+3) QA-WEB-78 Número de afiliaciones se oculto al crear y en el editar se dejo desabilitado (30 min)
+4) QA-WEB-72 - Ocultar campo código tienda se oculto al crear, editar y ver(30 min)
+5) QA-WEB-79 - Perfil de usuario (admin) (3 hora)
+6) Subir al serve (30 min)
+7) QA-WEB-77 - Vista del catálogo de distribuidores (distribuidor) (1 hora)
+
+
+
+15-09-2023
+1) api leonardo https://rinnabruni.engranedigital.com/api/pedido/53 agregar campos nuevo: linea, color, talla y la imagen destacada en cada producto  
+(2 hora 30 min)
+2) Api leonardo quitar campo requeridos al registrar un usario (30 min)
+
+3) Se bloquearon los campos de numero de empleado y tienda (QA-WEB-79 - Perfil de usuario (admin)) (30 min)
+4) Se trabajo QA-WEB-81 - Perfil de usuario (vendedor) (1 hora)(50%)
+	Nota: Se estoy logueado como venderdor, en el perfil no esta actualizando la direcciones
+5) Se ocultaron los campos: - Numero de afiliación - Tienda a la que pertenece (QA-WEB-80 - Perfil de usuario (distribuidor)) (15 min)
+5) Se bloqueó la seccion de condiciones de credito (QA-WEB-80 - Perfil de usuario (distribuidor)) (15 min)
+
+YESSPALLET 
+1) El sistema permite agregar puros espacios en blanco en estados de ordenes (30 min)
+2) En estado de Orden, Cuando le das clic en eliminar un seguimiento no existe una confirmación de ¿Estás
+	seguro de eliminar el registro? (30 min)
+
+
+
+
+18-09-2023
+1) Se resolvio bug (QA-WEB-74 -Ocultar link) (30 min)
+2) Se corrigio bug en el perfil al ingresar como un distribuidor, no se muestra en las direcciones los municipios y colonias
+	(QA-WEB-80 - Perfil de usuario (distribuidor)) (2 horas)
+3) Se corrigio bug: Se bloquearon los campos 
+	- Bloquear los campos Tienda y Distribuidor. 
+	- Si es un vendedor asociado, los campos de Direccion deben de mostrarse bloquedos.
+	- Si es un vendedor libre (sin dustribuidor asociado) los campos de Direccion deben de mostrarse abiertos.
+	QA-WEB-81 - Perfil de usuario (vendedor) (2 horas)
+4) Se corrigio bug No se. muestran bloqueados los campos de numero de empleado y tienda (QA-WEB-79 - Perfil de usuario (admin)) (30 min)
+5) Subir al serve (30 min)
+
+
+19-09-2023
+1) Daily Rinna (1hora)
+2) Se corrigio bug al editar un usuario se cambio número de empleado por número de afiliaciones (30 min)
+3) Se corrigo bug: Al crear un distribuidor, mostrar por default en modo ON el toggle de bloquear pedidos, ya que actualmente se muestra en OFF
+	(QA-WEB- 83 - Distribuidor - bloquear pedidos) (30 min) (50%)
+4) Se corrgio bug:
+	1.- Aun esta pendeinte mostrar el numero ed afiliacion bloqueado
+	2.- Mostrar el campo de fecha  de ingreso bloqueado
+	(QA-WEB-81 - Perfil de usuario (vendedor)) (1 hora)
+5) Se creo campo nuevo en la bd para manejar el codigo postal:  El campo de Codigo postal no se visualiza en la edicion de tiendas
+	Se agreo tanto al crear como editar una tienda
+	tambien se creó el respectivo archivo de migracion
+	(QA-WEB-82 - Campo CP en catalogo de tiendas) (2 horas)
+6) Se corrigio bug: Desde catálogo de distribuidor se deben de renobrar las etiquetas:
+	- Cuentas restantes --> Afiliaciones disponibles
+	- Cuentas creadas --> Afiliaciones creadas
+	(QA-WEB-84 - Renombrar etiquetas - afiliaciones) (30 min)
+7) Se actualizo nombre número de afiliaciones por número de empleado al crear, editar y ver un usuario (30 min)
+8) Subir al serve (30 min)
+
+
+
+20-09-2023
+1) Daily Rinna (45min)
+2) Se resolvio bug: 1.- Para el registro de un vendedor, la secuencia numerica del numero de afiliacion se encuentra invertida. 
+	Primero debe ir el ID del distribuidor y posteriomente el del vendedor.
+	QAWEB-69 Número de afiliación (vendedor) (1 hora)
+3) Se oculto el campo Numero de afiliacion al momento de crear un vendedor Asociado (20 min)
+4) Se Bloqueo el campo Numero de afiliacion en la edicion del vendedor asociados (20 min)
+5) Revision de api con leonardo,  el estatus del pedido deber ser 1, para ser modificado (1 hora)
+6) Se corrigio bug:
+	1.- Al abrir un registro de una tienda para editarlo, el  CP no se muestra. 
+	2.- Al seleccionar alguna colonia, el CP se muestra en forma de alerta en el navegador, pero no se inserta en el campo.
+	(QA-WEB-82 - Campo CP en catalogo de tiendas) (1 hora)
+7) Se corrigio bug El campo de Codigo postal no se visualiza en la edicion de tiendas (QA-WEB-82 - Campo CP en catalogo de tiendas) (30 min)
+8) Subir al serve (30 min)
+
+
+
+
+
+
+21-09-2023
+1) Api con leonardo al editar un producto pedido no estaba funcionando (1 hora) 
+2) Aclaracion del punto con karla(QA-WEB-78) (30 min)
+3) Se corrigio bug: Al Ver una tienda se muestra el CP correctamente, pero al editarla se muestra vacio el campo. 
+	(QA-WEB-82 - Campo CP en catalogo de tiendas) (1 hora)	
+4) Se avanzo en el bug QA-WEB-78 - Recuperacion de contraseña pero aun no esta listo (1 hora)
+5) Se modifico api de registro para que creara el numero de afiliacion, para vendedores y vendedores asociados (2 hora)
+6) Subir al serve (30 min)
+
+
+
+
+
+
+
+NOTA: El error que estás viendo se debe a que la fecha '1922-09-19' Se considera una fecha antigua y MySQL tiene limitaciones en cuanto al rango de fechas 		(QA-WEB-86 - Ingreso de fecha incorrecta - bug)
+	SE DEBE AGREGAR UNOS COMANDO 
+
+
+
+El error que estás viendo se debe a que la fecha '1922-09-19' se considera una fecha antigua y MySQL tiene limitaciones en cuanto al rango de fechas que 		puede manejar por defecto. El error que estás viendo es específico de MySQL y se debe a que la fecha que estás intentando insertar está fuera del 		rango de fechas admitido por MySQL por defecto.
+
+	Para solucionar este problema, puedes considerar las siguientes opciones:
+
+	Actualizar la configuración de MySQL: Puedes modificar la configuración de MySQL para permitir fechas fuera del rango predeterminado. Para 		hacerlo, debes cambiar el modo de SQL tradicional a modo ANSI. Agrega la siguiente línea en la configuración de MySQL (generalmente en el archivo 		my.cnf o my.ini):
+
+	makefile
+	Copy code
+	sql_mode = "NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+	Luego, reinicia el servidor MySQL para que los cambios surtan efecto.
+
+	Usar un formato de fecha diferente: En lugar de usar el formato 'YYYY-MM-DD', puedes usar otro formato de fecha, como 'YYYYMMDD' (sin guiones ni 		separadores) al insertar fechas antiguas. Luego, cuando necesites mostrar o manipular las fechas en tu aplicación, puedes formatearlas 		adecuadamente.
+
+	Almacenar la fecha como texto: Si no necesitas realizar cálculos basados en estas fechas y solo las estás almacenando para fines de visualización, 	puedes considerar almacenar la fecha como una cadena de texto en lugar de un valor de fecha. Sin embargo, esto no es recomendable si planeas 	realizar operaciones de fecha en la base de datos.
+
+	La opción que elijas dependerá de tus necesidades y restricciones específicas del proyecto. Asegúrate de comprender las implicaciones de cada 	opción antes de implementarla.
+
+
+		
+
+
+
+22-09-2023
+1) Daily Rinna (40min)
+2) Se modifico api de api/pedido/105 para que el cálculo de cantida se multiplicara con el monto (2 hora 30min)
+3) Se ajusto api de registro para que crear el numero de afiliacion, ya que no estaba funcionando bien (30 min)
+4) Api sobre el estatus del pedido (1 hora)
+5) Subir al server (30 min)
+
+
+02-10-2023
+1) Daily Rinna (30min)
+2) Se estuvo analizando y modificando apis getPedidos, añadirProductoPedido y editarProductoPedido (6 horas)
+
+03-10-2023
+1) Daily Rinna (55min)
+2) Estimacion tarjetas de oddo (1 hora)
+3) Se modifico api editarProductoPedido (4 horas)
+4) QA-WEB-82 - Campo CP en catalogo de tiendas (1 hora 30 min)
+5) Subir al server (30 min)
+
+
+
+04-10-2023
+1) Daily Rinna (20min)
+2) QA-WEB-92 - Campo CP no se actualiza (2 horas)
+3) QA-WEB-78 - Recuperacion de contraseña (1 hora 30min) (70%)
+4) QA-WEB-86 - Ingreso de fecha incorrecta - bug (3horas)
+5) Subir al server (30 min)
+
+
+
+
+05-10-2023
+1) Daily Rinna (20min)
+2) QA-WEB-78 - Recuperacion de contraseña (2 hora)
+3) Api de login, se agrego datos de tienda (3 hora)
+
+05-10-2023
+1) Daily Acipack (1 hora)
+
+
+
+
+
+
+06-10-2023
+1) Daily Rinna (20min)
+2) QA-WEB-78 Se ajusto validacion de clave para pantalla restaurar constraseña (1 hora)
+3) Ajuste regla de negocio en direcciones pantalla vendedor (1 hora) (50%)
+4) El correo de recuperacion se muestra en ingles. (1 hora)
+5) Subir al server (30min)
+
+06-10-2023
+1) Revision proyecto acipack observando algunos bugs a nivel de codigo (2 horas)
+
+
+
+
+
+
+09-10-2023
+1) Error en el api de api/pedidos/cupon no estaba permitiendo guardar (1 hora 30 min)
+2) Ajuste regla de negocio en direcciones pantalla vendedor (2 hora 30 min) (100%)
+3) QA-WEB-73 - Pantalla en negro al caducar la sesion (50%) (2 horas)
+4) Subir al server (30min)
+
+7horas
+
+10-10-2023
+1) Daily Rinna (30min)
+2) Api api/pedidos/cupon no estaba mostrando algunos datos, tambien tenia un error al aplicar el cupon o vale (3 horas) (70%)
+3) QA-WEB-73 - Pantalla en negro al caducar la sesion (100%) (2 horas)
+4) Subir al server (30min)
+
+
+5) QA-WEB-73 - Pantalla en negro al caducar la sesion
+	Al caducar la sesion y estando en la seccion de configuracion, al reactivar la actividad en el sitio se muestra la pantalla. (2 hora)
+
+
+11-10-2023
+1) Daily Rinna (30min)
+2) Api api/pedidos/cupon correcciones (4 horas)
+3) QA-WEB-98 - Detalles en vales/cupones, pantalla de ver y editar fechas de inicio y fecha fin (QA-WEB-98 - Detalles en vales/cupones) (30 min) 
+4) 2.-Al editar un vale, se muestra siempre asignado al usuario 200: Dis. Leon Rinna Bruni, aunque el vale no se haya creado para ese usuario.
+   (QA-WEB-98 - Detalles en vales/cupones) (1 hora)
+5) Al crear un cupón y dar clic en wl check  de Aplicar a un usuario especifico y se guarda, se muestra una alerta. Se debe renombrar el texto "user id" 		por "usuario"  (QA-WEB-97 - Renombrar alerta en cupones) (30 min)
+6) Subir al server (30min)
+
+
+12-10-2023
+1) Daily Rinna (30min)
+2) QA-WEB-97 - Renombrar alerta en cupones (1 hora) (60%)
+3) QA-WEB-86 - Ingreso de fecha incorrecta - bug (4 horas) (90%)
+   Se revisó en conjunto con Miguel y se acordó cambiar el tipo de campo a date,
+   Esto se realizó a traves de migraciones con el objetivo de proteger los datos,
+   Se crea el archivo y se corrigieron algunos datos para poder correr la migracion,
+   Se subieron archivos al server y se ejecutó la migracion con exito, se validó que guarde los datos,
+   hay que corregir para que al visualizar y editar se muestre el dato guardado.
+4) Subir al server y correr migraciones via ssh (20min)
+
+
+13-10-2023
+1) Daily Rinna (30min)
+2) QA-WEB-86 - Ingreso de fecha incorrecta, no se mostraba la fecha en los formularios - bug (1 hora) (100%)
+3) En la creacion de un cupon, al haber seleccionado el check Aplicar a un usuario espcifico pero sin seleccionar alguno, al dar clic en guardar se 	limpian todos los campos del cupon, teniendolos que volver a capturar. 
+	QA-WEB-97 - Renombrar alerta en cupones (2 horas)
+4) Usuario para exclusivamente para la app (1 hora 30 min)
+5) Subir al server y correr migraciones via ssh (20min)
+
+
+16-10-2023
+RINNA BRUNI
+1) Daily Rinna (30min)
+2) Correcion de api login para el usuario especial (1 hora)
+
+DALTON
+1) Reunion donde se explico lo basico requerido del nuevo proyecto y se hizo entrega de dos videos (1 hora)
+2) Se reviso primer video (30 min)
+3) Se reviso segundo video (30 min)
+
+
+17-10-2023
+Dalton
+1) Reunión con Delia Margarita dónde se me asignó crear un proyecto backend de .net core con 3 capas (15 min)
+2) Se invirtió creando un proyecto backend de .net core con 3 capas (4 horas) 50%
+
+
+18-10-2023
+Dalton
+1) Reunión con Delia Margarita con el propósito de instalar un vpn para poder levantar el proyecto (1 hora) No completado.
+2) Se me fue entregado el acceso al repositorio Dalton Go y se descargó el proyecto desde la rama de Desarrollo. (1 hora)
+3) Se levantó el proyecto en el navegador, se visualizó la pantalla de login aunque no se pudo acceder por el tema de la vpn (1 hora)
+
+
+
+19-10-2023
+Dalton
+1) Se invirtió creando un proyecto backend de .net 6 con 3 capas (6 horas) 75%
+
+
+20-10-2023
+Dalton
+1) Se invirtió creando un proyecto backend de .net 6 con 3 capas (se añadió capa adicional para poder conectarse a una segunda bd) (6 horas) 90%
+
+
+23-10-2023
+RINNA BRUNI
+1) Daily Rinna (20min)
+3) Analisis de RB04 - CMS Productos - Especificaciones y datos del producto (2 horas)
+2) Daily Rinna dudas (15min)
+3) Bug QA-WEB-103 - Validar la fecha de vigencia cupon/vale (2 horas)
+
+
+
+
+24-10-2023
+RINNA BRUNI
+1) Daily Rinna (20min)
+
+
+ACIPACK
+1) Se mostró las opciones de filtrado en pagina ingles (2 horas)
+2) Se ajusto texto en pantalla detalle producto (10min)
+3) Se trabajó en mostrado de resultados del filtrado (4 horas) (60%)
+
+
+
+25-10-2023
+ACIPACK
+1) Se trabajó en mostrado de resultados del filtrado (4 horas) (100%)
+2) Se corrigíó paginado al filtrar en sitio español e ingles (2 horas)
+
+RINNA BRUNI
+1) Daily Rinna (20min)
+
+
+
+26-10-2023
+ACIPACK
+1) Se compilo el proyecto de acipak y se publico en qa (1 hora) (100%)
+2) Se realizo revision en proyecto junto con lisandro (1 hora 30)
+
+RINNA BRUNI
+1) RB-CC-28 - Pedido - Exportar pedido para impresión - Se agrego boton en la tabla pedidos para generar reporte (30 min)
+2) RB-CC-28 - Pedido - Exportar pedido para impresión - Se corrigio reporte (2 horas)
+3) Api de leonardo (30 min)
+4) Se subio al server de rinna y se realizo merge a rama dev en git (30min)
+
+
+
+27-10-2023
+ACIPACK
+1) Se compilo nuevamente ya que se corrigio algunos textos (1 hora)
+
+RINNA BRUNI
+1) RB-CC-28 - Pedido - Exportar pedido para impresión - Se agrego boton en la tabla pedidos para generar reporte (30 min)
+2) RB-CC-28 - Pedido - Exportar pedido para impresión bug en el servidor se esta corrigiendo (2 horas)
+3) Se soluciono bug relacionado con el api de pedidos, ya que mostraba pedidos duplicado en vez de realizar la sumatoria y mostrar solamente uno (2 hora)
+
+Serviviajes
+1) Meet inicial (30min)
+
+
+
+
+
+
+30-10-2023
+RINNA BRUNI
+1) Se soluciono bug relacionado con el api de pedidos, ya que mostraba pedidos duplicado en vez de realizar la sumatoria y mostrar solamente uno (1 hora)
+2) RB-CC-28 - Pedido - se reviso nuevamente con francisco ya que estaba presenetando otro problema (30 min)
+
+Serviviajes
+1) Daily (30min)
+2) Se clono proyecto servyviajes y se levanto (2 horas) 
+3) Daily raul (15 min)
+4) Se intento integrar plantilla en angular 16 (1 hora)
+
+
+31-10-2023
+Serviviajes
+1) Daily serviviajes (15min)
+2) Se descargó nueva plantilla de angular, se instalaron dependencias y se levantó para observarla. (30min)
+3) Se generó nuevo core de laravel 10, se configuraron middleware, se anexó dependencia de jwt (1 hora)
+4) Se crearon tablas roles, usuarios, permisos y permisologia desde las migraciones de laravel (2 horas)
+5) Se crearon endpoints de registro de usuarios y roles, tambien se agregó proteccion con jwt (1 hora 30min)
+6) Se creó api de login con su password encriptado con bycript y que generase el token jwt para ser usado en otras solicitudes. (2 horas)
+
+(7 horas 15 min)
+
+01-11-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Api de login, se guardo el tipo de rol, correo en el jwt (1 hora)
+3) Al poner los productos el titulo todavía dice “PHARMACEUTICAL INDUSTRY” (Versión ingles) (Acipack)
+	-El nombre de los productos no sale, esto quiero pensar que es error mío al no saber cómo poner todo  (versión ingles)
+	-Si tomo una categoría de capacidad y no hay ningún producto asignado me sale en español “NO HAY PRODUCTOS EN ESTA CATEGORIA”  (Versión ingles)
+	-Todavía si mezclo los criterios de búsqueda y no hay nada, al quitarlos ya no me sale nada.  (Ambas versiones)
+	-Ver si nos pueden ayudar a modificar el correo que sale, actualmente sale info@acipack.com.mx, si nos pueden ayudar a que ahora salga 			"contacto@acipack.com.mx" (2 horas)
+4) Se trabajo en pagina de login para intentar loguearse como admin, se realizó servicio de login apuntando al api del backend,
+se manejó mensajes de errores y redireccion a menú principal (se esta validando guardian de rutas). (3 horas 30)
+
+
+
+02-11-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se organizó y se subió a los respositorios respectivos el frontend y el backend por primera vez (2 horas)
+3) Se trató logica de login y correccion de errores, guardian e interceptor de la plantilla frontend, ya que la misma contiene ese flujo en todo el proyecto. (2 horas)
+4) Se corrigió endpoint de login en el backend para que retornara la estructura de datos como lo requeria el front (30min)
+5) Se personalizó pantalla de menu administrativo, logos datos desde el storage, etc. (1 hora).
+6) Se ocultaron botones, textos y enlaces que no se usarian de la plantilla (30min)
+7) Se creó formulario de perfil dentro del panel (30min)
+8) Se colocó funcionalidad de logout y loading con logo de serviviajes (30min)
+
+
+03-11-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se tradujo todos los texto tanto como el del login, registro, restablecer contraseña y cerrar sesión (1 hora)
+3) Se termino de configurar el token para el estado de permanencia en el administrativo (2 horas)
+4) Se mostro la data del usuario logueado en el perfil del usuario (2 horas) se tardó un poco ya que la data de la session viene de un store.
+5) Se subió backend al server (1 hora)
+6) Se subio front y back a sus respectivos repos (20min)
+
+
+
+06-11-2023
+Serviviajes
+1) Daily serviviajes (20min)
+2) Vista tabla de asistentes (2 horas) (90%)
+3) Formulario registro asistente (4 horas) (90%)
+
+
+
+
+07-11-2023
+Serviviajes
+1) Daily serviviajes (20min)
+2) Vista tabla de asistentes (30min) (100%)
+3) Formulario registro asistente (30 min) (100%)
+4) Vista tabla de configuracion eventos (2 horas) (100%)
+5) Formulario registro configuracion eventos (3horas) (100%)
+6) Subir a los respectivos repositorios (10min)
+
+
+08-11-2023
+Serviviajes
+1) Daily serviviajes (20min)
+2) Se halitaron las CORS en back (30 min)
+3) Se subio proyecto de back (30 min)
+4) Se testeo frontend desde local apuntando al back del servidor (15 min)
+5) Se creo vistas modulo categorias (3 hora)
+6) Se corrigio resposive en los modulos de asistentes, eventos y categorias (1 hora 30 min)  
+7) Se agrego paginado en las tablas de asistentes, eventos y categorias (1 hora)
+8) Se subió frontend al servidor (20 min)
+9) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+09-11-2023
+Serviviajes
+1) Daily serviviajes (25min) 
+2) Se agrego input para confirmar clave en el registro de usuarios (30 min) 
+3) Se creo pantalla menú con sus tres card (1 hora)
+4) Se quito icono en todas los input de la pantalla perfil, asistente, evento y categoria (1 hora) 
+5) Se corrigio texto mal mapedo de categoria (10 min) 
+6) Se quito input usuario en el perfil de usuario (10 min) 
+7) Se quitarion las paginas adicionales que trea la plantilla (30 min) 
+8) Se tradujeron otros texto de ingles a español y se quitaron otros que no eran necesarios (45 min) 
+9) Se cambio nombre engrane digital por Susana Cuéllar (15 min) 
+10) Se quito icono de subir archivos en la pantalla eventos y categorias (15 min) 
+11) Se agrego select para fecha inicial y fecha termino (30 min) 
+12) Se agrego input para confirmar clave en el perfil de usuarios (30 min) 
+13) Se trabajo en la siguiente pantalla de crear un asistentes (1 hora) 50% 
+
+7 hora 15 min
+
+
+
+
+
+
+10-11-2023
+Serviviajes
+1) Daily serviviajes (30min) 
+2) Meet serviviajes cliente (1 hora) 
+3) Se quitaron opciones de busqueda y shortcuts en la parte superior derecha (15 min)
+4) Se dejo en las tabla un solo registro para asistentes, eventos y categoria (30 min)
+5) Se quito imagen de perfil por defecto y se agrego avatar tradicional (20 min)	
+6) Se agrego icono de camara al lado de la imagen de perfil (1 hora)
+7) Se corrigio texto repita su contraseña en perfil (15 min)
+8) Meet serviviajes retrospectiva (1 hora) 
+9) Se subió frontend al servidor (15 min)
+10) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+13-11-2023
+Serviviajes
+1) Daily serviviajes (40min) 
+2) Se creo api para guardar categorias (45 min)
+3) Se creo servicio para guardar categorias desde el FrontEnd (1 hora)
+4) Se creo api para listar categorias (30 min)
+5) Se creo servicio para listar todas las categorias desde el FrontEnd (30 min)
+6) A ambas apis se les aplicó jwt para verificar si el usuario actual esta logueado con la finalidad de que pueda realizar las peticiones (45 min)
+7) A parte se creo swicher para activar y desactivar una categoria (1 hora)
+8) Se crearon migraciones para la creacion de tabla categoria en base de datos (1 hora)
+9) Se subió frontend y backend al servidor (15 min)
+10) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+14-11-2023
+Serviviajes
+1) Daily serviviajes (40min) 
+2) Se creó formulario de editar categoria (45 min)
+3) Se creó api para editar categoria (1 hora)
+4) Se creó api para eliminar categoria (30 min)
+5) Se trabajó en los estilos del badge de estatus de categorias (45 min)
+6) Se creó vista tabla de hoteles (1 hora 30 min)
+7) Se creó módulo crear hoteles (2 hora 30 min) (95%)
+8) Se subió frontend y backend al servidor (15 min)
+9) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+8.05
+
+
+15-11-2023
+Serviviajes
+1) Daily serviviajes (20min) 
+2) Se listo los hoteles (1 hora)
+3) Se creó api para listar, crear, editar y eliminar hoteles (4 horas)
+4) Se trabajo al crear hoteles, falta los servicio disponibles y galeria (1 hora) (70%)
+5) Se trabajo en las alertas al crear, editar  y eliminar (1 hora)
+6) Se subió frontend y backend al servidor (15 min)
+7) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+16-11-2023
+Serviviajes
+1) Daily serviviajes (20min) 
+2) Se creo la migracion de la tabla servicios y galerias (1 hora)
+3) Se modifico api crear hotel para que tomara en cuenta los servicios (1 hora)
+4) En la vista crear hotel se realizo la integración pora que guardase los servicios de una manera dinamica (2 horas)
+5) Se modifico el api de listar hoteles, trayendo la informacion de los servicios (1 hora)
+6) En la tabla listar hoteles se añadio iconos de habitaciones disponibles y ver habitaciones (30 min) 
+7) Avances en api guardar imgenes de la galeria (1 hora) 50%
+8) Se subió frontend y backend al servidor (15 min)
+9) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+
+17-11-2023
+Serviviajes
+1) Daily serviviajes (20min) 
+2) Se creo la migracion de las imagenes (30 min)
+3) Se creo diseño de carusel (1 hora)
+4) Se creo api de guardar imagenes (2 horas)
+5) Se integro funcionalidad de api guardar imagen con el carusel (2 horas 30 min)  (hay error en la imagen creada en back)
+6) Al intentar guardar las imagenes estas son convertidas en base64 para que sea mas liviano al subir (1 hora)
+
+
+
+21-11-2023
+Serviviajes
+1) Daily serviviajes (30min) 
+2) Se corrigio funcionalidad de guardado de imagenes en el back (1 hora 30 min)
+3) Se creo servicio en el front para pasar paramtros entre vistas con la finalidad de enviar la data desde la tabla hasta la vista 
+	del formulario editar (1 hora)
+4) Se pintaron los datos en el formulario editar, tambien los servicios dinamicos (1 hora)
+5) Se realizo funcionalidad de editar en la pantalla (2 horas)
+6) Se guardaron los servicios dinamicamente desde la pantalla de editar (1 hora)
+7) Hay un error subiendo las imagenes desde la pantalla de editar hoteles (1 hora) (ajustando)
+
+
+
+22-11-2023
+Serviviajes
+1) Daily serviviajes (30min) 
+2) Hay un error subiendo las imagenes desde la pantalla de editar hoteles (1 hora 30 min) (100%)
+3) Se creo api unicamente para eliminar y agregar imagenes en la pantalla de editar (1 hora)
+4) Se soluciono tambien un bug en la pantalla editar hotel con respecto a agregar y eliminar servicios (2 horas 30)
+5) Se agrego campo estatus en la vista de la tabla hotel (10 min)
+6) Se corrieron migraciones en el servidor para agregar tablas nuevas a la bd (15 min)
+7) Se subio codigo al servidor (15 min)
+8) Se realizó diseño vista tabla catalogo de descuentos (1 hora 30min) (50%)
+
+
+23-11-2023
+Serviviajes
+1) Daily serviviajes (30min) 
+2) Se agrego alerta antes de eliminar una imagen al editar un hotel (30 min)
+3) Se agrego icono en el boton eliminar para el carrusel de imagenes (15 min)
+4) Se corrigio error que presentaba al agregar una imagen para el carousel de imagenes, ya que se agregaban mas de una (1 hora)
+5) Se creo pantalla crear descuento (1 hora 30 min)
+6) Se creo pantalla editar descuento (30 min)
+7) Se crearon tarjeta de hoteles y descuento en el menú, aparte se agrego funcion para que cada tarjeta llevara a su cátalogo (1 hora)
+8) Se corrigio palabra de seconds al cerrar la sesion (10 min)
+9) Se trabajo en la validacion (login) de asistentes (1 hora 30 min) (50%)
+
+
+24-11-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se implemento el login por tipo de usuario en el front, con la idea de porder ver las opciones de menú, segun el tipo de usuario. 
+	Se toco front y back (5 horas)
+3) Se subió frontend y backend al servidor (15 min)
+4) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+27-11-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se mostraron tarjetas de menu de acuerdo al usuario logueado (2 horas)
+3) Se agrego boton de ver en el cátalogo de descuentos (15 min)
+4) Daily con el cliente + retroalimentación (1 hora)
+5) Se trabajo en modulo de perfil de usuario mostrando formulario de acuerdo al tipo de usuario (2 horas 30 min)
+6) Se subió frontend y backend al servidor (15 min)
+7) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+28-11-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se crearon migraciones para las tablas eventos y eventos categoria (1 hora 30min)
+3) Se creó controlador de evento, servicio de evento y modelo de evento en backend (2 horas)
+4) Se creó api evento, valida su token, valida que no contenga valores vacios, registra los eventos y sus categorias, se validó desde postman (2 horas)
+5) Se ajustó data y servicio desde el front en el modulo eventos (falta hacer que guarde desde acá) (1 hora)
+6) Se subió frontend y backend al servidor (15 min)
+7) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+
+29-11-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se agrego funcionalidad de guardado en formulario de eventos (2 horas 30 min) (100%)
+3) Se agrego funcionalida de pantalla listar eventos (1 hora 30 min)
+4) Se creo api para eliminar un evento y categorias disponibles en eventos (1 hora 30 min)
+5) Se subió frontend y backend al servidor (15 min)
+6) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+
+
+
+30-11-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se corrigio texto en las alertas de eliminar eventos, categorias y hoteles (30 min)
+3) Se agregaron iconos de guardar y cancelar en todos los catálogos (30 min)
+4) Se agregó funcionalidad a pantalla de editar eventos (3 horas 30min)
+5) Se creó api de editar eventos (1 hora 30min)
+5) Se subió frontend y backend al servidor (15 min)
+6) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+01-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se dejo el check de activar eventos en activo por defecto (15 min)
+3) Se cambio a tipo number el input costo en la pantalla eventos y se actualizo campo costo por float (30 min)
+4) Se resolvio bug de imagenes en hoteles (1 hora 30 min)
+5) Solamente se listan las categorias activas en módulo eventos (1 hora)
+6) Se realizaron las apis para el módulo de descuento (CRUD) (3 horas 30 min)
+7) Se subió frontend y backend al servidor (15 min)
+8) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+04-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creo funcionalidad para crear descuentos (1 hora 30 min)
+3) Se creo funcionalidad para editar descuentos (1 hora 30 min)
+4) Se creo funcion para eliminar descuentos (45 min)
+5) Se agrego alerta de confirmación al presionar cancelar cuando se crea o edita un catalogo (1 hora 30 min)
+6) Se creo pantalla ver descuento con funcionalidad (30 min)
+7) Se corrigio bug al crear o editar un evento, hotel, descuento y categorias ya que si el nombre estaba en uso, 
+	no generaba la notificación (45 min)	
+7) Se subió frontend y backend al servidor (15 min)
+8) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+
+05-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creo migracion para tabla paises (30 min)
+3) Se creo migracion para tabla regimen fiscal (30 min)
+4) Se creo migracion para tabla cfdi (30 min)
+5) Se creo migracion para tabla tipó de pago (30 min)
+6) Se creo migracion para tabla asistentes (1 hora)
+7) Se creo migracion para tabla comprobante de pago (45 min)
+8) Se creo migracion para tabla constancia pago (20 min)
+9) Se creo api para crear asistentes (2 hora 30 min)
+10) Se subió frontend y backend al servidor (15 min)
+11) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+06-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creo api para listar asisentes relacionado con eventos, categorias y tipos de pagos (2 horas 30 min)
+3) Se creo servicio para mostrar los asistentes en el front (30 min)
+4) Se ajustaron campos al crear un asistente, como grado academico, estado y ciudad de tipo texto (15 min)
+5) Se agrego textarea para comentarios en facturación al crear un asistente (10 min)
+6) Se creo api para obtener países (30 min)
+7) Se creo servicio para obtener países y mostrarlos en el formulario de crear asistentes (30 min)
+8) Se creo api para obtener eventos (30 min)
+9) Se creo servicio para obtener eventos y mostrarlos en el formulario de crear asistentes (30 min)
+10) Se anexo servicio para guardar un aseistente desde el front (2 horas)
+
+
+
+07-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se agregoron campos nuevos al crear un asistentes regimen fiscal y cfdi (20 min)
+3) Se creo api de regimenes fiscales (1 hora)
+4) Se creo api de cfdi (1 hora)
+5) Se creo servicio de regimenes fiscales para el front (30 min)
+6) Se creo servicio de cfdi para el front (30 min)
+7) Se agrego funcion en el formulario crear asistentes para que el usuario acepte los terminos (45 min)
+8) Se creo api para obtener los tipos de pagos disponibles (45 min)
+9) Se trabajo en la siguiente pantalla para registrar el comprobante de un asistente (1 hora) Se creó diseño y se cargo el select de tipos de pagos
+10) Se subió frontend y backend al servidor (15 min)
+11) Se subió frontend y backend a sus respectivos repositorios (10 min)
+
+
+08-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creo api de categorias disponibles para obterner los eventos asociados a esa categoria (3 horas)
+3) Se realizo select de categoria dinamico para llenar el de eventos de acuerdo a los eventos asosciados (1 hora 30 min)
+4) Se trabajo en el checkbock para desabilitar y habilitar los campos y select de facturación (1 hora)
+5) Se trajabo en el check de termino y condiciones para que el usuario acepte los terminos y asi poder guardar o continuar (1 hora) 
+6) Se subió frontend y backend a sus respectivos repositorios (10 min)
+7) Daily con la cliente susana y retrospetiva (1 hora 30)
+
+
+11-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se cambio checkbock por radio si o no en asistente (45 min)
+3) Se quito boton de guardar en el primer formulario de asistente (10 min)
+4) Se trabajo en el formulario crear asistente, para que el boton de continuar se mostrara deshabilitado (45 min)
+5) Ya se guardan asistentes con la siguinte pantalla, solo falta los comprobantes (2 hora 30 min)
+6) Se trabajo en la funcion subir constancias, ya que tiene que ser imagen y pdf (1 hora 30 min) (50%)
+
+
+
+12-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se realizo subida de cargar de constancias y comprobantes al servidor de tipo pdf o imagen (4 horas)
+3) Se modificó api listar asistente para obtener el comprobante de pago y mostrar la img (1 hora)
+4) Se mostró en el frontend desde un modal el comprobante de pago, sea imagen o pdf (2 horas)
+5) Se subieron cambios de front y backend a los repositorios
+
+
+13-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se cambio nombre de boton Cargar Comprobante de Pago + funcionalidad cambiante cuando se cargue una imagen o pdf +
+	Mas validacion para que solo sea png, jpg, jpeg y pdf (1 hora 30 min) 
+3) Se centro boton para ver comprobante y se cambio icono (10 min)
+4) Se agrego texto de campos requeridos formulario asistestes (30 min)
+5) Se cambio precio por texto sub total (10 min)
+6) Se realizo funcionalidad regresar (1 hora 30 min) (80%)
+7) Se ajusto api de eventos, para mostrar las categorias asiciadas (30 min)
+8) Se filtro costo y categoria de acuerdo al evento seleccionado (1 hora)
+
+
+14-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Beca opcional (10)
+3) Se corrigio bug al crear un asistentes, ya que quedaban marcados los datos en el formulario del registro anterior (30 min)
+4) Se llenaron los select al presionar el boton regresar en la segunda pantalla de crear asistentes (1 hora 30 min)
+5) Se filtraron las categorias activas pertenecientes al evento (30 min)
+6) Se colocó como campo opcional el campo codigo beca, en el front y back (30 min)
+7) Se agrego alerta al presionar cancelar el registro (30 min)
+8) Se corrigio bug de fechas en ingles (1 hora)
+9) Daily serviviajes (analisis) (30min)
+10) Se subió al server backend y frontend y se verificó funcionamiento de asistentes (15min)
+11) Se crearon carpetas de imagenes y pdf y se le dieron permisos en el server (10min)
+12) Se corrieron migraciones en el server (10min)
+
+
+15-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se agrego color en el check de activar en categorias, hoteles, eventos y descuento (30 min)
+3) Se creo pantalla de ver asistentes con su data (2 horas 30 min)
+4) Se creo migracion nueva para crear campos nuevos de check in y check out en la tabla hotels (30 min)
+5) Se modifico api de crear hoteles más modelo para agregar check in y check out  (30 min)
+6) Se agregaron campos nuevo check in y check out al crear y editar hoteles (1 hora 30 min)
+7) Se subieron cambios de front y backend a los repositorios (15 min)
+8) Se subieron cambios de front y backend al serve (15 min)
+
+
+
+
+
+18-12-2023
+Serviviajes
+1) Daily serviviajes (15min)
+2) Se creo migracion para crear un campo cantidad disponible en la tabla descuentos (30 min)
+3) Se agrego columna cantidad disponible en la tabla descuento y se modifico la columna Cantidad de usos por Cantidad creada (30 min)
+4) Se realizo funcionalidad para agregar la cantidad disponible (30 min)
+5) Se trabajo en la pantalla editar asistentes (2 hora 30 min) (50%)
+6) Se corrigio bug cambiar a opcional el hotel sede, en el front y back + migracion (1 hora)
+7) Daily con Emiliano para mostrarle el flujo de trabajo (30min)
+8) Se subieron cambios de front y backend a los repositorios (15 min)
+9) Se subieron cambios de front y backend al serve (15 min)
+
+
+
+19-12-2023
+Serviviajes
+1) Daily serviviajes (15min)
+2) Hacer mayúscula la V en vigencia 
+	 Agregar acento en la palabra Código
+	 Mostrar la fecha en español (20 min)
+3) Se corrigo palabra categoria por Categoría en todo el proyecto (30 min) 
+4) Se agrego funcionalidad de ver constancias más comprobante en la pantalla editar y ver asistentes (2 hora)
+5) Se corrigio select de eventos, categorias, regimen fiscal y cfdi por inputs en la pantalla ver de asistentes(1 hora 30 min)
+6) Se agrego segunda parte de la pantalla crear asistentes en el modulo ver y editar (2 horas)
+7) Se agrego clase not allowed para la pantalla ver de assistentes y para input de eventos, categoria, cfdi y regimen fiscal (30 min)
+8) Se agrego funcionalidad de editar en un 80%, falta api backEnd (30min)
+
+
+20-12-2023
+Serviviajes
+1) Daily serviviajes (50min)
+2) Se realizo api para actualizar un asistentes (2 horas)
+3) Se creo servicio en el front para actualizar asistentes (30 min)
+4) Se creo api para eleminar un asistente (30 min)
+5) Se creo servicio y funcionalidad para eliminar un asistente (50 min)
+6) Se creo pantalla de listar habitaciones disponibles (1 hora 30min)
+7) Se creo pantalla de crear habitaciones disponibles (1 hora 30 min)(50%)
+8) Se subieron cambios de front y backend a los repositorios (15 min)
+
+
+21-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Daily con emiliano (30 min)
+3) Se corrigio bug: Al crear un evento sin asignar un Hotel sede, se esta asignando por default el hotel Century 
+	(primero en el catalogo  de hoteles) (45 min)
+4) Se corrigio bug: Al editar la fecha de un evento se muestra un error (30 min)
+5) Se envestigo temas de fechas en español, pero se tiene que instalar dependencias y hacer pruebas (50 min)
+6) Se creo migracion en el back de tipos de planes (30 min)
+7) Se creo servicio de tipos de planes en el front (30 min)
+8) Se agregaron selects de hoteles + tipos de planes al crear una habitacion por hotel  (1 hora)
+9) Se agregaron label en la pantalla crear habitaciones por hoteles (30 min)
+10) Se creo migracion de habitaciones por hotel (30 min)
+11) Se creo api de lista habitaciones por hoteles + modelo (30 min)
+12) Se creo api de crear habitaciones por hoteles + modelo (1 hora 30 min)
+13) Se hizo guardar de habitaciones por hoteles (1 hora 30 min)
+14) Se hizo listar de habitaciones por hoteles (1 hora)
+15) Se subieron cambios de front y backend a los repositorios (15 min)
+17) Se subieron cambios de front y backend al serve (20 min)
+
+
+22-12-2023
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creo migracion nueva para agregar una columna mas en la tabla habitaciones por hoteles llamada "cantidad_registrada" (30 min)
+3) Se corrigio en el back y front para agregar informacion cantidad_registrada y mostrar tambien en la tabla de habitaciones por hoteles 
+	(30 min)
+4) Se creo api en el back para actualizar habitacion por hotel (30 min)
+5) Se creo api en el back para eliminar una habitacion por hotel (30 min)
+6) Se crearon servicios para editar y eliminar en el front de habitaciones por hoteles (20 min)
+7) Se creo pantalla editar habitaciones por hoteles con la data correspondiente (2 horas 30 min)
+8) Se creo pantalla ver habitaciones por hoteles con la data correspondiente (2 horas)
+9) Se creo funcionalidad en el front para eliminar habitacion por hotel (30 min)
+10) Se creo pantalla ver evento con la data correspondiente (1 hora 30 min)
+11) Se creo pantalla ver hotel con la data correspondiente (1 hora 30 min)
+12) Se corrigio palabla tripe por triple en cátalogo habitaciones por hoteles (10 min)
+13) Se corrigio palabla máxina por máxima cátalogo habitaciones por hoteles  (10 min)
+14) Se corrigio palabla holtel por hotel cátalogo hoteles por hoteles  (10 min)
+15) Se subieron cambios de front y backend a los repositorios (15 min)
+17) Se subieron cambios de front y backend al serve (20 min)
+
+
+
+05-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se descargo el front y back, se levanto proyecto y se analizo nuevos cambios (1 hora 30min)
+3) Se corrigio bug: Al crear un hotel mostrar el formulario con estatus Activo (20 min)
+4) Se corrigio bug: En facturacion, al seleccionar No requiero, se debe de bloquear o inhabilitar el botón de cargar 
+		    constancia de situación fiscal. (1 hora)
+5) Se corrigio bug: Cuando no se cargó alguna constancia/comprobante de pago no se permite subir algún archivo.
+			Tambien se corrigio en el ver (1 hora 30 min)
+6) Se corrigio bug: Mostrar la fecha en español pantalla ver descuento (20 min)
+7) Se agrego filtro en el catalogo de Habitaciones x Hotel. Solo maquetado (30 min)
+8) Se corrigio bug: Agregar acento ortográfico en las palabras Cuádruple y mínima, cátalogo hoteles crear, editar y ver (15 min)
+9) Se corrgio bug al ver constancias y comprobantes, ya que se levantaba el modal sin mostrar nada (1 hora)
+10) Se subieron cambios de front y backend a los repositorios (15 min)
+11) Se subieron cambios de front y backend al serve (20 min)
+
+8 horas
+
+
+08-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se corrigio bug: Al editar una HabitacionxHotel, la columna de cantidad registrada no actualizó la cantidad, unicamente se actualizó la 	disponible. (1 hora)
+3) Se creo servicio para llenar los select de categorias en la pantalla de asistentes (1 hora)
+4) Se realizo funcionalidad mostrar informacion de la tabla de acuerdo a la categoria seleccionada (1 hora)
+5) Se realizo migracion para crear un campo más, llamado: estatus de pago en la tabla asistentes (30 min)
+6) Se llenaron los campos estatus de pago y se mostraron en la tabla para pruebas (30 min)
+7) Tambien se dejo funcionando filtro de estatus de pago y el buscador en la tabla asistentes (2 horas)
+
+
+
+09-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se mejoro al editar una Habitacion Hotel la Cantidad registrada y Cantidad disponible  (1 hora 30 min)
+3) Meet serviviajes Cynthia (30min)
+4) Se trabajo en los label y mensajes cuando un campo es requerido etc en la pantalla crear, editar y ver de asistentes y eventos (2 hora)
+5) Se estuvo trabajando en un bug referente al un span en la vista habitaciones por hoteles (1 hora ) 50%
+6) Se subieron cambios de front y backend a los repositorios (15 min)
+7) Se subieron cambios de front y backend al serve (20 min)
+8) Se trabajo en los label y mensajes cuando un campo es requerido etc en la pantalla crear, editar de categoria (30 min)
+
+
+10-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creo migracion para añadir 6 campos más en la tabla habitaciones por hoteles (45 min)
+3) Se crearon nuevos campos para infantes y junior en  la pantalla crear (30 min)
+4) Se creo check para habilitar sesion de junior (45 min)
+5) Se actualizo front y back catalogo de crear habitaciones por hotel con los nuevos campos (2 horas)
+6) Se crearon nuevos campos para infantes y junior en la pantalla editar (30 min)
+7) Se creo funcionalidad de check cuando se crea un registro con 'aplica', al editar muestre el check chekeado más 
+	los input abiertos, igualmente viceversa (1 hora)
+8) Se actualizo back para editar habitaciones por hoteles  con nuevos campos infantes y junior + aplica (1 hora)
+9) Se crearon nuevos campos para infantes y junior en la pantalla ver (30 min)
+10) Se llenaron los campos infantes y junior (30 min)
+11) Adicional se realizo funcionamiento de filtro de hoteles en la tabla de habitaciones por hoteles (1 hora)
+12) Se subieron cambios de front y backend a los repositorios (10 min)
+13) Se subieron cambios de front y backend al serve (10 min)
+
+
+11-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se corrigio bug: No se muestra la categoría para nuevos asistentes creados, corregido en la pantalla editar y ver (1 hora)
+3) Se creo pantalla de listar reservaciones (1 hora)
+4) Se realizo 1era pantalla de crear reservaciones (5 hora)
+
+
+12-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se termino de pulir la primero pantalla de crear reservaciones (1 hora 30 min)
+3) Se creo segunda pantalla de crear reservaciones (5 horas)
+4) Se subieron cambios de front y backend a los repositorios (10 min)
+5) Se subieron cambios de front y backend al serve (10 min)
+
+
+
+15-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Daily con emiliano (30min)
+3) Se corrigio bug de error ortografico reservasiones por reservaciones (10 min)
+4) Se corrigio bug: Sustituir el estatus En Proceso por Acreditado. El estatus Cancelado se puede eliminar. (30 min) (asistente)
+5) Se corrigio bug: Al crear una habitacion de un hotel, solo mostrar los hoteles que se encuentren activos,
+	Se corrigio api en el back y servicio, se soluciono tambien en la pantalla de eventos (1 hora) (habi y eventos)
+6) Se agregaron label en la pantalla de crear, editar y ver hotel + mensaje de validación (45 min)
+7) Se agregaron label en la pantalla de crear, editar y ver descuentos + mensaje de validación (45 min)
+8) Se agregaron label en la pantalla de crear, editar y ver eventos + mensaje de validación (20 min)
+9) Se trabajo en codigo de beca en el front y back (2 hora) 50%
+
+
+
+16-01-2024
+Serviviajes
+1) Daily serviviajes (45min)
+2) Se creo migracion de un campo mas llamado descuento en la tabla asistentes (30 min)
+3) Se finalizo funcion para aplicar código beca y descontar el monto total (2 hora)
+4) Se aplico resta de la cantidad disponible de descuento, cada ves que se aplique un cupon y se guarde (30 min)
+5) Estimación de tareas (30 min)
+6) Se subieron cambios de front y backend a los repositorios (10 min)
+7) Se subieron cambios de front y backend al serve (10 min)
+8) Se subieron archivos del backend a servidor qa, se corrieron migraciones, se importó data de bd dev, se realizaron pruebas a las apis qa. (1 hora 30)
+
+
+17-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se subio front a qa (10 min) (apuntando al backend de dev)
+3) Se aplicaron campos nuevos en la vista de crear reservaciones (45 min)
+4) Se creo diseño de grado academico en la vista crear eventos (1 hora)
+5) Se creo migracion para tabla grado academico (30 min)
+6) Se creo diseño de grado academico en la vista editar eventos (30 min)
+7) Se añadio data de grados academicos en el api de listar y editar (30 min)
+8) Se realizo funcion para eliminar los grados academicos (45 min)
+9) Se creo funcionalidad para listar los grados academicos dinamicos en el editar (1 hora 30 min)
+10) Se creo funcionalidad para editar y eliminar grados academicos dinamicos en el editar (1 hora 30 min)
+11) Daily con Cintia (20min)
+
+
+
+18-01-2024
+Serviviajes
+1) Se creo funcion para obtener el id cuando se selecciona  un evento (30 min)
+2) Se creo servicio en el front para enviar el id obtenido al back (30 min)
+3) Se creo api para obtener el nombre del hotel con dicho id y pintarlo en el input (1 hora)
+4) Se trabajo para obtener los servicios y mostrarlos por comas (1 hora ) (50%)
+5) Se corrigio bug en el editar un asistente, ya que al crear, si no se cargaba una constancia o comprobante,
+	se puede cargar desde el editar, pero no se mostraba. Entonces en vez de mostrar el doc, se cambio la funcionalidad a  
+	constancia subida con exito y comprobante subido con exito (2 hora)
+
+
+
+
+19-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creo diseño de grados academicos más funcionalidad para mostrar los grados academicos pantalla de ver eventos (1 hora)
+3) Se creo api de reservaciones para obtener tipo de planes junto con habitaciones por hotel (3 hora)
+4) Se lleno select en el front tipo de plan de acuerdo (1 hora)
+5) Se realizo una segunda version de la api eventos, hotel, habitaciones por hotel, tipo de planes y categorias disponibles.
+	Ya que la que se realizo presentos muchos bug. (1 hora 30 min)
+
+Rinna Brunis
+1) Daily Raul, Miguel, Emiliano y Rafael (30min)
+
+
+
+
+22-01-2024
+Serviviajes
+1) Daily serviviajes (10min)
+2) Se creo funcionalidad para llenar la tabla tipo de habitacion.... Cuando se seleccione un tipo de plan (3 hora)
+3) Se realizo campos tipo habitacion y cantidad dinamicos (1 hora)
+4) Se trabajo en la creación de los input nombres y apellidos dinamico atraves un input númerico luego de colocar la cantidad
+	para crear los input (1 hora 30 min) (50 %)
+5) Se crearon partes de migraciones para reservaciones (1 hora) (20%)
+
+
+
+22-01-2024
+Serviviajes
+1) Daily serviviajes (20min)
+2) Se subieron cambios de front y backend a los repositorios a Dev y Qa (20 min)
+3) Se subieron cambios de front y backend al serve a Dev y Qa (20 min)
+4) Se corrigio select tipo de plan, ya que se estaban repitiendo los nombres (1 hora)
+5) Se cambio input tipo de plan por select (15 min)
+6) Se trabajo en el agregar tipos de plan y cantidad de acuerdo a los tipos de plan seleccionados previamente y
+	tambien se valido boton eliminar para que se oculte (2 hora 30 min)
+
+
+
+
+
+
+
+
+23-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se subieron cambios de front y backend a los repositorios, tambien se mergeó con rama de emiliano (20 min)
+3) Se subieron cambios de front y backend al serve a Dev y Qa (20 min)
+4) Se listaron los tipos de habitacion y sus detalles de acuerdo al tipo de plan seleccionado en la tabla (1 hora)
+5) Se cambio input text por select en formulario dinamico de tipo de habitacion y se cargaron los tipos de habitacion disponibles (1 hora 30min)
+6) Se ocultó el boton agregar tipo de habitacion de acuerdo a la cantidad de tipos de habitaciones disponibles (1hora 30min)
+7) Se me regreso a cambiar el tipo de plan limpio las tablas y el formulario dinamico de tipos de habitacion (1 hora)
+8) Se agregaron datos faltantes en api reservaciones (10min)
+9) Se cambió texto tipo de plan por tipo de habitacion (10min)
+10) Se eliminaron campos estaticos en seccion "Reservar a:" (10min)
+11) En input Servicios se le añadió una separacion luego de la coma(,) en cada servicio (10min)
+
+
+
+
+
+24-01-2024
+Serviviajes
+1) Daily serviviajes (20min)
+2) Daily serviviajes con emiliano (10min)
+3) Se intentó dinamizar formulario gigante de reservaciones, al ser dinamico se complicó muchisimo ya que dependia mucho de otros factores, por tal motivo se decidió craer un wizard para trabajar partes del formulario por separado y se mostrara de una manera mas elegante (5 horas).
+4) Se adelantó vistas de la pantalla reservaciones en el wizard (2 horas)
+
+
+25-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se establecieron las estructuras del wizard de reservaciones (30min)
+3) Se dinamizó diseño de paso 1 (Datos generales del hotel) (1 hora)
+4) Se dinamizó diseño de paso 2 (Datos generales de la habitación) (1 hora)
+5) Se dinamizó diseño de paso 3 (Datos del solicitante) (1 hora)
+6) Se realizó diseño de paso 4 (Habitaciones) y se creó array dinamico que contendra informacion para ser desplegada en el formulario (3 horas)
+7) Se analizó estructura de tablas reservacion, reservacion_tipo_habitacion, reservacion_detalle_habitacion (20min)
+
+
+26-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creó formulario dinamico en paso 4 de wizard reservaciones (4 horas)
+3) Se creó funcionalidad de incrementar o disminuir adultos y/o menores (2 horas)
+4) Se ajustó diseño de tarjetas habitaciones (20min)
+5) Se realizó merge de rama jorge-feat-reservation a master (10min)
+6) Se realizo merge de rama emiliano a rama master (10min)
+
+
+
+29-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se validaron campos paso 2 y 3 del wizard reservaciones (1 hora)
+3) En paso 4 de wizard reservaciones se duplicaban los campos del formulario cada que se presionaba siguiente y atras, esto se corrigió (1 hora)
+4) Se validó formulario paso 4 del wizard, deshabilitando cada que hubiese un campo vacio, incluso cuando se añadiesen campos dinamicos (4 horas)
+
+
+30-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creo diseño de la ultima pantalla del wizard (4 hora)
+3) Se realizo desglose de habitacion, cantidad de adulto y precio (1 hora 30 min)
+4) Se cálcularon los días de fecha de entrada y fecha de salida para la reservación (30 min)
+5) En el wizard paso 4 de habitaciones se almaceno de manera adicional el id de habitación, ya que esa información es
+	crucial para ubicar el precio de acurdo al plan (30 min)
+6) Se subieron cambios de front y backend a los repositorios, y se realizó merge de las ramas de emiliano a master (15 min)
+
+
+
+
+
+31-01-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se quito 0-6, 6-12 y 13 a 16 en la tabla para reservar (10min)
+3) Se realizo el cálculo menores por cantidad de noches + el rango de edad agregada, ya que para infante, menores y junior 
+	tienen precios diferentes (4 hora) 
+4) Se realizo cálculo del monto total (1 hora)
+5) Se validaron las fechas en el wizard 2 reservación + msj (30 min)
+6) Se valido el campo cantidad en el wizard 2 reservación + mjs (30 min)
+7) Se valido campo nombre y apellido, solo letras y max lengt de 100 wizard 3 reservación + msj (30 min)
+8) Se valido campo número de telefono en el wizard 3 reservación (30 min) (asistente)
+9) Se subieron cambios de front y backend a los repositorios, y se realizó merge de las ramas de emiliano a master (15 min)
+
+
+
+01-02-2024
+Serviviajes
+1) Daily serviviajes (40min)
+2) Se agrego msj de error en el select de event en el wizard 1 (10 min)
+3) Se agrego msj de error en el nombre del hotel en el wizard 1 (10 min)
+4) Se agrego msj de error en el los servicios en el wizard 1 (10 min)
+5) Se agrego msj de error en el select de tipo de plan en el wizard 2 (10 min)
+6) Se agrego msj de error en el select tipo de habitación en el wizard 2 (10 min)
+7) Se hizo que la fecha de salida fuera mayor a la fecha de entrada y que no fuera igual (2 hora 30 min)
+8) Se agrego validacion en el campo telefono en el wizard 3 + msj (20 min)
+9) Se valido campo nombre y apellido, solo letras y max lengt de 100 wizard 4 reservación (20 min)
+10) Se valido campo nombre, apellido y edad más edad se le agrego un max legntd de 18 (20 min)
+11) Se crearon migraciones de las siguientes tablas: reservations, reservation_details, reservation_rooms y reservation_rooms_details (2 horas 30min)
+
+
+1) Daily Stanley Steven Abreu Gimenez (30min)
+
+
+02-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creo servicio para enviar datos al back (30 min)
+3) Se creo objeto desde el front para crear una reservacion el back (2 horas 30 min)
+4) Se creo servicio para listar reservación (30 min)
+5) Se creo migracion en la tabla reservacion para crear un campo más llamado payment_id (20 min)
+6) Se pintaron datos en la tabla (30 min)
+7) Se creo api para guardar reservacion (4 horas)
+8) Se creo api para listar reservaciones (1 hora)
+9) Se listaron los tipos de pagos en select wizard 5 de reservaciones (30 min)
+10) Se cambiaron todos los nombres de botones siguiente y regresar en todos los wizard (10 min)
+
+
+10.40
+
+06-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se bloqueo campo clave reservacion (10min)
+3) Se reoganizo html en la parte de comprobante de pago (1 hora)
+4) Se realizo funcionalidad dinamica en el front para agregar comprobantes de pago (2 hora)
+5) Se creo migration de reserve_payments (30 min)
+6) Se agrego funcionalidad de eliminar el comprobante de la tabla (1 hora)
+7) Se oculto boton de ver (10min)
+8) Se trabajo en el modal para mostrar la imagene o pdf del comprobante (2 hora) 50%
+
+7.20
+
+
+
+07-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se corrigio bug: anteriormente se tenia que seleccionar un metodo de pago para habilitar el boton reservar (30 min)
+3) Se agrego un minimo de 7 dias atras y tambien se limito fechas futuras en la fecha del comprobante (30min)
+4) Se validaron inputs en el wizard 5 (comprobante) y select de metodo de pago, ya que tienen que estar lleno para que el boton agregar se habilitara (2 horas) 
+5) Se realizo condicion para el boton archivo, ya que cuando se selecciona un archivo "comprobante" el boton cambia el color y el icono (30 min)
+6) Se creo modelo en el back de la nueva migracion reserve_payments (30 min)
+7) Se agrego nueva funcionalidad en el back para guardar los comprobantes junto con la imagen en el servidor (1 hora 30 min)
+8) Se creó nueva carpeta comprobantes_de_pago en la carpeta /public/assets/ para guardar los comprobantes (10min)
+9) Se creó diseño html para mostrar informacion de la reservacion (50%) (1 hora 30min)
+
+
+07-02-2024
+GAP
+1) Test api login (10min)
+2) Test api consultar vuelos (30min)
+
+7.20
+
+
+08-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se subió a los repositorios y a servidor de dev y qa (1 hora 30min)
+3) Se corrigió api listar reservaciones para obtener los comprobantes de pago (1 hora)
+4) Se culminó diseño pantalla editar reservaciones (1 hora)
+5) Se pintó data de reservaciones y sus comprobantes (3 horas) (80%)
+
+
+09-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se ajusto el api de eventos para obtener los servicios relacionados con un hotel (30 min)
+3) El formulario de reservacion wizard 1 se corrigio la muestra de servicios, ya que anteriormente se mostraban 
+	las categorias (30 min)
+4) Se corrigio bug: El tipo de habitacion que se creó (solo hay una hab. con desayuno) no se muestra en la tabla de tipo de 	habitacion e la reservación, asi como tampoco se observan los precios establecidos ahí. (1 hora 30 min)
+5) Se corrigio api tipo de plan, para no que no mostrara los planes asociados a las habitaciones por hotel (45 min)
+
+
+6) Se corrigio bug en el campo de adultos y menores, ya que al ingresar el número directamente ejemplo 3 	(botones aumentar y disminuir) No se desplegaban los campos solicitados en este caso 3 filas 
+	(2 hora)
+7) Se corrigio bug: en los campos adultos y menores no puede haber más de 4 personas entre adultos y menores 	(1 hora)
+8) Se corrigio bug:	 ya que mostraba habitaciones disponibles en el select de tipo de plan en 		reservaciones, 	independientemente si la vigencia estuviera en una fecha pasada igual que 			cantidad registrada, mostraba la data aun sí cantidad registrada fuera 0 (1 hora 30 min)
+
+
+8.15
+
+
+
+
+
+
+
+
+12-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se mostro en la tabla de reservaciones el id (15 min)
+3) Se cambio titulo nombre por nombre y apellido (10 min)
+4) Se cambio fecha de entrada por IN y fecha de salidad por OUT (10 min)
+5) Se ajusto api de reservaciones para mostrar el hotel asociado (45 min)
+6) Se mostro hotel asociado en la tabla (30 min)
+7) Se ajusto diseño de tabla (30 min)
+8) Se ajusto api para mostrar habitaciones asociadas para mostrar en la tabla (1 hora 30 min) 
+9) Se creo funcionalidad para sumar el total de pagos y mostrarlos en la columna total pagado (1 hora)
+10) Se mostro la cantidad de pagos realizos en la columna comprobantes (30 min)
+11) Se mostro la cantidad de habitaciones en la columna de la tabla reservaciones (30 min)
+12) Se concateno el apellido en la columna nombre y apellido (10 min)
+13) Se agrego funcionalidad para mostrar el status de la reservacion, con sus diferentes colores (30 min)
+14) Se adelantó parte de pantalla editar reservaciones (1 hora) 50%
+15) Se realizó merge con rama de emiliano y se ajustó un conflicto presentado en el frontend (30min)
+
+8.30 Horas
+
+
+13-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creo servicio nuevo en el front para llamar esa nueva api (30min)
+3) Se ajusto funcion para mostrar los servicios en el editar reservacion (30 min)
+4) Se creo nueva api sin condición, para mostrar la data de las reservaciones ya creadas (1 hora)
+5) Se cambiaron selects por inputs no editables (1 hora)
+6) Se  agrego clase en cada input notAllowed (45 min)
+7) Se importo funcionalidad para mostrar los tipos de pago y poder mostralos en front (30 min)
+8) Se agrego funcionalidad para agregar nuevos comprobantes de pagos (1 hora)
+9) Se realizo funcionalidad para mostrar las imagenes o pdf en editar reservaciones que podran venir del back o se podrar mostrar en base64 (2 horas)
+10) Se agrego boton activar desactivar (15min) (Debo corregir y convertirlo en select)
+11) Se agrego boton cancelar con alerta para regresar y boton guardar, enviando ya la data al back (30min)
+12) Se agrego funcionalidad para poder visualizar las imagenes y pdf al craer reservaciones (45min)
+
+8.15
+
+Alma
+Se dedicó tiempo a la revisión de cv a candidatos para frontend con angular (1 hora)
+
+1
+
+
+14-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se realizo validacion en los inputs de comprobantes para poder agregar un nuevo comprobante en pantalla editar reservaciones (1 hora)
+3) Se agregó en tipo de pago opcion "OpenPay" tanto en crear como editar reservacion (20min)
+4) Se comenzó a desarrollar diseño formulario opcional de open pay en crear reservaciones (1 hora) (50%)
+5) Se obtuvieron credenciales sandbox de open pay (30min)
+6) Se realizó investigacion para el uso de open pay en angular y laravel (3 horas)
+
+
+15-02-2024
+Serviviajes
+1) Daily serviviajes (40min)
+2) Se relizó merge de rama master con rama de emiliano, y se instalaron plugins de excel en el backend (30min)
+3) Se creó diseño formulario de pago para open pay, agregando campos (nombre titular, numero de tarjeta, mes, año y cvv) (2 horas)
+4) Se creó funcionalidad para que al seleccionar metodo de pago open pay muestre el formulario correspondiente y si selecciona otro muestra la tabla de cargar pagos (30min)
+5) Se integró open pay en el frontend con su llave publica sandbox (30min)
+6) Se creó token de open pay en el frontend a partir de los datos del usuario (3 horas)
+
+
+16-02-2024
+Serviviajes
+1) Daily serviviajes (1hora 15min)
+2) Se ajusto tipos de pagos, ya que al seleccionar openPay, seguia aparececiendo transferencia (30min)
+3) Se anexaron nuevos campos de monto, dirección, código postal y país en el formulario de openPay crear 	reservacion (30min)
+4) Se realizo validación al crear una reservación para verificar al momento de seleccionar un metodo de pago 	openPay pueda crear el token de manera asincrona la cual se puede obtener para asi enviarlo justo 	con la data al back (1 hora 30 min)
+5) Se separo formularios de transferencia de la tabla de comprobantes de pago, al crear y editar una 	reservacion (1 hora)
+6) Se creo formulario de openPay en la pantalla de editar + condicion para crear el token, si selecciona 		openPay (45min) 
+7) Se creo migración en para la tabla comprobantes de pagos, para añadir nuevos campos direccion y codigo 	postal (30min)
+8) Se agrego select con funcion autoseleccionado para diferentes tipos de estatus al editar una reservación 	(30min)
+9) Se le dedicó tiempo a open pay en el backend con laravel (50%) (3 horas)
+
+
+19-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se integró openPay en el backend, todas las librerias mas recientes que se importaban arrojaban error, incluso desde la documentacion original, se tuvo que añadir la version 2.2 para laravel y ya esta si responde de manera correcta (4 horas)
+3) Se esta desarrollando el flujo para un pago simple, se requieren crear customers (Clientes) y asociarlos a la tienda que esta vendiendo en este caso Serviviajes para posteriormente intentar hacer el cargo (2 horas) (50%)
+4) Se crearon campos adicionales en bd mediante migraciones para guardar referencia de pago, y token generado por open pay, estos campos se añadieron al flujo de crear reservaciones (1 hora)
+
+
+20-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creó un cliente en open pay desde backend (1 hora)
+3) Se intentaron crear tarjetas y asociarlas a esos clientes, se intentaron crear cargos, a pesar de seguir al pie lo que dice la documentacion, al enviar todos los parametros requeridos, la respuesta fue contact suport. (6 horas) 
+
+
+21-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) OpenPay, se invirtio  tratando de crear una transacción y se reporto via email a soporte tecnico (3 horas) 
+3) Se cambio nombre de paso 5 "done" por "Desglose y pago" al crear y editar (15 min)
+4) Se cambio nombre de "open pay" a "Tarjeta de credito o debito" (15 min)
+5) Se limito la reservación a una sola habitación, se oculto boton eliminar y input cantidad en el paso 2  de reservacion y se
+	ajusto validacion (2 horas)
+6) Se listaron las reservaciones para que sean visualizadas desde la más reciente (30 min)
+
+
+22-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se agrego funcion en el wizard crear reservaciones "habitacion" en el primer input titular y en los demas acompañante (1 hora 30 min)
+3) Se cambio el formato de fecha de vigencia en la tabla de habitaciones por hoteles "Vigencia" (30 min)
+4) Se corrgio bug: Se detecta que al ingresar un descuento vencido, y posteriormente borrarlo del campo, parece que se mantiene la información ya 	que en la segunda pantalla no permite terminar el procedimiento debido a este punto (1 hora)
+5) 587 TC#4 Edicion de HabitacionxHotel (1 hora 30min) (50%)
+6) 738 TC#6 Cálculo del pago (Solo análisis) (1 hora)
+
+
+
+23-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se corrigio regla de negocio cuando el tipo de plan sea todo incluido haga el cálculo 
+	"Precio tipo habitacion * Cantidad noches * Cantidad personas" (2 hora)
+3) Se corrigio bug: Se debe de permitir generar reservaciones que ya no tengan vigencia/disponibilidad sin importar  (1 hora)
+4) Se agregó campo reservacion en pantallas crear reservaciones y editar reservaciones (1 hora 30min)
+5) Se creó migracion para agregar campo obervacion (20min)
+6) Se ajustaron apis crear y editar reservaciones (1 hora 30min)
+
+cambiar texto titulo observacion por requisitos especiales
+
+
+Agregar mascaras a los precios => $,.00
+reservaciones -agregar campo de observaciones - "requisitos especiales" => agregar campo de requisitos especiales despues del desgloce de la 		reservacion
+
+
+
+
+26-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se agrego opcion en el listar para mostrar entre 50 y 100 asistentes (30min)
+3) Se creo select para filtrar por eventos en la tabla de asistentes (30min)
+4) Se agrego servicio para lista el select con los eventos registrados en el sistema (30min)
+5) Se integro funcionalidad para filtrar por los evetos (1 hora 30min)
+6) Se corrigió bug: anteriormente, si se seleccionaba evento 1 o categoría 1 y después sé des seleccionaba, no mostraba nada. (45min)
+7) Se corrigio bug, en la pantalla crear, editar y ver asistentes en el desglose del total, ya que no mostraba el resposive en esa sección (45min)
+8) Se agrego select al editar un asistente, para cambiar el estatus (1 hora 30 min)
+9) Se agrego input bloqueado de estatus de pago al ver el asistente (30min)
+10) Se subieron cambios de front y backend a los repositorios (10 min)
+11) Se subio al server (10 min)
+
+
+27-02-2024
+Serviviajes
+1) Daily serviviajes (40min)
+2) Se agrego leyenda en el formulario de registro ("Su nombre aparecera en su constancia exactamente como usted lo registre") al crear un asistentes 	(15min)
+3) Se agrego columna telefono la vista del catalogo + mascara en asistentes (30min)
+4) Se movio el campo comentarios a despues de categoría al crear, editar y ver un asistente  (30min)
+5) Se aumento el numero de items para ver en la tabla de reservaciones (30min)
+6) Se creo select en la tabla de reservaciones para filtrar por hoteles (30min)
+7) Daily con OpenPay (30min)
+8) Se creo importo servicio para llenar el select con los hoteles activos (1 hora)
+9) Se realizo funcion para filtar al seleccionar un hotel (45min)
+10) Ajustar las tabla del catalogo para que las filla se extiendan más hacia la derecha (0%) (1 hora)
+
+
+28-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se probo api de OpenPay (45min)
+3) Se realizo validacion para no colocar un monto a pagar mayor del monto total (1hora)
+4) Se creo pago o abonno de OpenPay y se almaceno en la tabla comprobantes de pagos (4horas)
+5) Se inicio webhook para recibir respuestas de OpenPay (1hora) 30%
+
+
+Cuanticus
+1) Daily Cuanticus (30min)
+
+RinnaBrunni 
+1) Daily RinnaBrunni (15min)
+
+
+
+
+
+
+
+
+29-02-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se crearon nuevos campos que son requeridos para poder realizar un pago con OpenPay (2 horas)
+	*Apellido
+	*Ciudad
+	*Estado
+	*Descripción y tambien se ajusto formulario de acuerdo a los campos 
+	*Se enviaron al backend y se añadieron al generar un pago
+3) Se muestran mensajes de errores al intentar pagar con open pay, estos se añadieron para ser vistos desde el frontend y cancelando las reservaciones en caso de ser necesarias, ya que primero se crean las reservaciones y luego se procesan los pagos (3 horas) (80%)
+4) Se corrigió en reservacion, wizard 2 (Datos generales de la habitacion) se ajustó a que mostrara precios de los menores (1 hora)
+
+
+
+01-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se quito boton agregar  en el segundo wizard para crear una reservacion (20min)
+3) Se agrego el formato de moneda al crear y editar las habitaciones  (45min)
+4) Se eliminó la marca autoincrementable en el desglose del total de habitaciones al crear una reservacion (15min)
+5) Se agrego funcionalidad para que el precio del infantes, menores y junior fuera dinamico y se lograra apreciar 
+	el cálculo correctamente (2 hora 30min)
+6) Se ajustó formulario de OpenPay en el editar reservacion igual al de crear una reservacion (frontend) (45min)
+7) Se creo columna estatus para mostrar el estatus de la transacción, mas funcionalidad para mostrar diferentes tipos de estatus (30min)
+8) Se intregró misma funcionalidad para crear un token de OpenPay y realizar una operacion (1 hora 30 min)
+9) Se creó eliminar pagos en pantalla editar reservacion (30min)
+10) Se creó cambio de estatus de la reservacion (Backend) (30min)
+
+
+
+
+
+04-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se creó boton para cambiar estatus del comprobante de pago + modal que abre un modal para seleccionar el estatus (2 horas)
+3) Se integró select con metodo de pago en pantalla asistente (45min) Nota falta integrar deposito (70%)
+4) Se integró funcionalidad para crear el token más datos obligatorios cuando sea el pago con openPay (2 horas)
+5) Se creo migracion para agregar nuevos campos referente al comprobante de pago en modulo asistente (30min)
+5) Se recibieron los datos obtenidos desde el front y se almacenaron en la nueva tabla de comprobante de pago (2 horas)
+6) Se subio al server (10 min)
+
+
+
+05-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se oculto boton Cargar comprobante de pago al crear un asistente (10min)
+3) Se creó formulario para deposito en asistente (1 hora)
+4) Se realizo validación para que solo se pudiera utilizar un metodo de pago y tambien subir un solo pago en guardar asistente (1 hora)
+5) Se agrego funcionalidad para agregar un precio sin pasar del monto total en guardar asistente (30min)
+6) Se agrego tabla para mostrar los comprobantes de pagos en asistentes en guardar y editar (1 hora 30min)
+7) Se agrego funcionalidad para cambiar el estatus de pago en pantalla editar asistente (45min)
+8) Se recibieron los datos en el back y se realizo proceso para cambiar el estatus en la bd en editar asistente (2 horas)
+
+
+
+06-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Daily con emiliano explicando el proceso de OpenPay(30min)
+3) TC#6 Cálculo del pago (2horas)
+4) Se realizo validacion al crear una reservacion, cuando se agreguen menores, la edad no pueda ser mayor a 17 años (30min)
+5) TC#9 Bug en creación reservacion: Al estar creando un reservación, se llega hasta el punto de desglose y pago, 
+	posteriormente y sin guardar aun, se va a Datos generales de la habitación y se edita la fecha (se amplia un dia) y al regresar a 		habitaciones ya no se muestran los campos. (No podra navegar entre pantalla de wizard al presionar el titulo) (1 hora)
+6) Se corrigio el order_id de openpay al crear un reservacion o al crear un asistente (30min)
+7) Se corrigio webhook para cuando se obtenga un pago poder identificar si es de una reservacion o si es de un asistente y poder actualizar 
+	correspondientemente (1 hora 30min)
+ 
+
+Otros
+1) Daily lisandro (30min)
+
+
+
+
+
+
+
+07-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) El bug se presenta solamente cuando se elige la edad 4 años, pues  la esta considerando en el rango de junior, 
+	es decir, debería asignarle un precio de $500 pero está colocando $600 (1 hora)
+3) Se quito logo de usuario y avatar (15min)
+4) Se direcciono los hoteles hacia habitaciones por hoteles (1 hora 30min)
+5) Se corrigieron ancho de las tablas (Asistentes, Eventos, Hoteles, Reservaciones, Descuentos y Habitaciones por hoteles) (2 horas 30min)
+6) Se subio al server (10 min)
+
+
+
+Otros
+1) Se trato de levantar el proyecto de ventas del cliente ivan, pero no hubo resultados (1 hora)
+
+
+
+
+08-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se ajustos api al crear un asistente para obtener los grados academicos (45min)
+3) Se agrego select para mostrar los grados academicos, y que se llenara de acuerdo al evento seleccionado al crear un asistente (45min)
+4) Se mostraron los grados academicos en el editar y en el ver y se realizó cambio de posición del select (30min)
+5) Se integró métodos de pago en el editar un asistente (1 hora 30min)
+6) Se agregó funcionalidad en el back para poder actualizar métodos de pago de asistentes (2 horas)
+7) Se integró tabla en el ver de asistentes (30min)
+8) Se habilito nuevamente al reservar que tenga más de una habitacion (45min)
+9) Se trabajo en en la cantidad de habitaciones (45min) (50%)
+
+
+
+
+
+11-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Ajuste de los botenes para ver el comprobante de asistente (30min)
+3) Se creo migracion para añadir campo nuevo clave reservacion (30min)
+4) Se creo funcion para generar codigo alfanumerio aleatorio en el front (45min)
+5) Se ajusto el back para añadir el codigo al crear una reservacion (45min)
+6) Se quito columna en de habitaciones disponibles en la tabla de hoteles (15min)
+7) Se subio al server (10 min)
+
+
+
+12-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se corrigió crear un asistente puede agregar un comprobante y alli mismo se elimina y se puede volver a cargar un comprobante (1 hora)
+3) Se corrigió error al editar un asistente, ya que no permitia editar porque decia que El grado academico es obligatorio (1 hora)
+4) Se subio al serve (10min)
+
+
+
+13-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se integro nuevamente la funcionalidad para mostrar la cantidad de habitaciones al reservar (1 hora 30min)
+3) Se mostro la clave de reservacion al editar una reservacion (30min)
+4) Se integro formuario de deposito al crear una reservacion (1 hora)
+5) Se integro envio de correo al crear un asistente por el area administrativa (1 hora 30min)
+6) Se integro envio de correo al crear una reservacion por el area administrativa (1 hora 30min)
+
+
+14-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+
+
+GDLVAN
+1) Se estuve revisando codigo front y backend de este proyecto (4 horas).
+
+Malú
+1) Se realizó estimaciones para este proyecto (1 hora 30min)
+
+
+
+
+15-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se ajusto back para que cuando creara un asistente lo creara en estatus pendiente (30min)
+3) Se corrigió bug en el catalogo habitaciones por hoteles, ya que aveces cargaba la data y en otras ocaciones no (1 hora)
+4) Se realizó condición para cuando se cree una reservacion y se elija una habitacion, al editar salga 
+	esa sola opcion (1hora)
+5) Se corrijio bug al pasar entre el wizard 1,2,3,4 y 5 ahora se puede navegar solo con los iconos siempre
+	y cuando este completo el formularion para poder avanzar y se ejecuta la funcionalidad en el 4 y 5  	(1 hora 30min) 
+6) Se quitó funcionalidad al crear una reservacion, ya que se creaba una clave de reservación y
+	Se implemento al editar una reservación (1 hora 30min)
+7) Se descontó la habitación por hotel al crear una reservación (2 hora) (50%)
+
+
+19-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se realizo cálculo para mostrar el cantidad disponibles en habitaciones por hoteles (2 horas)
+3) Al crear una reservacion se valido en el wizard 2 y 5 que existiesen las cantidades de habitaciones disponibles (2 horas)
+4) Se realizaron puntos 2 y 3 a nivel de back (1 hora)
+5) Se subio al repo y al servidor back y front (30min)
+
+
+20-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se corrigió bug en la pantalla editar reservaciones, ya que en el wizard 2 se mostraba los datos de la tabla duplicados (2 horas)
+3) Se mostró la clave de reservación en la tabla principal de reservaciones (30min)
+4) Se comentó código que al guardar una reservación, generaba la clave reservación y se guardaba en bd, ya que eso solamente se genera
+al cambiar de estatus acréditado en el editar (30min)
+5) Se habilitó nuevamente para que se mostraran las habitaciones en status 1 en pantalla crear reservación wizard 2 (20min)
+6) Se subió al repositorio ambos proyectos (10min)
+
+
+
+21-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se integro count en el back para reservations y roomsByHotels (30min)
+3) Se integro tarjetas para reservaciones y habitaciones con el conteo (30min)
+4) Se integro check de terminos y condiciones al crear una reservaciones, ojo el check aparecera y tendra valides cuando se 
+	seleccione el metodo de pago tarjerta de credito (1 hora 30min)
+5) Se integro spinner al realizar una reservacion, ya que asi lo pide openpay para eveitar doble solicitudes (1 hora)
+
+
+
+
+22-03-2024
+Serviviajes
+1) Daily serviviajes (30min)
+2) Se cambio la posicion del logo de openpay hacia la parte superior del formulario (10min)
+3) Se validaron campos código postal, número de tarjeta, mes, año y código de seguridad para que no se pudiera escribir letras y
+	excediera la cantidad de letras en pantalla crear reservación (1 hora)
+4) Se mejoró campo costo para el formulario openpay, transferencia y deposito ya que no estaba funcionando los decimales (45min)
+5) Se cambio la posicion del logo de openpay hacia la parte superior del formulario crear asistente (10min)
+6) Se validaron campos código postal, número de tarjeta, mes, año y código de seguridad para que no se pudiera escribir letras y
+	excediera la cantidad de letras en pantalla asistente(1 hora)
+7) Se mejoró campo costo para el formulario openpay, transferencia y deposito ya que no estaba funcionando los decimales en asistente (45min)
+8) Se creo page de terminos y privacidad (1hora 30min)
+
+
+
+25-03-2024
+Serviviajes
+1) Daily serviviajes (1 hora 10min)
+
+
+
+C&A
+1) Reunión con Lisandro (40min)
+2) Se bajó el proyecto de C&A en rama original/production_QA (1 hora)
+3) Se instaló vpn CiscoC&A (30min)
+4) Se revisaron videos de instalacion y explicacion general (2 horas)
+5) Se habilitó php sqlserver en servidor apache (1 hora)
+
+
+
+
+26-03-2024
+C&A
+1) Daily C&A (30min)
+2) Se intentó levantar el proyecto en local, se ajustó a version de php 7.3.33 (6horas)
+
+
+27-03-2024
+C&A
+1) Daily C&A (30min)
+2) Se realizó revision de asignacion, se observó el codigo, se solicitó xml para cargar una factura oc y se identificó que esta funcionalidad solo puede ser realizada desde QA (6horas)
+
+
+28-03-2024
+C&A
+1) Se comprobó que no tenia acceso al escritorio remoto donde se deberán realizar los depliegues ya que el usuario estaba bloqueado, se estuvo en contacto con Lisandro, Juan Luis y Alan de C&A (3horas)
+
+
+ITVA
+1) Se realizó estimacion de front y back para este proyecto (30min)
+
+
+
+
+01-04-2024
+C&A
+1) Se espero credenciales y se comprobó conexion a escritorio remoto (1 hora)
+2) Se analizó flujo de facturas OC (1 hora)
+3) Se solicitó otro xml donde se indicara que estaba exento el traslado (1 hora)
+4) Me reuní con compañero Juan Luis para que me explicase como desplegar, hacer pruebas y analizar el requerimiento segun lo previamente evaluado (1 hora)
+5) Se identificó que el planteamiento del requerimiento no era el optimo y se conversó con Alan de C&A. (1 hora)
+6) Analizando un poco mas el flujo se identificó que el modulo facturas OC ya se contiene la validacion que se requiere para los traslados excentos, se hicieron pruebas y se verificó el flujo en codigo (1 hora)
+
+
+02-04-2024
+C&A
+1) Se realizó actividad validacion de xml en modulo facturas OC (1 hora 30min)
+2) Se realizó actividad validacion de xml en modulo facturas Mercancía (1 hora 30min)
+3) Se realizó validacion xml en modulo Servicios Enviar Facturas (4 horas)
+
+
+03-04-2024
+C&A
+1) Daily C&A (30min)
+2) Se realizó ajuste en validacion xml en modulo Servicios Enviar Facturas (1 hora)
+3) Se agregó opcion visor en roles (2 horas)
+4) Reunion con Lisandro para analizar el siguiente punto del requerimiento (1 hora)
+
+
+04-04-2024
+C&A
+1) Se analizó bajo que tabla estaban los proveedores y se identificó que se ubican en la tabla tSapUser (1 hora)
+2) Reunión con Lisandro (1 Hora)
+3) En pantalla crear usuario al seleccionar rol "Visor" se despliega funcionalidad asignar proveedor (1 hora)
+4) Se creó input inteigente de tipo autocomplete cargando todos los proveedores y filtrandolos (2 horas 30min)
+5) Se creó funcionalidad en el front para agregar de manera dinamica los proveedores y se listaron (1 hora 30min)
+6) Se creó opcion eliminar proveedores (30min)
+7) Se creó array de proveedores y se almacenó en input hidden para ser enviados con el formulario (30min)
+
+
+05-04-2024
+C&A
+1) Daily con Juan Luis para corregir unos temas de git (20min)
+2) Merge en git de cambios realizados rama desarrollo/validacion_impuestos_jorge hacia original/production_QA (10min)
+3) Se realizó funcionalidad guardar proveedores asociados a usuarios (3 horas)
+4) Se realizó funcionalidad mostrar proveedores asociados en pantallas ver y editar usuarios (2 horas)
+5) Se realizó funcionalidad para editar proveedores asociados a los usuarios (2 horas)
+
+
+08-04-2024
+C&A
+1) Analisis de la actividad 3 (30min)
+2) Se agrego condicional nuevo en el procedimento almacenado getUser para obtener los proveedores asociados al rol visor (2 horas 30min)
+3) Se valido rol visor y se mandaron parametros diferentes al metodo getUser (2 horas)
+4) Se realizaron pruebas al comprobar el funcionamiento de la actividad 3 (1 hora)
+5) Se inabilitaron botones agregar y eliminar proveedores en pantalla ver usuarios, tambien se agrego css para el mismo (1 hora)
+
+
+09-04-2024
+C&A
+1) Se agrego funcionalidad para el filtro de proveedores en la vista de 
+	"Facturas con OC"
+	"Facturas Mercancía"
+	"Facturas Marco"
+	"Mis facturas"
+	"Enviar facturas" (2 horas)
+2) Se creó nueva pantalla proveedores visor, se creó la opcion de menu en bd, se creó la nueva vista, se ajustó consulta usuarios, se agregó funcionalidad activar, desactivar, se agregó input buscador a data table, se agregó diseño boton descargar, se enlazó boton editar con la pantalla editar usuarios (5 horas)
+
+
+
+10-04-2024
+C&A
+1) Creacion de reporte usuarios visor, proveedores en csv (6 horas)
+
+
+11-04-2024
+C&A
+1) Se añadio una columna llamada sociedad para el reporte usuarios visor, se añadio procedimiento almacenado y relacion de db (3 horas)
+2) Se realizó merge y test con rama production_QA (1 hora)
+
+
+12-04-2024
+C&A
+1) Revisión todas las actividades en QA (1 hora)
+
+SOT WEB
+1) Análisis flujo frontend (1 hora)
+2) Documento con bugs (1 hora)
+3) Meet Lisandro (1 hora)
+4) Se instalo node 14 (20min)
+5) Se descargo frontEnd y se levanto (1 hora)
+6) Se probaron versiones 18 y 16 de node para levantar front (1 hora)
+
+
+
+15-04-2024
+SOT WEB
+1) Se descargo proyecto backend desde git (10min)
+2) Se intentó levantar backend (1 hora)
+3) Se descargo la base de datos (30min)
+4) Se importó a sql server (1 hora 30min)
+
+
+
+
+16-04-2024
+SOT WEB
+1) Daily con Alan para levantar el back (1 hora)
+2) Se configuro y vinculo al la db de local para levantarlo (3 hora)
+3) Se testearon api de login y otras mas para ver que estuviera mostrando la data (30 min)
+4) Estabilización de código frontend (2 horas)
+
+
+17-04-2024
+1) Estabilización de código frontend,
+	Se configuro archivo de conexion enviroment 
+	Se solucionaron bug que evitaban que el proyecto levantara (6 horas)
+
+
+18-04-2024
+1) Se soluciono problemas de redireccionamiento he importaciones de componentes en los siguientes modulos:
+	'Importacione de carga de combistible',
+	'Listado de tareas',
+	'Lista de multas',
+	'Órdenes de trabajo',
+	'Presupuestos',
+	'Requisiciones',
+	'Vehículo sin mantenimiento'
+	
+	'Compras => Ordenes de compra'
+	'Compras => Ordenes sugeridas'
+
+	'Sistema => Parametros de mantenimiento'
+(6 horas)
+
+
+
+19-04-2024
+1) Daily con Alan (1 hora)
+2) Se comunico con bryan enrique para conversar sobre el back más actual (30min)
+3) Se identificaron todas las apis con errores (30min)
+4) Se probaro todas la pantallas de guardar y editar para validar si habian más bugs (4horas)
+
+
+
+1) Revienta el api de VehiculosMantenimientoController
+2) Revienta el api del sub menu compras sugeridas de compras
+3) Revienta en el menú de sitema => páramtros del sistema
+4) Revienta en el menú de inventarios => Traspaso entre almacenes
+
+
+Apis que revientan:
+1) https://localhost:44375/api/GraficosDashboard/VehiculosSinMantenimiento
+2) https://localhost:44375/api/VehiculosMantenimiento
+3) https://localhost:44375/api/ParametrosGlobales
+4) https://localhost:44375/api/Reportes/10/Filtros Son muchos con id tal que faltan
+5) https://localhost:44375/api/Responsables/695 api de tipo put el error que manda es de tipo throw 
+         throw new SOTException(Dominio.Almacen.Commons.Resources.Responsables.correo_invalido_excepcion);
+6) https://localhost:44375/api/TiposVehiculos/1/ConfiguracionMantenimiento
+
+
+22-04-2024
+1) Se reunió con Alan Morales para entregarle lista de endpoints que fallan en backend SOT, donde se identifica que hay fallas en bd. (1 hora)
+2) Se ajusto el margen entre la parte superior en todas las pantallas, ya que tiene mucho espacio (2 hora 30min)
+3) Colocar el botón de plus a la parte derecha y también para que se vea acorde con el buscador en todas las pantallas (1 hora 30min)
+4) Se ajustaron los iconos de todos los botones para editar, guardar, cancelar y eliminar en todas las pantallas (1 hora 30 min)
+5) Se centraron los botones en la columna Editar/Eliminar en el menu de catalogo (1 hora)
+
+
+
+7:30
+
+
+23-04-2024
+1) Se cambio el color y diseño de los botones de  editar y eliminar en la pantalla roles, usuarios, inventarios Fisicos  (2 horas)
+2) Se terminarons de centrar los botones en la columna Editar/Eliminar del menu de catalogo en todas las pantallas (1 hora)
+3) El color del icono no va acorde con los otros y no se muestra el icono bien en la pantalla modelo del menu catalogo (30min)
+4) Se mejoro diseño del boton regresar + titulo en la pantalla crear y editar de vehículos y orden de compra (1 hora 30min)
+5) Se intento instalar la libreria Angular UI Switch Component para hacer uso de propiedades de switch en el proyecto tal cual 
+	como lo indica la plantilla, pero genera error al levantar, supongo que por la version (1 hora)
+
+
+6:00
+
+
+
+24-04-2024
+1) Se mejoro diseño del boton regresar + titulo en la pantalla crear y editar de articulo (30min)
+2) Se agrego diseño del boton regresar + titulo en la pantalla crear y editar de la pantalla cliente (30min)
+3) Se mejoro el icono del boton cancelar al crear y editar de la pantalla articulos, cliente ya que se mostraba sobre el boton (45min)
+4) Se mejoro el titulo Impresión de QR en el menu vehiculos ya que se mostraba con un border (30min) 
+5) Se mejoro los colores he iconos de botones ya que no se distingue muy bien en la pantalla de 
+	Importacion de cargas de combustible y 
+	en la pantalla Presupuesto en el menu de servicio (1 hora 30min)
+6) Se mejoro el icono del boton cancelar al crear y editar de la pantalla LISTADO DE TAREAS ya que se mostraba sobre el boton (20min)
+7) Se mejoro icono en el boton cancelar de la pantalla crear y editar vehiculo, compras sugeridas, roles, usuarios y 
+	TRASPASO ENTRE ALMACENES (1 hora 20min)
+8) Se agrego switch para modo oscuro (1 hora 30min)
+
+
+7:45min
+
+
+25-04-2024
+Sot web
+1) Se crearon tarjetas de incidencias en la pagina sot web en el azure, cada punto con su respectiva imagen  (1 hora 30min)
+2) Se añadieron tiempos de tareas de lunes a miercoles (30min)
+3) Se rastreó el código para buscar el componente de engranaje y luego se quitó, evitando que afectara en la página de 
+	toda la pantalla. (1 hora 30min)
+
+Estimacion
+1) Se realizó estimación proyecto visa (1 hora)
+
+
+26-04-2024
+1) Se subieron los cambios al repo de sot bajo la rama QA-v2-estable (30min)
+2) Se realizó reunion con alan para coordinar los merge de front y back y los despliegues, tambien se estuvo coordinando 
+via chat (1 hora 30min)
+3) Se realizon pruebas de todas las pantallas de front para validar que no hubiese ningun bug ocasionado por las mejoras (2 horas)
+
+
+29-04-2024
+1) Se reviso con el grupo Lisandro, Alan Morales y Eduardo Vazquez estatus de la version estable sot backend api, con apis reportadas
+anteriormente, en la que se identificaron faltan procedures. (2 horas)
+2) Se revisó caso puntual modo claro, oscuro en frontend sot (1 hora)
+3) Se reportaron lista de endpoints que fallan en el backend (30min)
+4) Se comunicó con Bryan Enrique para consultar algunos temas de version estable backend (30min)
+5) Se ajustó enviroment original en rama QA-v2-estable y se subió al repo (10min)
+
+
+30-04-2024
+1) Se descargo proyecto de rinna (30min)
+2) Se reinstalo version de composer adecuada para el proyecto (30min)
+3) Se ejecuto el comando composer install para instalar dependencias del proyecto (30min)
+4) Se corrieron migraciones lo cual genero algunos errores (15min)
+5) Me reuni con Rafael y Emiliano para terminar de configurar el proyecto (1 hora 30min)
+6) Descargamos todo la data de la base de datos y la importamos en mi local (2 horas)
+7) Se reviso flujo del codigo (1hora)
+
+02-05-2024
+1) Meet rinna (1 hora)
+2) Reunion con Rafael, explicando requerimiento (30min)
+3) Desarrollo Creación de servicio para verificar existencia al enviar el pedido desde el app (50%) 4 horas
+
+03-05-2024
+1) Desarrollo Creación de servicio para verificar existencia al enviar el pedido desde el app (90%) 6 horas 
+
+06-05-2024
+1) Desarrollo Creación de servicio para verificar existencia al enviar el pedido desde el app (100%) 1 hora
+2) Meet rinna (30min)
+
+
+
+gdlvan
+1) Se intentó levantar proyecto frontend, se instalaron todas las versiones de node posibles, desde versiones muy antiguas hasta la mas nueva, ademas se degradó la version de la cli de angular a la 7, y se fué aumentando poco a poco y ni siquiera eso permitió levantar el proyecto (5 horas)
+
+
+productos
+productos_catalogos
+tienda
+existencias
+
+Angular cli: 16.2.8
+Node: 16.14.2
+Package Manager: npm 8.5.0
+
+
+17-04-2024
+$ ng --version
+Node.js version v16.14.2 detected.
+The Angular CLI requires a minimum of v18.13.
+Node: 16.14.2
+
+apiUrl: 'https://localhost:44375/api',
+
+loadChildren: ()=> import('app/modules/startpage/start-page.module').then(m=>m.StartPageModule)
+
+
+
+
+
+
+grados academicos en asistentes CHECK
+pago en editar asistentes CHECK
+cantidad de habitaciones
+y al reservar que tenga mas de una reservacion CHECK
+
+correo de openPay webHook
+
+
+
+
+
+
+
+
+
+
+
+
+Estimacion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+estimar tiempo
+diseño reservaciones => 2 horas
+grado academico => 12 horas
+bitacora de acciones en todas las tablas y vistas 12 hora
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+para cambiar el nombre de un campo a traves de migraciones
+	php artisan make:migration modify_nombre_del_campo_en_tabla
+	public function up()
+{
+    Schema::table('nombre_de_tabla', function (Blueprint $table) {
+        $table->string('nombre_del_campo', 100)->change();
+    });
+}
+
+
+php artisan migrate:rollback --path=/database/migrations/2023_11_28_205046_create_available_categories_table.php
+
+ng new --help
+ng g component modules/admin/profile --skip-import
+
+dotnet ef dbcontext scaffold "Server=Jr\SQLEXPRESS01;Database=Prueba_Asp;IntegratedSecurity=true;Encrypt=false;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer
+
+dotnet ef dbcontext scaffold "Server=Jr\SQLEXPRESS01;Database=Prueba_Asp2;User ID=sa;Password=123456;Encrypt=false;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer
+
+"Server=Jr\\SQLEXPRESS01;Database=Prueba_Asp;User ID=sa;Password=123456;Encrypt=false;TrustServerCertificate=true"
+
+
+
+Para crear migratios
+php artisan make:migration create_reservations_table
+
+
+
+
+

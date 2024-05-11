@@ -1,0 +1,2665 @@
+[33mcommit e1ff9dfb28704962390218ab2286a41db178d0c5[m[33m ([m[1;36mHEAD -> [m[1;32mcatalogos[m[33m)[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 19 18:40:32 2024 -0400
+
+    ajustar acciones guardar, procesar y estatus sobre pedidos
+
+[33mcommit a376d7545c4e4e63c83805d891281e7693761f1f[m[33m ([m[1;31morigin/catalogos[m[33m)[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 19 16:51:05 2024 -0400
+
+    ajustes metodos de pago
+
+[33mcommit 2099202ef072140ecb262604f0a90594483f0b92[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Mar 18 18:25:42 2024 -0400
+
+    fix bug marca en busqueda carga producto pedido
+
+[33mcommit 58592c8044cbf4b3a46c1938d47bac020e7be03c[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Mar 18 17:58:37 2024 -0400
+
+    fix bug autocomplete busqueda de productos
+
+[33mcommit 16a099759f7d42e03d7a4f59a63695d16bf259e6[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Mar 18 15:50:54 2024 -0400
+
+    habilitar editar claves en crear nuevo vendedor
+
+[33mcommit d91654839bd03b33d2721720a518c3ec7bc9ee65[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Mar 18 15:14:41 2024 -0400
+
+    valida check de terminos y condiciones ante de enviar el pedido
+
+[33mcommit 36bbe78e216390c2471cfeac9837edbb631ca0c2[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Mar 18 13:29:57 2024 -0400
+
+    desactiva guardado de articulos sin existencia
+
+[33mcommit 2790de6732da760bde6af09288936e7d40c30f91[m[33m ([m[1;31morigin/dev[m[33m)[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Fri Mar 15 19:52:46 2024 -0600
+
+    filtros pedidos
+
+[33mcommit 4ac96746da9f40b43459601e70163053f4dda51e[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Fri Mar 15 17:56:29 2024 -0600
+
+    api subir comprobante de pago
+
+[33mcommit d3e1499b5e35d12e45f6128e9335d53bc8e5c341[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Thu Mar 14 19:50:29 2024 -0600
+
+    menu lateral mejoras
+
+[33mcommit 793d703b4ca4b44ccb3d0be82665e6c6296f0c6a[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Thu Mar 14 17:01:38 2024 -0400
+
+    fix bug botones pedidos
+
+[33mcommit 7e9af03121d60504e60729d183ccad23af9b2715[m
+Merge: 6e59bb5b 2f427695
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Thu Mar 14 15:43:06 2024 -0400
+
+    Merge branch 'catalogos' of https://devops.engranedigital.com/gitlab-instance-ebeeab5b/rinna-bruni-back into catalogos
+
+[33mcommit 6e59bb5b7fa1459ac54f399d310369a9bc49af8b[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Thu Mar 14 15:42:58 2024 -0400
+
+    ajustes en botones de forma de pago en pedidos
+
+[33mcommit 2f42769513b096412bcd5139fc427b33ca2c27d9[m
+Merge: 27dca2c8 cfb5f1e0
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Wed Mar 13 16:51:42 2024 -0600
+
+    Merge branch 'dev' into catalogos
+
+[33mcommit cfb5f1e03afba6b2c72c8e940d1cf4aea47ffeb7[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Wed Mar 13 16:51:11 2024 -0600
+
+    bugfix actualizar precio pedido en cms
+
+[33mcommit 27dca2c82d92cc4eb7ead54eb0ca29c3c70a6073[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Wed Mar 13 15:50:22 2024 -0400
+
+    cambio del diseño del check de terminos y condiciones en crear pedidos
+
+[33mcommit 2690e2f97a7928ec30d7a707e05ff5dfc313c5ca[m
+Merge: 15e89141 9ca26cc7
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Wed Mar 13 15:39:03 2024 -0400
+
+    Merge branch 'catalogos' of https://devops.engranedigital.com/gitlab-instance-ebeeab5b/rinna-bruni-back into catalogos
+
+[33mcommit 15e891415a1c2d812bad4f5fc7636087380db8f1[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Wed Mar 13 15:38:30 2024 -0400
+
+    ajustes de botones en  pedidos por cambio de metodos de pago
+
+[33mcommit 9ca26cc737cfddad9ca8788b2df44d4f5e8f0768[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Wed Mar 13 12:54:58 2024 -0600
+
+    bugfix actualizar precio pedido en cms y ordenar pedidos en DESC
+
+[33mcommit 60263d3c35f9adee70dfdf02f7ba59fc9bd2f680[m
+Merge: ac6ed6a6 2d6a3e17
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Tue Mar 12 18:50:48 2024 -0600
+
+    Merge branch 'dev' into catalogos
+
+[33mcommit 2d6a3e1790b399695b2a250be7882cdb8cf2ae95[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Tue Mar 12 18:49:17 2024 -0600
+
+    bugfix reporte pedidos y crear usuario
+
+[33mcommit ac6ed6a6b3849a4267838a881e9dcb651bb582b5[m
+Merge: 9c0ec14a 21c7a02e
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 12 19:55:54 2024 -0400
+
+    Resolve merge conflict by incorporating current changes
+
+[33mcommit 9c0ec14a39fa5d4ec556e8a44fda544e2311fb00[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 12 19:42:29 2024 -0400
+
+    ordena en forma descendente listado de pedidos
+
+[33mcommit 93fd1d6e66b2a3612f010ab5e8a24538f671439b[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 12 19:23:49 2024 -0400
+
+    activa otras formas de pago en crear pedido
+
+[33mcommit afd476333856a067d26079b63ee2cf257d6a18c3[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 12 19:23:07 2024 -0400
+
+    desactiva cupones y vales  de la vista crear pedido
+
+[33mcommit 21c7a02e291776b9361b2adc3d496b4e918f0c8f[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 12 19:15:01 2024 -0400
+
+    desactivar cupones y vales
+
+[33mcommit 7c4d22f22a726996cd8d37f62bfaf430c122b4e0[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 12 18:27:49 2024 -0400
+
+    comentar notificaciones push en crear pedido
+
+[33mcommit 5f4579e3275fe6dbd5fc1b7222095e575895f134[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 12 14:54:55 2024 -0400
+
+    ajuste imagenes pdf catalogo de catalogos
+
+[33mcommit 3781eb9a976fbe241403f2055863e4dc9496ec1f[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Mar 11 15:04:05 2024 -0400
+
+    fix vista show pedido - tarjeta  #493
+
+[33mcommit 6e2f39f33bd23466f5ffa1ace56cf66228182483[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Mar 9 02:08:54 2024 -0400
+
+    fix bug eliminar imagen producto de la edicion
+
+[33mcommit 42a9cc9e452e36f7ec8ee735dfa16659ed73f55c[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Mar 9 00:20:17 2024 -0400
+
+    feature permite destacar la imagen al momento de la creacion del producto
+
+[33mcommit 8976614982d4e4fa2ad3984e10ab51ac9f57d0d2[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Fri Mar 8 17:58:40 2024 -0400
+
+    feature: evitar cache navegador en los js de productos mientras se desarrollo
+
+[33mcommit 6d40ea9188e7afa518b9963545dfd9ac87494572[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Fri Mar 8 17:41:31 2024 -0400
+
+    feature: agrega validacion de minimo 4 imagenes en la galeria
+
+[33mcommit 914755a351c8690964be306120c46777b870f3c4[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Fri Mar 8 16:43:40 2024 -0400
+
+    feature vista para agregar linea al filtro  de  busqueda de productos
+
+[33mcommit e14265ad6989c3e400b200c6f325eb38300848d2[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Fri Mar 8 16:41:20 2024 -0400
+
+    feature: agrega filtro de linea a listado de productos
+
+[33mcommit 06b8bc4704423311fd9ab12e1c79435f4c957455[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Fri Mar 8 15:43:28 2024 -0400
+
+    feature: validacion de imagen de porductos para app por tamaño en bytes
+
+[33mcommit 876cc22c098128c769675130c9724322c5823e9b[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Fri Mar 8 12:03:11 2024 -0400
+
+    fix bug size pdf catalogo de catalogos
+
+[33mcommit b5a62b2366afcb212d57df49e2f28ad82d39d82c[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Wed Mar 6 17:04:01 2024 -0400
+
+    fix bug busqueda de productos al crear pedidos
+
+[33mcommit 4cfe8029df42a9c053c8ececc346b7c66da97c47[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Wed Mar 6 00:58:37 2024 -0400
+
+    fix ajuste posicion de precio
+
+[33mcommit 4231220349bdc7b742a90e351fe7baafdbee2e6a[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Wed Mar 6 00:52:41 2024 -0400
+
+    fix ajuste encabezado y imagen de fondo pdf
+
+[33mcommit 7662d12e470c2e11ac7ecacad2531dd930a0c1d0[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 5 20:27:41 2024 -0400
+
+    fix ajustes del pdf de catalogos
+
+[33mcommit 3e381af020015593aecf37de489d36ea9c7b315e[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 5 20:15:53 2024 -0400
+
+    fix ajuste texto estilo en pdf catalogos
+
+[33mcommit dea7061df44a1c3b8c431fa358ff4a3ad3d09a27[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 5 18:51:09 2024 -0400
+
+    fix bug cambiar estatus catalogo en editar
+
+[33mcommit bf519409d55d53979562aae524a31935cb519098[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 5 15:56:24 2024 -0400
+
+    fix bug show producto
+
+[33mcommit 4c51b58d8c26180eb4236e2ae7d6f4296f7bdc2e[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 5 15:53:54 2024 -0400
+
+    fix bug linea->nombre show productos
+
+[33mcommit d475c8ff666c07a23b8b7406c3b798b4c2897824[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 5 15:48:12 2024 -0400
+
+    fix bug linea->nombre en show catalogo
+
+[33mcommit 40e44fe8953ff259e78cfdc6d160e68f8385879b[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Mar 5 15:40:34 2024 -0400
+
+    fix bug error linea ->nombre en edit catalogo
+
+[33mcommit 54128a9834f78845307a2fed542dc03090a8ab5e[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Mar 4 16:28:32 2024 -0400
+
+    fix api pedido agrega catalogo linea a producto
+
+[33mcommit bf8e1453151eecde2ae017cfc4822058446fb760[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Fri Mar 1 22:48:20 2024 -0400
+
+    fix apis busqueda productos y pedidos
+
+[33mcommit cc9c455dfe0751b356b97daaadbefcfb44c29dbf[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Fri Mar 1 22:40:50 2024 -0400
+
+    fix bug existencias
+
+[33mcommit cdf39b3820c01262a661c91af1bda0f958898c02[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Wed Feb 28 21:08:28 2024 -0400
+
+    agrega catalogos de marca, temporada, linea, descripcion  a las apis de productos y catalogos
+
+[33mcommit 5e8196185ee8516c069fad04774ba5798d149f34[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Wed Feb 28 21:06:54 2024 -0400
+
+    fix bugs campos de productos en existencias
+
+[33mcommit fa3a1908e58f18984ccc9b521ac1caa4b33f54ed[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Feb 26 11:32:50 2024 -0400
+
+    crea opcion show para catalogo de catalogos
+
+[33mcommit e22a7f977f0aeeceae612ff0727ab69535b63a45[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Feb 26 00:03:41 2024 -0400
+
+    agrega filtros al modal de productos en catalogo de catalogos
+
+[33mcommit 17d1966114bdca4960bc48a714806fe4d40829af[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Feb 24 14:27:38 2024 -0400
+
+    fix dimensiones imagenes en catalogo
+
+[33mcommit 0d5696e6063e685bd9be5e597e639c71a0532e15[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Feb 24 14:13:27 2024 -0400
+
+    fix cargar imagenes multiples en edit de productos
+
+[33mcommit 67726c6489fc44deb0808ea6ddd900d538e47bd9[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Feb 24 13:39:38 2024 -0400
+
+    fix previo imagen para catalogo en editar productos
+
+[33mcommit 3a916724d5f9df0a43d7810fd7f1f03bc089ba67[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Feb 24 13:17:24 2024 -0400
+
+    fix create en catalogo de catalogos
+
+[33mcommit 6d5d5efa8d348ecce47fc559c733aa1745946d78[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Feb 24 13:13:51 2024 -0400
+
+    fix edit en catalogo de catalogos
+
+[33mcommit 0719efc5d22ea404e0df8464288f195a30915b31[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Feb 24 13:07:49 2024 -0400
+
+    fix descripcion relation en listado de productos
+
+[33mcommit fd60a661c63f2561122f4dc781e8d83f3b41dd92[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Feb 24 13:05:51 2024 -0400
+
+    fix listado de productos
+
+[33mcommit 454ab695b823e947464b99f2cd2887a91201fe3a[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Feb 24 13:00:40 2024 -0400
+
+    ajustes a catalogos de productos y catalogo de catalogos
+
+[33mcommit 936b82a14f39aa1f59fe422f00787f3064178981[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Wed Feb 21 19:41:27 2024 -0400
+
+    configura select de temporada en readonly en el edit de producto
+
+[33mcommit 27f6d21b2bb9a0306f36a55a64d9b5136db01319[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Wed Feb 21 16:55:54 2024 -0400
+
+    bug en el create de marcas
+
+[33mcommit 54125d0a3d1d91e2efab03e96d63d8e95dabbfea[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Wed Feb 21 15:04:58 2024 -0400
+
+    crea nuevos catalgos para productos y ajusta el catalogo a tamaño carta
+
+[33mcommit 4d3b9448be821d20c6334e852f8675a02bbbb22e[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Feb 12 21:01:33 2024 -0400
+
+    ajuste de servicio de catalogos con productos para que envie las existencias solo cuando se el token de auth
+
+[33mcommit 8d622a54fc069924a04d7f57c547fef0d7d387b3[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Fri Feb 9 20:52:36 2024 -0400
+
+    agrega existencias al servicio de catalogo con productos
+
+[33mcommit d427f4bb8be8c6695eda41e0758a489f7d502be8[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Feb 6 19:58:58 2024 -0400
+
+    cambios composer
+
+[33mcommit 39d65888eab4f5ffb2daff6c7124bc0c2a775262[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Feb 6 19:58:20 2024 -0400
+
+    comenta plugins que dan error
+
+[33mcommit 3806110e297b9c11e81196dbcbc7072908d192c1[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Feb 6 19:57:32 2024 -0400
+
+    Crud y Pdf para catalogos  - incluye apis
+
+[33mcommit 6e6f85eb49b92b40def3b79d0bf4222cea17b56a[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Feb 6 19:50:44 2024 -0400
+
+    imagenes para pruebas de productos y sliders
+
+[33mcommit 6cdbe357c0ec3f0d3787cf8cdeff1f6113f26030[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Jan 29 16:48:14 2024 -0400
+
+    crea crud de catalogo de cataologos, falta el show
+
+[33mcommit e212758e225bb645996fb796fd2115132775e072[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Mon Jan 22 17:10:28 2024 -0400
+
+    crea crud de catalogo de clasificacion
+
+[33mcommit 84a637a0c3e9e2e8733c47d94ea6692e016043c7[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Jan 20 21:02:45 2024 -0400
+
+    crea crud de catalogo de temporadas
+
+[33mcommit d4fb2231d19d182df637828766c564d8e14dc996[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Jan 20 21:01:11 2024 -0400
+
+    fix bug nombre colleccion en lineas
+
+[33mcommit cfce028091730ea64645182551eb85c74e4b67dc[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Jan 20 20:06:15 2024 -0400
+
+    crea crud del catalogo de lineas
+
+[33mcommit 75d02c559c72f52034c30b302fab1746c8cf5f0a[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Jan 20 19:58:19 2024 -0400
+
+    crea submenu catalogos y sus permisos
+
+[33mcommit c3b56476d9e086159395d09c3308fedfd1b95aff[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Sat Jan 20 13:12:53 2024 -0400
+
+    crea los componentes para los  cruds de catalogos
+
+[33mcommit 74cb18f6e06ca233670818c7186b05b063b37204[m
+Author: Rafael Cayamo <rafaelcayamo@gmail.com>
+Date:   Tue Jan 16 17:36:48 2024 -0400
+
+    cambios hechos po autoload composer
+
+[33mcommit b6a5060ffd70de322e0b02f8caab4d07a8dadf5e[m[33m ([m[1;32mdev[m[33m)[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Tue Dec 19 13:23:14 2023 -0600
+
+    modificación servicios api en pedidosController
+
+[33mcommit 59098c033628ae74348f3e7e0ead292dbc4cce8b[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Fri Dec 15 17:11:25 2023 -0600
+
+    modificación api para obtener productos
+
+[33mcommit 873929854f103b141806b1ca8ca8043d62510b0d[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Fri Dec 15 12:40:15 2023 -0600
+
+    confusion en nombre de variables
+
+[33mcommit f286de071f5db697b808c164c36e561cd3c4f1aa[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Fri Dec 15 12:26:22 2023 -0600
+
+    bugfix creación pedido
+
+[33mcommit 09e4d3df6f6609984f03a621c5b696a4532cfd25[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Thu Dec 14 18:30:07 2023 -0600
+
+    metodos de envio pedidos
+
+[33mcommit 8b129191aaedcb8bd5521cf76e73551ca82b259d[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Thu Dec 14 13:42:20 2023 -0600
+
+    desglose de montos
+
+[33mcommit 9f01ff8c43eb85e3022ef22bcf12e6410b06f0ff[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Thu Dec 14 10:16:10 2023 -0600
+
+    modificación api busqueda de productos
+
+[33mcommit a7b4273fd7d23a21f198d8ca8126f880e4d0bf97[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Wed Dec 13 19:08:38 2023 -0600
+
+    boton guardar visible
+
+[33mcommit 1c76fc0d181250ff5d53b98b4b073130e70b1678[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Wed Dec 13 17:08:49 2023 -0600
+
+    cambios endpoint busqueda producto
+
+[33mcommit 28091bf611fac894c2b0c6c1acf0cc262bd89009[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Wed Dec 13 14:13:17 2023 -0600
+
+    bugfix tabla de articulos
+
+[33mcommit 89b9f0766fbc392640a841a8242d3b41ebbbb270[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Tue Dec 12 18:06:14 2023 -0600
+
+    comentado alerta cambio de cliente no posible
+
+[33mcommit 4e68279d2d092a2d32c876788b638dfb16669a8e[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Tue Dec 12 17:18:13 2023 -0600
+
+    bugfix endpoint editar producto pedido
+
+[33mcommit a35f025ee7c1d275e0362a4e2c8f6245c09de9d0[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Tue Dec 12 10:40:06 2023 -0600
+
+    avances flujo de pago con mercado pago
+
+[33mcommit 00c38aa561b5efe9040e5f6b8b01f0fbf2a9a208[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Fri Dec 8 19:14:35 2023 -0600
+
+    avances mercado pago
+
+[33mcommit 13b593813290b05b210bf46e99be8dd1a3719c89[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Wed Dec 6 11:57:19 2023 -0600
+
+    agregado monto_paqueteria api pedidos
+
+[33mcommit f021406eaaed2941c25edd0faf8bec82a28b34b7[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Fri Dec 1 13:53:44 2023 -0600
+
+    deshabilitar costo de envio a pedido
+
+[33mcommit ae0cb7eec7bee95528731692c2eec55f82879ffe[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Thu Nov 30 13:57:46 2023 -0600
+
+    bugfix campo direcciones en pedidos
+
+[33mcommit 129ce1cccf347e5fded6dd33e8c0e33adac376d2[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Thu Nov 30 13:26:18 2023 -0600
+
+    ajustar etiquetas envio en crear pedido
+
+[33mcommit 8b27a0f99d0bd3a399d3c82475792002ca3b6680[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Wed Nov 29 18:40:33 2023 -0600
+
+    bugfix evitar procesar pedidos de distribuidores bloqueados
+
+[33mcommit 663c0921d7f66f608db00ff46d3be0bed847acce[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Tue Nov 28 12:16:30 2023 -0600
+
+    bugfix precio total en reporte pedidos
+
+[33mcommit dbe592f9325794a64ddeb8282582ba22e53fb6b6[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Mon Nov 27 14:48:45 2023 -0600
+
+    bugfix reporte pedidos
+
+[33mcommit 05d580930a217fa9ca93d31737272b09850926ae[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Fri Nov 24 14:45:24 2023 -0600
+
+    bugfix mostrar solo direcciones activas en crear pedido
+
+[33mcommit fb88e29abc9ec34d8fbf1ddd2d6f6a73099e7f04[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Thu Nov 23 19:47:33 2023 -0600
+
+    bugfix bloquear distribuidor
+
+[33mcommit c281864532ce129f379c556935c34a03743302a2[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Wed Nov 22 18:22:54 2023 -0600
+
+    bugfix cupon y mostrar detalles direccion
+
+[33mcommit 191651471c39cf59a937d227b52377bce5aea8a3[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Tue Nov 21 18:25:59 2023 -0600
+
+    bugfix mostrar listado de direcciones en crear pedido
+
+[33mcommit 71c66a1f6437e2a115b30a7b36b361d98e7c1641[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Thu Nov 16 18:56:57 2023 -0600
+
+    agregado .gitignore en cache views y sessions
+
+[33mcommit 6567585adb31fa17db6a5fd07317ffa993f63677[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Thu Nov 16 18:51:30 2023 -0600
+
+    bugfix mostrar precio en crear pedido
+
+[33mcommit 01d6d8483e086cf92df0a751300e8e32484545af[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Fri Nov 3 17:54:51 2023 -0600
+
+    vadacion de datos null en vista pedidos/editar
+
+[33mcommit e749fd2f550f224f2136a9161051afdf95661a72[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Fri Nov 3 16:53:32 2023 -0600
+
+    mostrar datos del cliente en pedidos/editar
+
+[33mcommit 1bd44433e8a63d1865f0d4b155c2c40a9949afe2[m
+Author: José Emiliano Cocom Xool <joseemilianococom@gmail.com>
+Date:   Thu Nov 2 12:56:02 2023 -0600
+
+    bugfix crear pedido
+
+[33mcommit bad3f0e7d1bb7508d67d960e1c1606a63c10338a[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Oct 30 09:53:02 2023 -0600
+
+    Avances 30-10-23
+
+[33mcommit 61922833eb320166d727224d1f5d6e47806578d6[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Oct 27 09:17:04 2023 -0600
+
+    pull
+
+[33mcommit 14a0111064b3aed1597bff2b79718891f2977b26[m
+Merge: ca6ea2d0 869632b6
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Oct 26 14:07:07 2023 -0600
+
+    Merge branch 'dev' of https://devops.engranedigital.com/gitlab-instance-ebeeab5b/rinna-bruni-back into dev
+
+[33mcommit ca6ea2d0a7094f53c8635e7edb08f48992c1c20c[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Oct 26 13:59:52 2023 -0600
+
+    Reporte 24-10-23
+
+[33mcommit 869632b60496481c0877bbbcfde1782919374172[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Thu Oct 26 11:28:45 2023 -0600
+
+    QA-WEB-68 QA-WEB-83 QA-WEB-35
+
+[33mcommit fe586ce6d76378b6950979299523bca489a6008f[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Tue Oct 24 09:24:55 2023 -0600
+
+    QA-WEB-35 Correccion de campo de descuento
+
+[33mcommit 5c3840fbd9e84c9a308929e1038432e0d4cb819e[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Tue Oct 24 07:58:20 2023 -0600
+
+    QA-WEB-83 - Bloquear pedidos para distribuidores
+
+[33mcommit 8e27d777090a9f3634ca3e23d9a5ca6a365ca3b4[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Oct 23 15:38:23 2023 -0600
+
+    Bug 23-10-23
+
+[33mcommit 290c7938b493483d21a83edcfdbe853bd4845dc6[m
+Merge: 26c8f4b7 86386231
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Oct 23 10:28:49 2023 -0600
+
+    Merge branch 'dev' of https://devops.engranedigital.com/gitlab-instance-ebeeab5b/rinna-bruni-back into dev
+
+[33mcommit 26c8f4b7cff76c979f4bdfb3a3b907334a2037cc[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Oct 23 10:28:09 2023 -0600
+
+    23-10-23
+
+[33mcommit 86386231d76de3fe632999ad985768145ed9a817[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Fri Oct 20 23:05:08 2023 -0600
+
+    QA-WEB-90 - Se agrego la alerta de pedido sin existencias
+
+[33mcommit a53f9a829cccf85360a49603dcd0cfa2a9c4f73f[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Fri Oct 20 18:31:16 2023 -0600
+
+    QA-WEB- 83 Se sube ajuste completo para todos los usuarios
+
+[33mcommit 70eec17192d71aead4dc003857b3008277d1147f[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Tue Oct 17 21:17:43 2023 -0600
+
+    QA-WEB-93 Se agusta el tema de boton de acciones en catologo de pedidos
+
+[33mcommit 3581a13d6225e19d002e670454c733de45fd4fa2[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Tue Oct 17 20:29:03 2023 -0600
+
+    QA-WEB-35 - Se terminaron ajustes para no mostrar el NaN en el campo de descuento
+
+[33mcommit 8e697a40be8c88455b4b0290ad22bfefa7ae28fa[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Oct 17 11:54:43 2023 -0400
+
+    avances 16 octubre 2023
+
+[33mcommit 19b25f7f6f2df0de48d7b6c90ae42bf96cf3c0a6[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Oct 16 11:58:31 2023 -0400
+
+    subiendo 16 octubre 2023
+
+[33mcommit 4b9e00669856b9cef843d70b8e72b6014ba8e17e[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Oct 13 15:48:37 2023 -0400
+
+    avances 13-10-23
+
+[33mcommit b42a1237affe9d5eeb587024fc17d7ce26b522a2[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Oct 13 12:22:45 2023 -0400
+
+    avances 12 octubre 2023
+
+[33mcommit fe294a2f9fa5c2cf568b416b8c1b99df8293fe31[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Oct 12 11:32:25 2023 -0400
+
+    ajuste pantalla cupones
+
+[33mcommit 51b0bcb6a294f7da19db3bcacbbfab8ea98ef1bf[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Oct 11 16:28:41 2023 -0400
+
+    api de vale y cupones 11-10-23 2
+
+[33mcommit fc6eebd6d238283af6430fdd90f805dffb592988[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Oct 11 13:25:07 2023 -0400
+
+    api de vale y cupones 11-10-23
+
+[33mcommit 792c6fa240a882de6403040b9f3c67d16fda427d[m
+Merge: f9a1cdf4 bae7bc93
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Oct 10 23:33:08 2023 -0400
+
+    Merge branch 'dev' of https://devops.engranedigital.com/gitlab-instance-ebeeab5b/rinna-bruni-back into dev
+
+[33mcommit f9a1cdf49de7f96c8a32fe9e884f0b03196044b5[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Oct 10 23:32:10 2023 -0400
+
+    ajuste pantalla caducidad
+
+[33mcommit bae7bc93feda7a576d124771c84bd544e62178e7[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Tue Oct 10 10:32:15 2023 -0600
+
+    Se suben cambios de pedidos
+
+[33mcommit 87b63fb3d3c30d20f0a7752b8aa9a96c65f280dd[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Oct 10 10:26:00 2023 -0400
+
+    actualizando repo
+
+[33mcommit ba0e97ac270a411516550e75c4611fdfb243fe38[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Oct 9 11:52:50 2023 -0400
+
+    actualizando 09 octubre 2023 2
+
+[33mcommit 50e7ea99c506dd4b9aea1a79e1af190e8dccaea5[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Oct 9 10:44:15 2023 -0400
+
+    actualizando 09 octubre 2023
+
+[33mcommit bcf3e7a8f5fb06b58dff7919cd07f85129152f1d[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Oct 5 14:51:57 2023 -0400
+
+    avances 05-10-23
+
+[33mcommit 30a9346c07a92916b19f90359eafc49abfb5b410[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Oct 5 10:17:27 2023 -0400
+
+    envio de correos y fechas antiguas
+
+[33mcommit 584dcdc9625f84910e47d191906d4f9d11e23bf4[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Oct 3 17:48:17 2023 -0400
+
+    se modifico api de editar pedido producto
+
+[33mcommit d2d10103bcc4816adc22e3aa6abbb4df1b4fded0[m
+Merge: 3c2627a6 4c717ff7
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Oct 3 10:26:04 2023 -0400
+
+    Merge branch 'dev' of https://devops.engranedigital.com/gitlab-instance-ebeeab5b/rinna-bruni-back into dev
+
+[33mcommit 3c2627a64dd4d84d89179db04fc90af18a09cbff[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Oct 3 10:25:05 2023 -0400
+
+    se ajustaron cambios en api pedidos
+
+[33mcommit 4c717ff70cc9189cdccdf574213e129867102488[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Mon Oct 2 11:24:06 2023 -0600
+
+    Se hace el ajuste en el api para no agregar mercado pago al agregar productos
+
+[33mcommit 34ac002e9d4e94cf8a9b9281b0e75783322114da[m
+Merge: 4d924eab 9b130bb7
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Oct 2 12:41:58 2023 -0400
+
+    Merge branch 'dev' of https://devops.engranedigital.com/gitlab-instance-ebeeab5b/rinna-bruni-back into dev
+
+[33mcommit 4d924eab1d003f4be41924160a1314a215b1a575[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Oct 2 12:40:45 2023 -0400
+
+    bajando cambios
+
+[33mcommit 9b130bb71ba4464292c1725c9b9545ab0df1c06f[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Thu Sep 28 20:18:12 2023 -0600
+
+    Se hace ajuste para que tome el distribuidor id del cliente
+
+[33mcommit ab9d39919182a493db5e0e47c4351c1b3a9d069e[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Thu Sep 28 11:25:44 2023 -0600
+
+    Correcciones de Pedidos
+
+[33mcommit b2646cb603fb0a5589c483d651f1bf588077515b[m
+Merge: 60dd9c39 5272e8f6
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Sep 22 17:56:59 2023 -0400
+
+    Merge branch 'dev' of https://devops.engranedigital.com/gitlab-instance-ebeeab5b/rinna-bruni-back into dev
+
+[33mcommit 60dd9c39b3c5176cb0f6f2a2e6dc4966ac6ddca2[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Sep 22 17:55:57 2023 -0400
+
+    avances 22-09-2023
+
+[33mcommit 5272e8f6a9b66701d0270387bde180405703f8b6[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Thu Sep 21 10:04:31 2023 -0600
+
+    Se agrego la parte de detalle de pedido
+
+[33mcommit 80b460cb9e0fb417a2acff0b22156020c17f737e[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Sep 19 17:32:29 2023 -0400
+
+    Avences 19-09-23 3
+
+[33mcommit 123be60476faa2fc0d98c5981340a885283b85f2[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Sep 19 17:16:00 2023 -0400
+
+    Avences 19-09-23 2
+
+[33mcommit 7dc37ddc3977af6791fb22ada942687fd80f098f[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Mon Sep 18 18:09:21 2023 -0600
+
+    Se corrige error de validacion de existencias con valor en 0
+
+[33mcommit ca1c253ecee5075e4a63d656ce34591b78beb914[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Sep 18 17:50:56 2023 -0400
+
+    avances 18 de septiembre de 2023
+
+[33mcommit 45eaec656dd0aa3954d4867f1e4f1916ae5e6bfe[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Sep 18 11:41:34 2023 -0400
+
+    Avances 18-09-23
+
+[33mcommit 7fd69142ee857312fb35dd698818e49f776dd570[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Sep 15 17:27:41 2023 -0400
+
+    Avances 2 15-09-23
+
+[33mcommit b76ed65e73616c3fd1495e149522f9eb33b7a2f0[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Sep 15 12:38:51 2023 -0400
+
+    Avances 15-09-23
+
+[33mcommit abb843c442900b544fa8873a154cefceecec7c27[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Sep 14 16:54:09 2023 -0400
+
+    Avances 2 14-09-23
+
+[33mcommit 4abf3b6cdaeaa0fa1b8d47dc8afad275177eaa1e[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Sep 14 15:17:30 2023 -0400
+
+    avances 14-09-13
+
+[33mcommit 80d4960870cd5ebecf947b3ead069dae18c6ffe8[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Sep 13 17:36:32 2023 -0400
+
+    Avancessss
+
+[33mcommit 37ecae58048621857fb28eeaa84b8d77f30a9cd7[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Sep 13 16:47:17 2023 -0400
+
+    Respaldo 13-09-23
+
+[33mcommit 2c9f9b5ae8ccec60314f6e2a43cc04ae651f83d3[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Sep 13 12:24:47 2023 -0400
+
+    respaldo 13 septiembre 2023
+
+[33mcommit 968ce1dd7ed42281726a5457cb22b66bc8078b12[m
+Merge: 8301fffc ba37c8b2
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Sep 13 12:19:22 2023 -0400
+
+    Merge branch 'dev' of https://devops.engranedigital.com/gitlab-instance-ebeeab5b/rinna-bruni-back into dev
+
+[33mcommit 8301fffc73356f6342e17970136454541e3e6d01[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Sep 13 12:18:18 2023 -0400
+
+    respaldo 13 septiembre 2023
+
+[33mcommit ba37c8b254889cf149097b2d25439643f9ed50e4[m
+Author: Francisco Rolon Garcia <francisco.rolon@engranedigital.com>
+Date:   Wed Sep 13 10:15:53 2023 -0600
+
+    Se corrigen bugs de pedidos y calculos de pedidos
+
+[33mcommit d52ffba3a4e358b260221274744794e6b5f3628f[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Sep 12 12:23:45 2023 -0400
+
+    avances 12 septiembre 2023
+
+[33mcommit 27687302e91badafa6e5b5ae4097826b0cc53494[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Sep 11 17:35:47 2023 -0400
+
+    avances 11 de septiembre 2023
+
+[33mcommit 62b3c1945a590cf1d45e9f01411fa765a4cb766f[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Sep 11 12:32:05 2023 -0400
+
+    respaldo 11 septiembre 2023
+
+[33mcommit fba4a7a3213cb92be449d04c7c8ec2fb4e22f5f0[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Sep 6 16:27:06 2023 -0400
+
+    avances 06 septiembre 2023
+
+[33mcommit 4d2dd51cf1e4633210580de2b970f55029c86738[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Sep 6 15:00:02 2023 -0400
+
+    avances 05 septiembre 2023
+
+[33mcommit 44cc7e37abf277de57e89f66386e3bb51014f99c[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Sep 6 11:22:42 2023 -0400
+
+    avances 06 septiembre 2023
+
+[33mcommit dc57996c835f6563505856595523a3b4273c103e[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Sep 5 18:41:48 2023 -0400
+
+    avances 05 septiembre 2023
+
+[33mcommit 84a946b756d555ddf7b2164e6ca6e08c5a42bb1a[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Sep 4 12:14:02 2023 -0400
+
+    respaldo 04 septiembre 2023
+
+[33mcommit 0de1829423218d0d4c71fc3998af77229a868d43[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Aug 29 18:49:06 2023 -0400
+
+    avances 29 agosto 2023 2
+
+[33mcommit 990680ea5894b0dcd7c6cbc3e411f67f2190746e[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Aug 29 11:33:58 2023 -0400
+
+    avances 29 agosto 2023
+
+[33mcommit 2ffe34c5bdb5bd483e8449188036f5deda6f0d0e[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Aug 28 11:36:41 2023 -0400
+
+    Avances 28 de agosto 2023
+
+[33mcommit 004eaaa006910272442b8b661bc5dfc034bc4366[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Aug 24 12:13:49 2023 -0400
+
+    avances 24 agosto 2023
+
+[33mcommit 04aef9bab912b9a48e0de1183e6ebeac5940c6e5[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Aug 23 11:41:25 2023 -0400
+
+    avances 23 agosto 2023
+
+[33mcommit 29022017a0646033e89399e6dbfccf66fc76a8be[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Aug 22 11:15:37 2023 -0400
+
+    avances 22 agosto 2023
+
+[33mcommit 5d03ffbd623718a6fc602a9746db6ea0bca8ba3b[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Aug 18 10:59:13 2023 -0400
+
+    avances 18 agosto 2023
+
+[33mcommit 301cc342f0f470c054796d79b356af598037c9c0[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Aug 15 18:52:21 2023 -0400
+
+    avances 15 agosto 2023
+
+[33mcommit 76b3fcab076e75760269ee78e3c30331e3ea3258[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Aug 14 15:51:29 2023 -0400
+
+    respaldo 14 agosto 2023
+
+[33mcommit aeea9e862fb18a04ca6a6404d30a1a3c981c32e1[m
+Merge: 10dcc136 ea7fb21d
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Aug 14 15:49:48 2023 -0400
+
+    Merge branch 'master' of https://devops.engranedigital.com/gitlab-instance-ebeeab5b/rinna-bruni-back
+
+[33mcommit 10dcc1361275c10e7d25c83b2c40301da0875e38[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Aug 14 15:44:51 2023 -0400
+
+    respaldo
+
+[33mcommit ea7fb21d33b05d53365134fa788073fce2e68442[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Aug 14 09:14:51 2023 -0600
+
+    update
+
+[33mcommit 931f4c2a51f9fe04afa485df08053fede58ccfe4[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Aug 10 19:25:07 2023 -0400
+
+    avances 10 agosto 2023
+
+[33mcommit e99c62f268f174b72a458861213e8cddc77afe20[m
+Merge: 58bbe223 d9597b17
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Aug 10 17:24:24 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 58bbe223c9bd8dc44ffa6b17e1713b2795afa6cb[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Aug 10 17:23:16 2023 -0400
+
+    respaldo
+
+[33mcommit d9597b17a6a1e28c2e192d3414509a09cb2e9bf3[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Aug 10 14:46:20 2023 -0600
+
+    update
+
+[33mcommit 9a1f49f3440ea963272c668ee2f7167966d1719c[m
+Merge: 62893687 73669cad
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Aug 10 12:57:24 2023 -0400
+
+    merge 10 agosto 2023
+
+[33mcommit 62893687e771c11d246aa9e5ffccf2950eab7936[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Aug 10 11:52:30 2023 -0400
+
+    respaldo 10 agosto 2023
+
+[33mcommit 73669cadc37d7f27f2276e737cc9c07159720031[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Aug 10 09:47:20 2023 -0600
+
+    update
+
+[33mcommit f2c88195a83c135271c62302bad296a45fa866b5[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Aug 7 17:19:47 2023 -0600
+
+    update
+
+[33mcommit 0a78beeba39959bc64e4582f4aafa629662c5575[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Aug 7 18:41:17 2023 -0400
+
+    merge 07 agosto 2023
+
+[33mcommit a63ccab18360ff13919edf85d5a718d5c2d563ee[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Aug 7 18:31:54 2023 -0400
+
+    merge 07 agosto 2023
+
+[33mcommit a47989985526824be266bd58b3e071500557ade1[m
+Merge: 30980f25 04310d36
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Aug 7 18:30:45 2023 -0400
+
+    merge 07 agosto 2023
+
+[33mcommit 30980f25271379536df965b1df3802ac2137f80e[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Aug 7 18:26:45 2023 -0400
+
+    avances 07 agosto 2023
+
+[33mcommit 04310d36ced8c8a070c1a8a74e0c3f73ea754cfd[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Aug 7 16:19:44 2023 -0600
+
+    update
+
+[33mcommit 4ab7136534983968a5582fd665e8399be7bbc3d3[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Aug 7 15:45:28 2023 -0600
+
+    update
+
+[33mcommit 374bd8155e7bff151e3a1e90f507af51f287827d[m
+Merge: 42932299 6ff5a28c
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Aug 7 12:54:46 2023 -0600
+
+    update
+
+[33mcommit 42932299ce2022ec327cd1cf0b0dd9c0ce92c7a7[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Aug 7 12:54:02 2023 -0600
+
+    update
+
+[33mcommit 6ff5a28cdf8d6dee1c7513c065c7241cfb38474f[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Aug 4 12:00:42 2023 -0400
+
+    respaldo
+
+[33mcommit d22a543360af6c25f395096e30d905f3dbb0a180[m
+Merge: 63e473d2 4ad4f578
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Aug 1 11:10:10 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 63e473d2c17c35b4c49fab2dde2c737b75901a66[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Aug 1 11:09:18 2023 -0400
+
+    avances 01-08-23
+
+[33mcommit 4ad4f578a14150ee8e46738b357481bed13fa85a[m
+Merge: 626535c8 bb989f65
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Aug 1 09:06:58 2023 -0600
+
+    Merge branch 'master' of https://bitbucket.org/juannava12/rinna
+
+[33mcommit 626535c875771513355e146923ad4b6cafcfeed1[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Aug 1 09:06:47 2023 -0600
+
+    update
+
+[33mcommit bb989f657197a30dd54c18677be61d478a6bd586[m
+Merge: f00f8b4f a8b935a3
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Jul 28 11:18:40 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit f00f8b4fe485261bae36d00d06b0c63370a55690[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Jul 28 11:05:38 2023 -0400
+
+    avances 28 julio 2023
+
+[33mcommit a8b935a37224578e79c16d837b56c5dca6762439[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 26 15:14:48 2023 -0600
+
+    update
+
+[33mcommit 79c2bba1fa90832593c1a07695aa0ae4eb15c115[m
+Merge: 202be6ff 0d7ff327
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jul 26 17:01:14 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 0d7ff32798175aae6c3d05af2292d5fd494f5114[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 26 14:59:26 2023 -0600
+
+    update
+
+[33mcommit 202be6ff7e4e279c0665df10ea71b509cdba8841[m
+Merge: b43731d4 00613e97
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jul 26 16:45:38 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 00613e97fe3cb7008886083d869a7e125d86143a[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 26 14:43:38 2023 -0600
+
+    update
+
+[33mcommit b43731d4e30b5379bb6818a6e8aaf202bc3ff0e7[m
+Merge: 4767913e 9c418992
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jul 26 16:29:07 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 9c418992c506a2b5412680e80262131f54530a63[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 26 14:27:13 2023 -0600
+
+    update
+
+[33mcommit 4767913e325d06b76c0c49a217399a3209346652[m
+Merge: e6b2c481 5acfd74e
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jul 26 16:17:59 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit e6b2c481845910a1f8af5d6a4e8a56d76acf972e[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jul 26 16:17:00 2023 -0400
+
+    mercado pago
+
+[33mcommit 5acfd74e453fa29e00a92838af54df57db4394e2[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 26 14:14:58 2023 -0600
+
+    update
+
+[33mcommit 4b90d859c867aaf62f2dd6ba0a808f2ac25f78de[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 26 12:52:43 2023 -0600
+
+    update
+
+[33mcommit f20d2b12d77b5f85141b862147b46d1fdd24c9ba[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 26 12:43:00 2023 -0600
+
+    update
+
+[33mcommit b68610a9782da07f80a20e1da6b8178dfaf21700[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 26 11:59:04 2023 -0600
+
+    update
+
+[33mcommit f2373bf9eb4f3c9580977a1af73d6b557eecc29e[m
+Merge: 721876ff bdc542b9
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jul 26 13:52:22 2023 -0400
+
+    merge 26 julio 2023
+
+[33mcommit 721876ffe9e9600c3d2fe1c288b98f504ceee587[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jul 26 13:50:55 2023 -0400
+
+    respaldo
+
+[33mcommit 519d7aff1538b2e976795ec48b7e3fac84785199[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 26 11:50:02 2023 -0600
+
+    update
+
+[33mcommit bdc542b9325e9cf9d51dbb4e09ddf79525351589[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 26 11:42:51 2023 -0600
+
+    update
+
+[33mcommit f28d1bce50618b3fe7009fdfd73a0d09ee47160f[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 26 09:59:10 2023 -0600
+
+    update
+
+[33mcommit 3ca9939f60fb1ddfefcbd64b48efc7886aff9cd2[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jul 25 12:08:33 2023 -0600
+
+    update
+
+[33mcommit d84e6451fd67892343d60b8e2b29ea11c68c4e62[m
+Merge: e2100b83 64e5051d
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 25 12:58:35 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit e2100b83aa2ee689e03f558c303cdc41ed7075d1[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 25 12:58:22 2023 -0400
+
+    respaldo 25 julio 2023 2
+
+[33mcommit 64e5051db621bad8244ad6b59fb5c5d9a28e97f6[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jul 25 10:55:49 2023 -0600
+
+    update
+
+[33mcommit dbe4efc744fe7c66604933b284166b79582da339[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 25 12:31:39 2023 -0400
+
+    respaldo 25 julio 2023
+
+[33mcommit 919888eef8efe2694ff7b90e944187f55f6d104a[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jul 25 10:26:37 2023 -0600
+
+    update
+
+[33mcommit 2ac6a1e1d8c57b16633ee944bd45f2c7d6c29a8c[m
+Merge: 9758f3fc 6188ac05
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 25 12:12:40 2023 -0400
+
+    merge 25 julio 2023
+
+[33mcommit 9758f3fc0a71e50bb16ce5463e39dd9bdd107c8b[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 25 12:10:05 2023 -0400
+
+    respaldo 25 julio 2023
+
+[33mcommit 6188ac050732f890bd751c49e74bf73045df4b35[m
+Merge: 539e941b 5426b9b6
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jul 24 09:21:02 2023 -0600
+
+    update
+
+[33mcommit 539e941bfc3cc6d55ccad0d6f7916169a315faee[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jul 24 09:20:12 2023 -0600
+
+    update
+
+[33mcommit 5426b9b689f97756d1196bf7129fa94083136cac[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Jul 21 17:55:42 2023 -0400
+
+    avances 21 julio 2023
+
+[33mcommit 02816b9d1c2eaa670d957d3a0f0a55cf29ddf299[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 20 18:50:27 2023 -0400
+
+    Avances 20 de julio
+
+[33mcommit d1d13d6c1eebd4f270e41cd72c77a7eb3138fd9c[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 20 11:28:07 2023 -0400
+
+    Avances 20 de julio
+
+[33mcommit ad64015f68257b5f3ab25f7496d715959fe82288[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 18 18:42:14 2023 -0400
+
+    Avances 18 julio 2023
+
+[33mcommit b6842005e5633cb2bfac2d8b03793ec70fa257ec[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 18 11:14:29 2023 -0400
+
+    Avances 18 julio 2023
+
+[33mcommit c2ac94ee560ab23703f3abaa8cf96134068b1bc0[m
+Merge: b120e543 6716c212
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jul 17 18:00:34 2023 -0600
+
+    update
+
+[33mcommit b120e543c971fe6def62d72e729a14591bf76c28[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jul 17 17:54:08 2023 -0600
+
+    update
+
+[33mcommit 6716c212ba3f8e27c3b57d4b85dcd0baa861c2ef[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jul 17 18:30:46 2023 -0400
+
+    Avances 17 julio 2023
+
+[33mcommit 8370a83b6472bfcf3aba6efab505457308b92b37[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jul 17 16:26:30 2023 -0600
+
+    update
+
+[33mcommit 70bfa2ecc07e4dcb8544f4307a01d7b8a886e460[m
+Merge: 699d3bd4 b741bb72
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jul 17 16:48:56 2023 -0400
+
+    Avances 17-07-23
+
+[33mcommit 699d3bd4330c8a7b8f20aad633f38a1b78af93a2[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jul 17 16:45:03 2023 -0400
+
+    Avances 17-07-23
+
+[33mcommit b741bb723568a0f2849d13e346c23c7ea468d13b[m
+Merge: f130581d 06e8d94e
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jul 17 13:27:52 2023 -0600
+
+    update
+
+[33mcommit f130581dd8ef7e53baf195e54f07539a7f6a0832[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jul 17 13:19:30 2023 -0600
+
+    update
+
+[33mcommit 06e8d94ec09843ac207b1c69d8b92ac29504d081[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 13 18:52:03 2023 -0400
+
+    Avances 13-07-23
+
+[33mcommit 32279c1f6346ef0be20ab8b1178fa4d5901a6d5e[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jul 12 18:23:30 2023 -0400
+
+    Avances 12-07-23
+
+[33mcommit ba45699846f182e25f7be7e58bb8d51aba58baee[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jul 12 15:49:24 2023 -0400
+
+    Avances 12-07-23
+
+[33mcommit 0c7c6d8647cb81c5f0356ff4938a146c00b87606[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 11 19:22:27 2023 -0400
+
+    integracion de laravel-snappy
+
+[33mcommit adc29456b9392fcfc1c51752ae9850fc71980738[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 11 19:07:53 2023 -0400
+
+    integracion de laravel-snappy
+
+[33mcommit e456ce66f40f0f4cb0739d756388c9b75ca0c889[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 11 13:26:40 2023 -0400
+
+    Avances 11-07-23
+
+[33mcommit 7ef24451e41dc71aa28464295a6c5d1a8aae7faa[m
+Merge: 8630da46 2fe60297
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 11 12:33:27 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 8630da469c51e066ddf3c7c4a2e2287611de79a4[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 11 12:32:07 2023 -0400
+
+    Avances 11-07-23
+
+[33mcommit 2fe60297a1434a2dca607b719b5a407a2839e6e8[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jul 11 09:27:14 2023 -0600
+
+    update
+
+[33mcommit 9a7a739a6823e320e716a711ec692a2945c52095[m
+Merge: b19dd885 8e87d3b2
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jul 11 09:26:04 2023 -0600
+
+    update
+
+[33mcommit b19dd885dacbc416169938c721a51d7fd3be383d[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jul 11 09:24:07 2023 -0600
+
+    update
+
+[33mcommit 8e87d3b240214086f2414fe6b3ddaa1b79a34090[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Jul 7 10:30:58 2023 -0400
+
+    correcciones 06 julio 2023
+
+[33mcommit f818864494b34a21a779fd43ea7bce66ac4fc1b8[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 6 13:01:17 2023 -0400
+
+    respaldo 06 julio 2023 4
+
+[33mcommit 378191933094720b4eb00ae45496501b2ccffacb[m
+Merge: e6ee43b8 bc732d7a
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 6 12:45:36 2023 -0400
+
+    respaldo 06 julio 2023 3
+
+[33mcommit e6ee43b827cc9dd5d13198f84744f1039b35139c[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 6 12:44:20 2023 -0400
+
+    respaldo 06 julio 2023 3
+
+[33mcommit bc732d7ace5f591e6aca4cf5bc5fec30baf0d568[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jul 6 10:43:10 2023 -0600
+
+    update
+
+[33mcommit 8c4560cd18b1cb873220e19634eaf57797a2f946[m
+Merge: b163569b c4453fec
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 6 12:38:21 2023 -0400
+
+    respaldo 06 julio 2023 2
+
+[33mcommit b163569b0c693bd0d10197059db15d03fe18fbf5[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 6 12:37:21 2023 -0400
+
+    respaldo 06 julio 2023 2
+
+[33mcommit c4453feceb0a7be353a68c9c2d6d55b22e0f9671[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jul 6 10:36:08 2023 -0600
+
+    update
+
+[33mcommit f58c9713be8fa5bdfe72ea408e43df7a41dea881[m
+Merge: bf1abe8b 6057b610
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 6 11:35:57 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit bf1abe8bb4be3be23163bc9929e439b196dd5694[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 6 11:35:30 2023 -0400
+
+    respaldo 06 julio 2023
+
+[33mcommit 6057b6103249f5934a49de1b6614741229354cb2[m
+Merge: a43e3ef9 f8a08efc
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jul 6 09:33:37 2023 -0600
+
+    Merge branch 'master' of https://bitbucket.org/juannava12/rinna
+
+[33mcommit a43e3ef93aec7a2f886454b398651b43fd66d838[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jul 6 09:33:23 2023 -0600
+
+    update
+
+[33mcommit f8a08efc98d32cdcf0b72c1f8b8f984e6962cb70[m
+Merge: 4e602aa8 d2a254b3
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 6 11:13:56 2023 -0400
+
+    respaldo 06 julio 2023
+
+[33mcommit 4e602aa8b2754c6cc6ce8d3515d2d7a92ecbf9b8[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jul 6 11:09:31 2023 -0400
+
+    respaldo 06 julio 2023
+
+[33mcommit d2a254b3445424e3ca9bd43306efcb902a47269f[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 5 21:02:43 2023 -0600
+
+    update
+
+[33mcommit 7daca3f9ab7777d697a432fc19f7931921f5004d[m
+Merge: 3b7d4a46 5bdc9a6d
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jul 5 12:07:27 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 3b7d4a4662c7a4f5b33e3dfeb6ac6e8dc1e1b1cb[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jul 5 12:06:52 2023 -0400
+
+    avances 05 julio 2023
+
+[33mcommit 5bdc9a6da567c6aee10e31c561586d33d4068c2d[m
+Merge: 3efd6330 71b085cd
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 5 09:50:23 2023 -0600
+
+    update
+
+[33mcommit 3efd6330a7046a05a8e327fc69ade805d94d47bb[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jul 5 09:49:43 2023 -0600
+
+    update
+
+[33mcommit 71b085cde5e673db9961cffd3256f44d1cc7be99[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jul 4 13:42:13 2023 -0400
+
+    avances 04 julio 2023
+
+[33mcommit 80976d4cd7635d4b76b5282a2945793442e5b541[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jul 3 11:38:42 2023 -0400
+
+    avances 03 julio 2023
+
+[33mcommit c232926ed96b3d4b36f5ec07d6e999174f4ae896[m
+Merge: a48fd20c 4bd36bb5
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Sun Jul 2 10:26:18 2023 -0600
+
+    Merge branch 'master' of https://bitbucket.org/juannava12/rinna
+
+[33mcommit a48fd20c51bef15a0130dde1617a3ba0628d6b0f[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Sun Jul 2 10:25:49 2023 -0600
+
+    update
+
+[33mcommit 4bd36bb51d8343da2dbfff782232e03fefa80189[m
+Merge: 3c0db1de de47ab95
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Sun Jul 2 12:16:47 2023 -0400
+
+    avances 02 julio 2023 2
+
+[33mcommit 3c0db1de07ff4b44d890ca6aa3ed68231edb610c[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Sun Jul 2 12:12:23 2023 -0400
+
+    avances 02 julio 2023
+
+[33mcommit de47ab959e47793a16b60d524a3c5835133b1de2[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Fri Jun 30 19:14:38 2023 -0600
+
+    updte
+
+[33mcommit a17d6ba405f7a11b7fb70abb323189a1cbce1550[m
+Merge: f043ccb0 3e88ead5
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Jun 30 12:05:23 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit f043ccb027e434ac8719f0b5080533fe50b0274b[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Jun 30 12:01:09 2023 -0400
+
+    avances 30 junio 2023
+
+[33mcommit 3e88ead5bd3e1ad8d0efab06b2f22ad42bda4460[m
+Merge: 6fa0e507 f4154484
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Fri Jun 30 09:12:44 2023 -0600
+
+    updte
+
+[33mcommit 6fa0e5071f5df711a8ac8e03909f296033df3478[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Fri Jun 30 09:10:41 2023 -0600
+
+    update
+
+[33mcommit f41544843261728e37829587e622eba221588c72[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 29 12:06:47 2023 -0400
+
+    avances 29 junio 2023
+
+[33mcommit e31d3d00e1275ec2e1dd36d11b6e87d4fcf29253[m
+Merge: 3e843a37 4064eb27
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 28 13:09:20 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 3e843a37eadb93530625c931225c50d6941c002f[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 28 13:09:05 2023 -0400
+
+    avances 28 junio 2023 2
+
+[33mcommit 4064eb27b7b0ab8945893952c152f8ddc7b547fd[m
+Merge: 49162c9e ea4d8868
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 28 09:59:52 2023 -0600
+
+    Merge branch 'master' of https://bitbucket.org/juannava12/rinna
+
+[33mcommit 49162c9eacac190a43c14320b16330878a902e90[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 28 09:59:30 2023 -0600
+
+    update
+
+[33mcommit ea4d8868d4dbd67e4b5ddce826a5c08aeed6f409[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 28 11:11:44 2023 -0400
+
+    avances 28 junio 2023
+
+[33mcommit f66ebbcebd87cc9770ec288822eb5d0d5b14e624[m
+Merge: b4fadc0b 83259f45
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 28 00:37:18 2023 -0400
+
+    avances 27 junio 2023
+
+[33mcommit b4fadc0bc4aac854b4fa89215196cc7862901ae5[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 28 00:26:19 2023 -0400
+
+    avances 27 junio 2023
+
+[33mcommit 83259f45a2cfbb8deac9364cab8c94eab3b75091[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 27 13:45:39 2023 -0600
+
+    update
+
+[33mcommit 863aec45656d51990cd765afbea1826a6451341c[m
+Merge: 0049bb89 08a8aaff
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 27 09:29:22 2023 -0600
+
+    update
+
+[33mcommit 0049bb8904834906d3c42f96da68bdd0fbeeeeb4[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 27 09:27:39 2023 -0600
+
+    update
+
+[33mcommit 08a8aaffc60be674b55dced9b5d5338e6dfb4b66[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jun 27 11:27:14 2023 -0400
+
+    Avances 27-06-23 3
+
+[33mcommit 80fe5ef5840f106a2a60a314e2397ccf99cc5f49[m
+Merge: 5ca5e74a 691227aa
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 27 09:14:53 2023 -0600
+
+    Merge branch 'master' of https://bitbucket.org/juannava12/rinna
+    
+    # Conflicts:
+    #       resources/views/pedidos/create.blade.php
+
+[33mcommit 691227aa4f2f7e678891b526c95348a0176ae3b0[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jun 27 11:09:42 2023 -0400
+
+    Avances 27-06-23
+
+[33mcommit 5ca5e74a04bfda40d3073e49fc5c46d29949277a[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 27 09:09:20 2023 -0600
+
+    update
+
+[33mcommit 395fc867789bbd5dcfbd22ac7bec1de99cf1f048[m
+Merge: 12be06bb 9e01ad65
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 26 22:50:08 2023 -0600
+
+    update
+
+[33mcommit 12be06bba9852d1566725bccd43772d71c4e2732[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 26 22:40:44 2023 -0600
+
+    update
+
+[33mcommit 9e01ad6516df1e5223d64429c735496e67139d26[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 26 18:30:23 2023 -0400
+
+    avances 26 junio 2023
+
+[33mcommit 3d308ed065a79d353c0c2b538de6269341566e3e[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 22 22:43:46 2023 -0400
+
+    avances 22 junio 2023
+
+[33mcommit 0ac13e182dd5a8409b3743a8aae5597f41db9c52[m
+Merge: 40d7b4c9 2f5b6678
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 21 23:41:20 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 40d7b4c98c7250f5aed88bd947790042b0db258c[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 21 23:40:56 2023 -0400
+
+    avances 21 junio 2023
+
+[33mcommit 2f5b66782a1d7837096faa33e2292a97f9ee0a54[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 21 21:36:26 2023 -0600
+
+    no message
+
+[33mcommit 8740eb462179391820083ac6ab81d118ccb5ce54[m
+Merge: 93a17564 877ae9bc
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 21 14:22:05 2023 -0600
+
+    Merge branch 'master' of https://bitbucket.org/juannava12/rinna
+
+[33mcommit 93a175649b28f80ea9a31149b05179125305a22d[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 21 14:19:59 2023 -0600
+
+    update
+
+[33mcommit 877ae9bcc58257bcd8bc4c767a0fbcd156d4a3ef[m
+Merge: f6d259fa 512e8434
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 21 11:35:48 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit f6d259fac22655fd65cc83a38e0d9ca9f323a3f8[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 21 11:35:38 2023 -0400
+
+    avances 21-06-23 2
+
+[33mcommit 512e8434c073650d69cf69c249363b276eca4af1[m
+Merge: cbafed05 9f46a53c
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 21 09:33:12 2023 -0600
+
+    Merge branch 'master' of https://bitbucket.org/juannava12/rinna
+
+[33mcommit cbafed05bff8c7a0bc190ade002e26b9848ffceb[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 21 09:32:59 2023 -0600
+
+    update
+
+[33mcommit 9f46a53c1ce2287f175f52c5d8d5a09385f3d7dd[m
+Merge: 9f09879b 64ce02e9
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 21 11:16:20 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 9f09879b69f6b2512c70f011d7fc626b1c882948[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 21 11:15:58 2023 -0400
+
+    avances 21-06-23
+
+[33mcommit 64ce02e9b4e90ad06f6eee39537b4a9225a77841[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 21 09:11:03 2023 -0600
+
+    update
+
+[33mcommit a932834ff58b26378fd05fa6a068cf23c2ae342c[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 21 09:04:17 2023 -0600
+
+    update productos y cart
+
+[33mcommit fbe384ef94d55a8f25f8241c0e67f9427ab3c743[m
+Merge: d37e2795 3dbd98b5
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 21 08:12:00 2023 -0600
+
+    Merge branch 'master' of https://bitbucket.org/juannava12/rinna
+
+[33mcommit d37e2795807624a7c7473922c6234cc6a66b8da9[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 21 08:11:50 2023 -0600
+
+    update
+
+[33mcommit 3dbd98b5fc7320dc260de8e5c06be428a4b33155[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jun 20 20:29:59 2023 -0400
+
+    avances 20 junio 2023 2
+
+[33mcommit 9d40fec8edc4a2254e4268119ac91f12cc33cdf2[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 20 10:39:17 2023 -0600
+
+    update
+
+[33mcommit 5a672a7d4480daa73a39bbfdc81fc137a5721d68[m
+Merge: 6cec4164 510155bf
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 20 09:39:11 2023 -0600
+
+    no message
+
+[33mcommit 6cec4164bc72d200f1813ec9acca12c52dabb85c[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 20 09:37:45 2023 -0600
+
+    update
+
+[33mcommit 510155bfafbaf27d23c4671ba2a79ac46c3eb097[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jun 20 11:37:17 2023 -0400
+
+    avances 20 junio 2023
+
+[33mcommit e043ba8e2cd23d89ddfa667f4979579880346d37[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 19 22:06:10 2023 -0400
+
+    avances 19 junio 2023 4
+
+[33mcommit 671484958dffdc7280fe6ac9bd35c155fe4ba165[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 19 15:01:19 2023 -0400
+
+    avances 19 junio 2023 3
+
+[33mcommit 8d025e99f62e5a6d55d109e73d4b2d5b6a6093ad[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 19 11:46:56 2023 -0400
+
+    avances 19 junio 2023 2
+
+[33mcommit 217fa0e93c1607effba86ac0b691bd4f55110473[m
+Merge: bc525d4a 91e779e3
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 19 11:36:58 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit bc525d4a59eb6ad5b4be2b848e62f4a3c60aceaf[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 19 11:36:37 2023 -0400
+
+    avances 19 junio 2023
+
+[33mcommit 91e779e32b747cafc9c93fe223a40d4d217d52e0[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Sun Jun 18 13:50:19 2023 -0600
+
+    update catalogo de productos
+
+[33mcommit 5a3165b0d5b19ab98c2e8a7d17b44a3334c34520[m
+Merge: 29501230 e55e2a00
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 15 16:36:39 2023 -0600
+
+    update
+
+[33mcommit 29501230088a31545fc4c102dae040a57f524db0[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 15 16:35:07 2023 -0600
+
+    update
+
+[33mcommit e55e2a001b449db0d66faf47f8c00c233d8a16dd[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 15 18:28:25 2023 -0400
+
+    avances 15 junio 2023
+
+[33mcommit d01f948962dc8aa344ffd17ec4bf0196e23d6926[m
+Merge: c37373b2 ef70004b
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 14 16:52:02 2023 -0600
+
+    Merge branch 'master' of https://bitbucket.org/juannava12/rinna
+
+[33mcommit c37373b25eb83e37ea21f67c36f5108f1956e291[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 14 16:51:46 2023 -0600
+
+    update
+
+[33mcommit ef70004bb776f97e9411d67214682c458b9a5597[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 14 18:34:38 2023 -0400
+
+    avances 14 junio 2023 3
+
+[33mcommit 837ad3f34183b18f0fa5d5a20db4b924e2ef1fe3[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 14 15:42:02 2023 -0400
+
+    avances 14 junio 2023 2
+
+[33mcommit cfab4ae07f822eb2528c224d1510e8b96af53937[m
+Merge: 19e136d4 c071e3f7
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 14 13:25:26 2023 -0600
+
+    update merge
+
+[33mcommit 19e136d4ba96c2598c77a1ffd3ef5c6a7015c202[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Wed Jun 14 13:19:39 2023 -0600
+
+    update actividades
+
+[33mcommit c071e3f7e602af1723ce4dade1e6367a1649af45[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 14 15:10:40 2023 -0400
+
+    avances 14 junio 2023
+
+[33mcommit 73434b8041d30a31694ca8d4b3d520031e61b721[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jun 13 18:59:14 2023 -0400
+
+    avances 13 junio 2023
+
+[33mcommit 1df695069be1e9cc661fc1f3ff5486fadfa75390[m
+Merge: 0a6b72e8 1e5e8e5d
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 12 17:53:08 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 0a6b72e8906fa9027ddd2c1870e6c9bf470f3fb8[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 12 17:52:48 2023 -0400
+
+    avances 12 junio 2023 2
+
+[33mcommit 1e5e8e5d0416fbf3068876d7c4d2708d1416f5fe[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 12 14:25:39 2023 -0600
+
+    update
+
+[33mcommit d2d8365f039d8b079526b712456abde785df9c07[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 12 11:39:24 2023 -0400
+
+    avances 12 junio 2023 respaldo
+
+[33mcommit 9bc1aaf7ba738b901000c926b78758f1ac024e20[m
+Merge: 722376cd b306ffc9
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Jun 9 16:26:17 2023 -0400
+
+    avances 09 junio 2023 merging
+
+[33mcommit 722376cd57413c03f16a54b31473d939a5841159[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Jun 9 16:23:35 2023 -0400
+
+    avances 09 junio 2023
+
+[33mcommit b306ffc9979399059bf20839e061e121f19f1e0b[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Fri Jun 9 13:48:21 2023 -0600
+
+    update
+
+[33mcommit 0c5b198b8b54a12552ba56d8a35f788114654003[m
+Merge: 7251b24c 6545bd3d
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 8 17:49:31 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 6545bd3deaed8485a2cec0f80f6adf4c4f442fb6[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 15:48:17 2023 -0600
+
+    update
+
+[33mcommit 7251b24c7a23a21657c8609ee44d3aeaec8b3cd5[m
+Merge: cceb0977 947eee46
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 8 17:48:16 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 947eee46f8b8eaf5f328778fc9a835f7e1b9062f[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 15:47:17 2023 -0600
+
+    update
+
+[33mcommit cceb0977bef5de168e635cf9acde6fb05db6b97f[m
+Merge: fb651804 625230b9
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 8 17:27:00 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 625230b9be3ce55a4be1e57c3cb41d74e9879941[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 15:25:39 2023 -0600
+
+    update
+
+[33mcommit fb6518045766ab49d7ced6d66d5a51ad39ef1dbb[m
+Merge: 452c2916 076bbbbb
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 8 17:17:54 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 452c2916e9ebed786a89143390085611e57520b0[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 8 17:16:52 2023 -0400
+
+    avances 08 junio 2023 3
+
+[33mcommit 076bbbbb0baf48c759448a9517ba650ed7afa4a9[m
+Merge: 8ccc908c 6e96e50a
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 15:16:50 2023 -0600
+
+    Merge branch 'master' of https://bitbucket.org/juannava12/rinna
+
+[33mcommit 8ccc908c8cc45a3673b96e87b95a4a0d46606cb0[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 15:16:25 2023 -0600
+
+    update
+
+[33mcommit 6e96e50a7f4e95f5500e8507a5ba3ba5f66ee268[m
+Merge: 11f98dea 18829b00
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 8 17:14:57 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 11f98dea426da3623fce470cdb6a0c081eac8cd0[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 8 17:14:34 2023 -0400
+
+    avances 08 junio 2023 2
+
+[33mcommit 18829b00d2bb2b1b4d6e6fb34a385592ad0d9684[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 15:10:30 2023 -0600
+
+    update  update
+
+[33mcommit 481ede0bb2a07d95780b0fbd7ddb87426c9a8def[m
+Merge: a45eba29 7c749361
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 8 17:06:40 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 7c749361a9edd3c1836168f746654530ef72ee5c[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 15:04:48 2023 -0600
+
+    update
+
+[33mcommit a45eba298c112a663c65ecabfb335fd875ec64db[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Thu Jun 8 16:56:55 2023 -0400
+
+    avances 08 junio 2023
+
+[33mcommit 9f277614ba4be6a2485319bfb585ba1b2661d2b0[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 14:55:17 2023 -0600
+
+    update
+
+[33mcommit 6f9c07736fe422d2fbf17944625b154cf51856cf[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 14:49:15 2023 -0600
+
+    update
+
+[33mcommit 94d26fafc139b7e6ccc8e8dca13c95eb0741c931[m
+Merge: 783b2a0c b7d452b3
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 12:57:54 2023 -0600
+
+    Merge branch 'front-develop'
+
+[33mcommit 783b2a0ce4a85b429db3a42249b22aaf8777534d[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 12:57:33 2023 -0600
+
+    update
+
+[33mcommit b7d452b32e9df10039ab772c75e8ca003fff82ab[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 12:52:19 2023 -0600
+
+    upate
+
+[33mcommit b9fbeb3be2db576b50ad713dfb0bfe04fdcd81bf[m
+Merge: e35f331d 3f20492b
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 12:42:07 2023 -0600
+
+    update
+
+[33mcommit 3f20492b244302cccbd5cc991b37f3256e77652a[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 12:37:57 2023 -0600
+
+    update
+
+[33mcommit e35f331db0790f5cf48a2b9e388f7a818d224cba[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 12:03:46 2023 -0600
+
+    update
+
+[33mcommit ae9ea18f47bcafdf2a0053c706890959590d5955[m
+Merge: 961ba987 4c34853a
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 12:01:49 2023 -0600
+
+    update merge
+
+[33mcommit 4c34853a8e62e24e42d2a7180433fb32fca21830[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 11:55:43 2023 -0600
+
+    update ajustes en usuarios roles y RDN
+
+[33mcommit 961ba9871a109e37d8a85c2cbbc16e9ddab90c30[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 10:39:48 2023 -0600
+
+    update
+
+[33mcommit 35fd406648be0a77ba665d45c8f83e298678794c[m
+Merge: a8b61ead 0f6bf1ef
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 10:25:23 2023 -0600
+
+    Merge branch 'front-develop' of https://bitbucket.org/juannava12/rinna into front-develop
+
+[33mcommit a8b61ead8ca10e1a2a0cff578801d2f760458c7c[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Thu Jun 8 10:25:10 2023 -0600
+
+    update
+
+[33mcommit 0f6bf1ef0c9c922543318f7d0f305f95d6ceb09b[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 7 18:03:55 2023 -0400
+
+    Avances 07-06-23 3
+
+[33mcommit 3bd759bc2e1118815ec3a16837b514a5266b97f8[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 7 13:41:00 2023 -0400
+
+    Avances 07-06-23 2
+
+[33mcommit 4ffef8972820d37c8ddf598eb3d44f32fdd1e465[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed Jun 7 12:12:57 2023 -0400
+
+    Avances 07-06-23
+
+[33mcommit 1f4b252b7704c4d5ea4cd934e572fac726913c74[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jun 6 18:35:19 2023 -0400
+
+    Avances 06-06-23 3
+
+[33mcommit 6af4160cf880890d018d76b1e5971e870425858a[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jun 6 18:04:26 2023 -0400
+
+    Avances 06-06-23 3
+
+[33mcommit 6a687c63281e5932c226039a354b1d632912bd3d[m
+Merge: f21467d2 0bf24c33
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jun 6 13:15:19 2023 -0400
+
+    Avances 06-06-23 2
+
+[33mcommit 0bf24c33c01717582d301ca1907043172a756986[m
+Merge: 68f79506 60aa8ee1
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 6 11:12:00 2023 -0600
+
+    merge whit develop
+
+[33mcommit 68f795061853a70270755ef24378044a02651d81[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 6 11:10:25 2023 -0600
+
+    update
+
+[33mcommit 60aa8ee1ce31a6b2da95754a7326bf138e956411[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 6 11:09:26 2023 -0600
+
+    update
+
+[33mcommit f21467d23c4c7f929b6a00fa2de29a09a364f173[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue Jun 6 12:52:35 2023 -0400
+
+    Avances 06-06-23
+
+[33mcommit fbac5168ed31f501aa963572a8a224be169dfb6e[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue Jun 6 10:52:09 2023 -0600
+
+    update
+
+[33mcommit dd8078ed5ede30f881589d0b4f3cdadd9f611410[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 17:28:14 2023 -0600
+
+    update
+
+[33mcommit e5d4a43eee42cf6109ab6e2ef086a5f23068f127[m
+Merge: 929acd3e 29bfc5f0
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 16:55:23 2023 -0600
+
+    update merge
+
+[33mcommit 29bfc5f05f5b96142e3cfe468802dc2e83b13c89[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 5 18:48:35 2023 -0400
+
+    Avances 05-06-23 3
+
+[33mcommit 929acd3e4fa1f1edb7b742e336ed97f6defb6e6d[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 16:48:17 2023 -0600
+
+    update
+
+[33mcommit cfab84eaf723720ddb7bcce3ad438f815a18632a[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 14:08:49 2023 -0600
+
+    update catalogo de distribuidor
+
+[33mcommit 4bd3db20f0ed7fd06136d8661755bd6611f979cd[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 13:32:33 2023 -0600
+
+    update
+
+[33mcommit fb2af4d07208a7fbf6a87e544e8c035780c962b6[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 5 15:04:44 2023 -0400
+
+    Avances 2 05-06-23
+
+[33mcommit a165b1518c444263320b31f7d2b3c97b02c4ef91[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 12:40:13 2023 -0600
+
+    update
+
+[33mcommit 9c5d3cfc403c1b78abf6cb70a54676438278f29c[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 5 14:04:14 2023 -0400
+
+    Avances 05-06-23 3
+
+[33mcommit b6d58ad1326ef7346b0ac18a21e95450101d6d6a[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 11:38:49 2023 -0600
+
+    update
+
+[33mcommit 2b92b5c161763e9954eacabd01640ce9216711b8[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 11:24:05 2023 -0600
+
+    update
+
+[33mcommit 27099bc1bf792577cb1468b278a8b9545d67578c[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 11:21:58 2023 -0600
+
+    update
+
+[33mcommit 36e0eb0620deb67cb2777d8c0668e65cf2baae62[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 11:14:56 2023 -0600
+
+    update
+
+[33mcommit e3b49d0e701e0424af4af0a0eb69fc249bdfc786[m
+Merge: f12b1264 3fda1484
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 5 12:56:44 2023 -0400
+
+    Merge branch 'front-develop' of bitbucket.org:juannava12/rinna into front-develop
+
+[33mcommit 3fda148419ac3705e1f35b076ec0cf5c6c3534b7[m
+Merge: f94a1dc9 bd641dda
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 10:54:03 2023 -0600
+
+    update merge
+
+[33mcommit f12b1264e417c5475eafa1da8d1da29c3b134985[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 5 12:53:57 2023 -0400
+
+    Avances 05-06-23 2
+
+[33mcommit f94a1dc93f567f3a3031593a26524ffdea63dd32[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 10:26:00 2023 -0600
+
+    update
+
+[33mcommit bd641dda83edad4b30bfd9938919cd965f7850e4[m
+Merge: 03c361ab 63d9bb14
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 5 11:45:45 2023 -0400
+
+    Merge branch 'front-develop' of bitbucket.org:juannava12/rinna into front-develop
+
+[33mcommit a6816a4b52cf503c0db19ea1baeb995a5102d529[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon Jun 5 09:43:51 2023 -0600
+
+    update
+
+[33mcommit 03c361abff6255f81ccccac858855a66860ced93[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Mon Jun 5 11:27:47 2023 -0400
+
+    Avances 05-06-23
+
+[33mcommit 4a5efb0412e0938cfcaa8a3152c95a40b82d4ebd[m
+Merge: 76a6d12f 63d9bb14
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Fri Jun 2 10:28:06 2023 -0600
+
+    no message
+
+[33mcommit 63d9bb14f19eaac1d65ae842aad8ab14ae9c6b90[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Fri Jun 2 10:26:54 2023 -0600
+
+    update
+
+[33mcommit 76a6d12fb9f6902809e55eed14f35666c64acdd1[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Fri Jun 2 10:25:13 2023 -0600
+
+    update
+
+[33mcommit a0fe70e7537e1f1366cb216f214bd2a37abf304c[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Fri Jun 2 11:49:29 2023 -0400
+
+    Avances 01-06-23
+
+[33mcommit 64cf36ce515a95c07610f498af2ff1006ecec1b3[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed May 31 11:18:49 2023 -0400
+
+    Actualizacion de 31-05-23
+
+[33mcommit 10bdc2ac50ce9bc2f0aa9dedb4e65d280f59378f[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Wed May 24 11:28:53 2023 -0400
+
+    avances pantalla usuarios
+
+[33mcommit 490e938db20394757386bab3c6ef4c6a877863a5[m
+Merge: 480f3d36 7125e99c
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue May 23 13:18:06 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit 480f3d36800a20f945eadbadeb86d5707508c27c[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue May 23 13:16:38 2023 -0400
+
+    iniciando
+
+[33mcommit 7125e99c004b466da09a1b7904331f78443f0bdb[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue May 23 10:53:03 2023 -0600
+
+    update
+
+[33mcommit e54489d834b8fccb5a935abd82b42a0f3165c010[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue May 23 10:49:35 2023 -0600
+
+    update
+
+[33mcommit ec5a858673e897a8894cf5566231a7fb94c9d50e[m
+Merge: b9aaa471 a32dcbbd
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue May 23 12:42:46 2023 -0400
+
+    Merge branch 'master' of bitbucket.org:juannava12/rinna
+
+[33mcommit b9aaa471535c439eb6c86b4fe39076f720a97817[m
+Author: Jorge Vargas <jorge.vargas@engranedigital.com>
+Date:   Tue May 23 12:42:29 2023 -0400
+
+    primera bajada
+
+[33mcommit a32dcbbdb177f96a06e9a5c3dd847c22e1594176[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue May 23 10:33:39 2023 -0600
+
+    no message
+
+[33mcommit 9f6f5d062ac8c786559f91354095acd317b3e7e3[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue May 23 10:12:35 2023 -0600
+
+    update
+
+[33mcommit 4b53a5c2a1c4700fd98e203ff0d8387b4c99a549[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Tue May 23 10:09:10 2023 -0600
+
+    update
+
+[33mcommit e693203dd6ee6b820f71261b2d97dee1a94959d9[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon May 22 16:33:35 2023 -0600
+
+    no message
+
+[33mcommit 27070720fcc243e1fa75df7387f1b597a1e1e5b9[m
+Author: DESKTOP-IFD6ODM\Juan Nava <juannava1230@gmail.com>
+Date:   Mon May 22 16:27:44 2023 -0600
+
+    update
+
+[33mcommit 9b0988d3af905a607e6fbddf291a8899318fb533[m
+Author: Los Navas <juannava1230@gmail.com>
+Date:   Mon May 22 22:24:27 2023 +0000
+
+    Initial commit

@@ -1,0 +1,157 @@
+rinnabruni.engranedigital.com
+      path: /srv/www/rinnabruni/public_html
+      mysql_pass: pgqn=QsbAsuBLy4s
+      mysql_user: rinnabruni
+      ftp_user: rinnabruni
+      ftp_pass: pgqn=QsbAsuBLy4s
+      ftp_port: 22
+      ftp_protocol: SFTP
+      phpmyadmin_url:  https://rinnabruni.engranedigital.com/phpmyadmin/
+git push -u alt master -f
+
+
+Hola esta es tu nueva cuenta @koud.mx
+Con ella puedes acceder a teams, outlook, devops y más
+Al iniciar sesión te pedirá que cambies  la contraseña
+si tienes dudas no dudes en contactarme.
+
+Usuario:
+jorge.vargas@koud.mx
+
+Password:
+SUPERlucas156.
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+===== DEV =====
+ 
+ --- SFTP --- 
+ user: servyviajes
+ pass: yNfQPccMHfKshY8E
+ host: servyviajes-dev.engranedigital.com
+ port: 22
+ 
+ --- DB --- 
+ user: servyviajes
+ db:   servyviajesdev 
+ pass: h9VHCTof85A=
+ host: servyviajes-dev.engranedigital.com
+ url: https://servyviajes-dev.engranedigital.com/phpmyadmin/
+ 
+ 
+===== QA =====
+ 
+  --- SFTP --- 
+ user: servyviajes
+ pass: yNfQPccMHfKshY8E
+ host: servyviajes-qa.engranedigital.com
+ port: 22
+ --- DB --- 
+ user: servyviajes
+ db:   servyviajesqa
+ pass: h9VHCTof85A=
+ host: servyviajes-qa.engranedigital.com
+ url: https://servyviajes-dev.engranedigital.com/phpmyadmin/
+
+
+
+correo: amidiq2024@servyviajes.com
+password: H#eR@&E8
+
+
+****** C&A ******
+
+vpncya.cyamoda.com
+Descargar desde esta pagina
+
+C&A VPN
+usu_vpn_engrane02
+Cde32wsxz*$
+
+
+engrane
+engrane123
+
+vpncya.cyamoda.com
+
+Escritorio remoto
+host: MEXWEBDMZQA:8350
+user: CAMEX\mx11lwb
+password: Zaq12wsx$%
+
+ping MEXWEBDMZQA.cyamoda.com
+
+
+pedido excento: 4500034035
+
+proveedor: 204613
+
+204995
+
+
+
+ SELECT  	
+ 	a.[userName],
+ 	c.[userID],
+ 	c.[userName],
+ 	c.[userRFC]
+ 	FROM [dbo].[tUser] a
+     INNER JOIN [dbo].[tUserProveedor] b ON a.userID = b.userID 
+     INNER JOIN [dbo].[tUser] c ON c.userID = b.proveedorID     
+ 	
+
+
+server: Jr\SQLEXPRESS01
+user: sa
+pass: 123456
+bd: sot_alsea15042024
+
+
+
+{
+  "idCedis": 4,
+  "userName": "ahdez",
+  "password": "w1n3r"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jorge.vargas@engranedigital.com
+V6KvxBGdbgWTe5ug2Gxw
+
+
+
+rinnabruni.engranedigital.com	 
+path: /srv/www/rinnabruni/public_html	 
+mysql_pass: pgqn=QsbAsuBLy4s	 
+mysql_user: rinnabruni	 
+ftp_user:	rinnabruni
+ftp_pass:	pgqn=QsbAsuBLy4s
+ftp_port: 22	 
+ftp_protocol: SFTP	 
+phpmyadmin_url: https://rinnabruni.engranedigital.com/phpmyadmin/	 
+ 
+

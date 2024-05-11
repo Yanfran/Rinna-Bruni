@@ -1,0 +1,79 @@
+ html, body {
+
+     font-family: 'Raleway', sans-serif;
+ }
+ .full-height {
+     height: 100vh;
+ }
+ .flex-center {
+     display: flex;
+     justify-content: center;
+ }
+ .position-ref {
+    position: relative;
+
+}
+ .top-right {
+     position: absolute;
+     right: 10px;
+     top: 18px;
+ }
+ .content {
+     text-align: center;
+ }
+ .title {
+     font-size: 74px;
+ }
+ .links>a {
+     color: #636b6f;
+     padding: 0 25px;
+     font-size: 12px;
+     font-weight: 600;
+     letter-spacing: .1rem;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+ .m-b-md {
+     margin-bottom: 30px;
+ }
+img.logo-index {
+    width: 50%;
+}
+img.logo-index {
+    width: 50%;
+    margin-bottom: -90px;
+    margin-top: -35px;
+}
+.seleccion-emp {
+    color: #c10022;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    margin-top: -30px;
+}
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+.contenedor-img {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background-color: #f3f3f3;
+    margin: 30px 27px;
+    border: 1px solid #c3d4ff;
+}
+
+
+
+.imagen-empresa {
+    position: absolute;
+    width: 90%;
+    top: 25px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
